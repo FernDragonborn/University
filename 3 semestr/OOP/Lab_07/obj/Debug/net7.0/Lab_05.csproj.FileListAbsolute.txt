@@ -1,0 +1,29 @@
+D:\data\code\variant 02\3 semestr\OOP\Lab_05\bin\Debug\net7.0\Lab_05.exe
+D:\data\code\variant 02\3 semestr\OOP\Lab_05\bin\Debug\net7.0\Lab_05.deps.json
+D:\data\code\variant 02\3 semestr\OOP\Lab_05\bin\Debug\net7.0\Lab_05.runtimeconfig.json
+D:\data\code\variant 02\3 semestr\OOP\Lab_05\bin\Debug\net7.0\Lab_05.dll
+D:\data\code\variant 02\3 semestr\OOP\Lab_05\bin\Debug\net7.0\Lab_05.pdb
+D:\data\code\variant 02\3 semestr\OOP\Lab_05\obj\Debug\net7.0\Lab_05.GeneratedMSBuildEditorConfig.editorconfig
+D:\data\code\variant 02\3 semestr\OOP\Lab_05\obj\Debug\net7.0\Lab_05.AssemblyInfoInputs.cache
+D:\data\code\variant 02\3 semestr\OOP\Lab_05\obj\Debug\net7.0\Lab_05.AssemblyInfo.cs
+D:\data\code\variant 02\3 semestr\OOP\Lab_05\obj\Debug\net7.0\Lab_05.csproj.CoreCompileInputs.cache
+D:\data\code\variant 02\3 semestr\OOP\Lab_05\obj\Debug\net7.0\Lab_05.dll
+D:\data\code\variant 02\3 semestr\OOP\Lab_05\obj\Debug\net7.0\refint\Lab_05.dll
+D:\data\code\variant 02\3 semestr\OOP\Lab_05\obj\Debug\net7.0\Lab_05.pdb
+D:\data\code\variant 02\3 semestr\OOP\Lab_05\obj\Debug\net7.0\Lab_05.genruntimeconfig.cache
+D:\data\code\variant 02\3 semestr\OOP\Lab_05\obj\Debug\net7.0\ref\Lab_05.dll
+D:\data\code\University\3 semestr\OOP\Lab_05\bin\Debug\net7.0\Lab_05.exe
+D:\data\code\University\3 semestr\OOP\Lab_05\bin\Debug\net7.0\Lab_05.deps.json
+D:\data\code\University\3 semestr\OOP\Lab_05\bin\Debug\net7.0\Lab_05.runtimeconfig.json
+D:\data\code\University\3 semestr\OOP\Lab_05\bin\Debug\net7.0\Lab_05.dll
+D:\data\code\University\3 semestr\OOP\Lab_05\bin\Debug\net7.0\Lab_05.pdb
+D:\data\code\University\3 semestr\OOP\Lab_05\obj\Debug\net7.0\Lab_05.GeneratedMSBuildEditorConfig.editorconfig
+D:\data\code\University\3 semestr\OOP\Lab_05\obj\Debug\net7.0\Lab_05.AssemblyInfoInputs.cache
+D:\data\code\University\3 semestr\OOP\Lab_05\obj\Debug\net7.0\Lab_05.AssemblyInfo.cs
+D:\data\code\University\3 semestr\OOP\Lab_05\obj\Debug\net7.0\Lab_05.csproj.CoreCompileInputs.cache
+D:\data\code\University\3 semestr\OOP\Lab_05\obj\Debug\net7.0\Lab_05.sourcelink.json
+D:\data\code\University\3 semestr\OOP\Lab_05\obj\Debug\net7.0\Lab_05.dll
+D:\data\code\University\3 semestr\OOP\Lab_05\obj\Debug\net7.0\refint\Lab_05.dll
+D:\data\code\University\3 semestr\OOP\Lab_05\obj\Debug\net7.0\Lab_05.pdb
+D:\data\code\University\3 semestr\OOP\Lab_05\obj\Debug\net7.0\Lab_05.genruntimeconfig.cache
+D:\data\code\University\3 semestr\OOP\Lab_05\obj\Debug\net7.0\ref\Lab_05.dll

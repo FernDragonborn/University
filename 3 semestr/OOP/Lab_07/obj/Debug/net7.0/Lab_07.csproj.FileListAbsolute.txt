@@ -1,0 +1,15 @@
+D:\data\code\University\3 semestr\OOP\Lab_07\bin\Debug\net7.0\Lab_07.exe
+D:\data\code\University\3 semestr\OOP\Lab_07\bin\Debug\net7.0\Lab_07.deps.json
+D:\data\code\University\3 semestr\OOP\Lab_07\bin\Debug\net7.0\Lab_07.runtimeconfig.json
+D:\data\code\University\3 semestr\OOP\Lab_07\bin\Debug\net7.0\Lab_07.dll
+D:\data\code\University\3 semestr\OOP\Lab_07\bin\Debug\net7.0\Lab_07.pdb
+D:\data\code\University\3 semestr\OOP\Lab_07\obj\Debug\net7.0\Lab_07.GeneratedMSBuildEditorConfig.editorconfig
+D:\data\code\University\3 semestr\OOP\Lab_07\obj\Debug\net7.0\Lab_07.AssemblyInfoInputs.cache
+D:\data\code\University\3 semestr\OOP\Lab_07\obj\Debug\net7.0\Lab_07.AssemblyInfo.cs
+D:\data\code\University\3 semestr\OOP\Lab_07\obj\Debug\net7.0\Lab_07.csproj.CoreCompileInputs.cache
+D:\data\code\University\3 semestr\OOP\Lab_07\obj\Debug\net7.0\Lab_07.sourcelink.json
+D:\data\code\University\3 semestr\OOP\Lab_07\obj\Debug\net7.0\Lab_07.dll
+D:\data\code\University\3 semestr\OOP\Lab_07\obj\Debug\net7.0\refint\Lab_07.dll
+D:\data\code\University\3 semestr\OOP\Lab_07\obj\Debug\net7.0\Lab_07.pdb
+D:\data\code\University\3 semestr\OOP\Lab_07\obj\Debug\net7.0\Lab_07.genruntimeconfig.cache
+D:\data\code\University\3 semestr\OOP\Lab_07\obj\Debug\net7.0\ref\Lab_07.dll

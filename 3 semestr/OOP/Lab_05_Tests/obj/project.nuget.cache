@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jF6lNOAN4iC72ryG1Rq8S5EK6B2RMic7SU7nSqYBTDQj00FJdPx2Y9RnWt/ukMqo7fYFZYltT4o3T1Ac3XLSUA==",
+  "dgSpecHash": "73C58H6QggSLPtuN8c2+QF7vqC8FEzOK4UHLy/IUj9Q0p+SWfBKt5E+xj+xWhOcCGWgwvE6auwIl26XsyOhb3Q==",
   "success": true,
-  "projectFilePath": "D:\\data\\code\\variant 02\\3 semestr\\OOP\\Lab_05_Tests\\Lab_05_Tests.csproj",
+  "projectFilePath": "D:\\data\\code\\University\\3 semestr\\OOP\\Lab_05_Tests\\Lab_05_Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mrart\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\mrart\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",
