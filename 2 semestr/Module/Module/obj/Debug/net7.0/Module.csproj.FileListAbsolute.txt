@@ -1,0 +1,15 @@
+D:\data\code\variant 02\2 semestr\Module\Module\bin\Debug\net7.0\Module.exe
+D:\data\code\variant 02\2 semestr\Module\Module\bin\Debug\net7.0\Module.deps.json
+D:\data\code\variant 02\2 semestr\Module\Module\bin\Debug\net7.0\Module.runtimeconfig.json
+D:\data\code\variant 02\2 semestr\Module\Module\bin\Debug\net7.0\Module.dll
+D:\data\code\variant 02\2 semestr\Module\Module\bin\Debug\net7.0\Module.pdb
+D:\data\code\variant 02\2 semestr\Module\Module\obj\Debug\net7.0\Module.csproj.AssemblyReference.cache
+D:\data\code\variant 02\2 semestr\Module\Module\obj\Debug\net7.0\Module.GeneratedMSBuildEditorConfig.editorconfig
+D:\data\code\variant 02\2 semestr\Module\Module\obj\Debug\net7.0\Module.AssemblyInfoInputs.cache
+D:\data\code\variant 02\2 semestr\Module\Module\obj\Debug\net7.0\Module.AssemblyInfo.cs
+D:\data\code\variant 02\2 semestr\Module\Module\obj\Debug\net7.0\Module.csproj.CoreCompileInputs.cache
+D:\data\code\variant 02\2 semestr\Module\Module\obj\Debug\net7.0\Module.dll
+D:\data\code\variant 02\2 semestr\Module\Module\obj\Debug\net7.0\refint\Module.dll
+D:\data\code\variant 02\2 semestr\Module\Module\obj\Debug\net7.0\Module.pdb
+D:\data\code\variant 02\2 semestr\Module\Module\obj\Debug\net7.0\Module.genruntimeconfig.cache
+D:\data\code\variant 02\2 semestr\Module\Module\obj\Debug\net7.0\ref\Module.dll

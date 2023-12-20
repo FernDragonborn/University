@@ -1,0 +1,14 @@
+D:\data\code\variant 02\3 semestr\OOP\Lab_04\obj\Debug\net7.0\Lab4.GeneratedMSBuildEditorConfig.editorconfig
+D:\data\code\variant 02\3 semestr\OOP\Lab_04\obj\Debug\net7.0\Lab4.AssemblyInfoInputs.cache
+D:\data\code\variant 02\3 semestr\OOP\Lab_04\obj\Debug\net7.0\Lab4.AssemblyInfo.cs
+D:\data\code\variant 02\3 semestr\OOP\Lab_04\obj\Debug\net7.0\Lab4.csproj.CoreCompileInputs.cache
+D:\data\code\variant 02\3 semestr\OOP\Lab_04\bin\Debug\net7.0\Lab4.exe
+D:\data\code\variant 02\3 semestr\OOP\Lab_04\bin\Debug\net7.0\Lab4.deps.json
+D:\data\code\variant 02\3 semestr\OOP\Lab_04\bin\Debug\net7.0\Lab4.runtimeconfig.json
+D:\data\code\variant 02\3 semestr\OOP\Lab_04\bin\Debug\net7.0\Lab4.dll
+D:\data\code\variant 02\3 semestr\OOP\Lab_04\bin\Debug\net7.0\Lab4.pdb
+D:\data\code\variant 02\3 semestr\OOP\Lab_04\obj\Debug\net7.0\Lab4.dll
+D:\data\code\variant 02\3 semestr\OOP\Lab_04\obj\Debug\net7.0\refint\Lab4.dll
+D:\data\code\variant 02\3 semestr\OOP\Lab_04\obj\Debug\net7.0\Lab4.pdb
+D:\data\code\variant 02\3 semestr\OOP\Lab_04\obj\Debug\net7.0\Lab4.genruntimeconfig.cache
+D:\data\code\variant 02\3 semestr\OOP\Lab_04\obj\Debug\net7.0\ref\Lab4.dll

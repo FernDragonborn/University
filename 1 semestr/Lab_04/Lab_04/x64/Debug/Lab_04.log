@@ -1,0 +1,7 @@
+﻿  Lab_04_1.cpp
+  Lab_04_2.cpp
+  Lab_04_3.cpp
+D:\data\code\variant 02\Lab_04\Lab_04\Lab_04_3.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\data\code\variant 02\Lab_04\Lab_04\Lab_04_3.cpp(44,26): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+  Lab_04.vcxproj -> D:\data\code\variant 02\Lab_04\x64\Debug\Lab_04.exe

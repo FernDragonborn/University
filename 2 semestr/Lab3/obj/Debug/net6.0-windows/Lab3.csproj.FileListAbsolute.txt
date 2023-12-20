@@ -1,0 +1,17 @@
+D:\data\code\variant 02\2 semestr\Lab3\bin\Debug\net6.0-windows\Lab3.exe
+D:\data\code\variant 02\2 semestr\Lab3\bin\Debug\net6.0-windows\Lab3.deps.json
+D:\data\code\variant 02\2 semestr\Lab3\bin\Debug\net6.0-windows\Lab3.runtimeconfig.json
+D:\data\code\variant 02\2 semestr\Lab3\bin\Debug\net6.0-windows\Lab3.dll
+D:\data\code\variant 02\2 semestr\Lab3\bin\Debug\net6.0-windows\Lab3.pdb
+D:\data\code\variant 02\2 semestr\Lab3\obj\Debug\net6.0-windows\Lab3.csproj.AssemblyReference.cache
+D:\data\code\variant 02\2 semestr\Lab3\obj\Debug\net6.0-windows\Lab_3.Lab3.resources
+D:\data\code\variant 02\2 semestr\Lab3\obj\Debug\net6.0-windows\Lab3.csproj.GenerateResource.cache
+D:\data\code\variant 02\2 semestr\Lab3\obj\Debug\net6.0-windows\Lab3.GeneratedMSBuildEditorConfig.editorconfig
+D:\data\code\variant 02\2 semestr\Lab3\obj\Debug\net6.0-windows\Lab3.AssemblyInfoInputs.cache
+D:\data\code\variant 02\2 semestr\Lab3\obj\Debug\net6.0-windows\Lab3.AssemblyInfo.cs
+D:\data\code\variant 02\2 semestr\Lab3\obj\Debug\net6.0-windows\Lab3.csproj.CoreCompileInputs.cache
+D:\data\code\variant 02\2 semestr\Lab3\obj\Debug\net6.0-windows\Lab3.dll
+D:\data\code\variant 02\2 semestr\Lab3\obj\Debug\net6.0-windows\refint\Lab3.dll
+D:\data\code\variant 02\2 semestr\Lab3\obj\Debug\net6.0-windows\Lab3.pdb
+D:\data\code\variant 02\2 semestr\Lab3\obj\Debug\net6.0-windows\Lab3.genruntimeconfig.cache
+D:\data\code\variant 02\2 semestr\Lab3\obj\Debug\net6.0-windows\ref\Lab3.dll

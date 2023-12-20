@@ -1,0 +1,17 @@
+D:\data\code\variant 02\2 semestr\Lab5\Lab_5\bin\Debug\net6.0-windows\Lab_5.exe
+D:\data\code\variant 02\2 semestr\Lab5\Lab_5\bin\Debug\net6.0-windows\Lab_5.deps.json
+D:\data\code\variant 02\2 semestr\Lab5\Lab_5\bin\Debug\net6.0-windows\Lab_5.runtimeconfig.json
+D:\data\code\variant 02\2 semestr\Lab5\Lab_5\bin\Debug\net6.0-windows\Lab_5.dll
+D:\data\code\variant 02\2 semestr\Lab5\Lab_5\bin\Debug\net6.0-windows\Lab_5.pdb
+D:\data\code\variant 02\2 semestr\Lab5\Lab_5\obj\Debug\net6.0-windows\Lab_5.csproj.AssemblyReference.cache
+D:\data\code\variant 02\2 semestr\Lab5\Lab_5\obj\Debug\net6.0-windows\Lab_5.Lab_5.resources
+D:\data\code\variant 02\2 semestr\Lab5\Lab_5\obj\Debug\net6.0-windows\Lab_5.csproj.GenerateResource.cache
+D:\data\code\variant 02\2 semestr\Lab5\Lab_5\obj\Debug\net6.0-windows\Lab_5.GeneratedMSBuildEditorConfig.editorconfig
+D:\data\code\variant 02\2 semestr\Lab5\Lab_5\obj\Debug\net6.0-windows\Lab_5.AssemblyInfoInputs.cache
+D:\data\code\variant 02\2 semestr\Lab5\Lab_5\obj\Debug\net6.0-windows\Lab_5.AssemblyInfo.cs
+D:\data\code\variant 02\2 semestr\Lab5\Lab_5\obj\Debug\net6.0-windows\Lab_5.csproj.CoreCompileInputs.cache
+D:\data\code\variant 02\2 semestr\Lab5\Lab_5\obj\Debug\net6.0-windows\Lab_5.dll
+D:\data\code\variant 02\2 semestr\Lab5\Lab_5\obj\Debug\net6.0-windows\refint\Lab_5.dll
+D:\data\code\variant 02\2 semestr\Lab5\Lab_5\obj\Debug\net6.0-windows\Lab_5.pdb
+D:\data\code\variant 02\2 semestr\Lab5\Lab_5\obj\Debug\net6.0-windows\Lab_5.genruntimeconfig.cache
+D:\data\code\variant 02\2 semestr\Lab5\Lab_5\obj\Debug\net6.0-windows\ref\Lab_5.dll

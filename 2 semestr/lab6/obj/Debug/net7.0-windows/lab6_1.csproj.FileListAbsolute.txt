@@ -1,0 +1,7 @@
+D:\data\code\lab6_1\obj\Debug\net7.0-windows\lab6_1.csproj.AssemblyReference.cache
+D:\data\code\lab6_1\obj\Debug\net7.0-windows\lab6_1.Lab6_1.resources
+D:\data\code\lab6_1\obj\Debug\net7.0-windows\lab6_1.csproj.GenerateResource.cache
+D:\data\code\lab6_1\obj\Debug\net7.0-windows\lab6_1.GeneratedMSBuildEditorConfig.editorconfig
+D:\data\code\lab6_1\obj\Debug\net7.0-windows\lab6_1.AssemblyInfoInputs.cache
+D:\data\code\lab6_1\obj\Debug\net7.0-windows\lab6_1.AssemblyInfo.cs
+D:\data\code\lab6_1\obj\Debug\net7.0-windows\lab6_1.csproj.CoreCompileInputs.cache

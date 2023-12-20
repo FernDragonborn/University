@@ -1,0 +1,3 @@
+﻿  Lab_06.cpp
+D:\data\code\variant 02\Lab_06\Lab_06\Lab_06.cpp(31,11): warning C4244: '=': conversion from 'short' to 'unsigned char', possible loss of data
+  Lab_06.vcxproj -> D:\data\code\variant 02\Lab_06\x64\Debug\Lab_06.exe

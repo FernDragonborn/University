@@ -1,0 +1,17 @@
+D:\data\code\lab6_1\obj\Debug\net7.0-windows\lab6.csproj.AssemblyReference.cache
+D:\data\code\lab6_1\obj\Debug\net7.0-windows\lab6.Lab6.resources
+D:\data\code\lab6_1\obj\Debug\net7.0-windows\lab6.csproj.GenerateResource.cache
+D:\data\code\lab6_1\obj\Debug\net7.0-windows\lab6.GeneratedMSBuildEditorConfig.editorconfig
+D:\data\code\lab6_1\obj\Debug\net7.0-windows\lab6.AssemblyInfoInputs.cache
+D:\data\code\lab6_1\obj\Debug\net7.0-windows\lab6.AssemblyInfo.cs
+D:\data\code\lab6_1\obj\Debug\net7.0-windows\lab6.csproj.CoreCompileInputs.cache
+D:\data\code\lab6_1\bin\Debug\net7.0-windows\lab6.exe
+D:\data\code\lab6_1\bin\Debug\net7.0-windows\lab6.deps.json
+D:\data\code\lab6_1\bin\Debug\net7.0-windows\lab6.runtimeconfig.json
+D:\data\code\lab6_1\bin\Debug\net7.0-windows\lab6.dll
+D:\data\code\lab6_1\bin\Debug\net7.0-windows\lab6.pdb
+D:\data\code\lab6_1\obj\Debug\net7.0-windows\lab6.dll
+D:\data\code\lab6_1\obj\Debug\net7.0-windows\refint\lab6.dll
+D:\data\code\lab6_1\obj\Debug\net7.0-windows\lab6.pdb
+D:\data\code\lab6_1\obj\Debug\net7.0-windows\lab6.genruntimeconfig.cache
+D:\data\code\lab6_1\obj\Debug\net7.0-windows\ref\lab6.dll

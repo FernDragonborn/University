@@ -1,0 +1,4 @@
+﻿  Lab_05.cpp
+D:\data\code\variant 02\Lab_05\Lab_05\Lab_05.cpp(38,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\data\code\variant 02\Lab_05\Lab_05\Lab_05.cpp(41,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Lab_05.vcxproj -> D:\data\code\variant 02\Lab_05\x64\Debug\Lab_05.exe

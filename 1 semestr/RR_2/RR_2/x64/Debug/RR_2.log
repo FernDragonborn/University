@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\data\code\variant 02\RR_2\RR_2\Source.cpp(10,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\data\code\variant 02\RR_2\RR_2\Source.cpp(13,6): warning C4101: 'Ar': unreferenced local variable
+  RR_2.vcxproj -> D:\data\code\variant 02\RR_2\x64\Debug\RR_2.exe

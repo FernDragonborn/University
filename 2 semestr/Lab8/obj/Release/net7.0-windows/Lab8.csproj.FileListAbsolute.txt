@@ -1,0 +1,17 @@
+D:\data\code\variant 02\2 semestr\Lab8\bin\Release\net7.0-windows\Lab8.exe
+D:\data\code\variant 02\2 semestr\Lab8\bin\Release\net7.0-windows\Lab8.deps.json
+D:\data\code\variant 02\2 semestr\Lab8\bin\Release\net7.0-windows\Lab8.runtimeconfig.json
+D:\data\code\variant 02\2 semestr\Lab8\bin\Release\net7.0-windows\Lab8.dll
+D:\data\code\variant 02\2 semestr\Lab8\bin\Release\net7.0-windows\Lab8.pdb
+D:\data\code\variant 02\2 semestr\Lab8\obj\Release\net7.0-windows\Lab8.csproj.AssemblyReference.cache
+D:\data\code\variant 02\2 semestr\Lab8\obj\Release\net7.0-windows\Lab8.Lab8.resources
+D:\data\code\variant 02\2 semestr\Lab8\obj\Release\net7.0-windows\Lab8.csproj.GenerateResource.cache
+D:\data\code\variant 02\2 semestr\Lab8\obj\Release\net7.0-windows\Lab8.GeneratedMSBuildEditorConfig.editorconfig
+D:\data\code\variant 02\2 semestr\Lab8\obj\Release\net7.0-windows\Lab8.AssemblyInfoInputs.cache
+D:\data\code\variant 02\2 semestr\Lab8\obj\Release\net7.0-windows\Lab8.AssemblyInfo.cs
+D:\data\code\variant 02\2 semestr\Lab8\obj\Release\net7.0-windows\Lab8.csproj.CoreCompileInputs.cache
+D:\data\code\variant 02\2 semestr\Lab8\obj\Release\net7.0-windows\Lab8.dll
+D:\data\code\variant 02\2 semestr\Lab8\obj\Release\net7.0-windows\refint\Lab8.dll
+D:\data\code\variant 02\2 semestr\Lab8\obj\Release\net7.0-windows\Lab8.pdb
+D:\data\code\variant 02\2 semestr\Lab8\obj\Release\net7.0-windows\Lab8.genruntimeconfig.cache
+D:\data\code\variant 02\2 semestr\Lab8\obj\Release\net7.0-windows\ref\Lab8.dll
