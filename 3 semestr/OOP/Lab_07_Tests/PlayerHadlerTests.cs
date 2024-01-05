@@ -141,7 +141,7 @@ public class PlayerHadlerTests
             $"\"State\":0,\"Day\":0,\"Time\":4,\"Energy\":80,\"Health\":80,\"Happiness\":80,\"Money\":100,\"Score\":340}}\n" +
             $"{{\"Id\":\"{nameC.Id}\",\"ChatId\":1000000004,\"InGameName\":\"nameC\",\"State\":0," +
             $"\"Day\":0,\"Time\":4,\"Energy\":80,\"Health\":80,\"Happiness\":80,\"Money\":100,\"Score\":340}}\n";
-        handler.SaveToFileJson(pathJson);
+        handler.SaveToFileJson(pathJson, out string a);
         string actual = File.ReadAllText(pathJson);
         File.Delete(pathJson);
 
@@ -190,7 +190,7 @@ public class PlayerHadlerTests
         const string textToWrite = "";
 
         File.WriteAllText(pathJson, textToWrite);
-        actualHandler.ReadFromFileJson(pathJson);
+        actualHandler.ReadFromFileJson(pathJson, out string a);
         File.Delete(pathJson);
 
         //Assert
@@ -211,7 +211,7 @@ public class PlayerHadlerTests
         const string textToWrite = "";
 
         File.WriteAllText(pathCsv, textToWrite);
-        actualHandler.ReadFromFileCsv(pathCsv);
+        actualHandler.ReadFromFileCsv(pathCsv, out string a);
         File.Delete(pathCsv);
 
         //Assert
@@ -220,4 +220,3 @@ public class PlayerHadlerTests
     }
 }
 
-н

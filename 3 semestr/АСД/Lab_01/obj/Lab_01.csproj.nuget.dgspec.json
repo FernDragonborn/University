@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\data\\code\\variant 02\\3 semestr\\Lab_01\\Lab_01.csproj": {}
+    "D:\\data\\code\\University\\3 semestr\\АСД\\Lab_01\\Lab_01.csproj": {}
   },
   "projects": {
-    "D:\\data\\code\\variant 02\\3 semestr\\Lab_01\\Lab_01.csproj": {
+    "D:\\data\\code\\University\\3 semestr\\АСД\\Lab_01\\Lab_01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\data\\code\\variant 02\\3 semestr\\Lab_01\\Lab_01.csproj",
+        "projectUniqueName": "D:\\data\\code\\University\\3 semestr\\АСД\\Lab_01\\Lab_01.csproj",
         "projectName": "Lab_01",
-        "projectPath": "D:\\data\\code\\variant 02\\3 semestr\\Lab_01\\Lab_01.csproj",
+        "projectPath": "D:\\data\\code\\University\\3 semestr\\АСД\\Lab_01\\Lab_01.csproj",
         "packagesPath": "C:\\Users\\mrart\\.nuget\\packages\\",
-        "outputPath": "D:\\data\\code\\variant 02\\3 semestr\\Lab_01\\obj\\",
+        "outputPath": "D:\\data\\code\\University\\3 semestr\\АСД\\Lab_01\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\install\\Microsoft Visual Sudio\\Shared\\NuGetPackages"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

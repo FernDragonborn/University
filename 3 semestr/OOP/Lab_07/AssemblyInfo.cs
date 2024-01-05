@@ -8,6 +8,9 @@
 // components.  If you need to access a type in this assembly from COM, set the ComVisible
 // attribute to true on that type.
 
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+
 [assembly: ComVisible(false)]
 [assembly: InternalsVisibleTo("Lab_07_Tests")]
 

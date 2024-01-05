@@ -1,124 +1,130 @@
 ﻿using System.Text;
 
-namespace Lab_01
+namespace Lab_01;
+public class MyLinkedList<T>
 {
-    public class LinkedList<T>
+    public MyLinkedList()
     {
-        private class Node
-        {
-            public Node(T t)
-            {
-                Previous = null;
-                Data = t;
-            }
+        _head = null;
+    }
 
-            public Node? Previous { get; set; }
-            public T Data { get; set; }
+    private class Node
+    {
+        public Node(T t)
+        {
+            Previous = null;
+            Data = t;
         }
 
-        private Node? _head;
+        public Node? Previous { get; set; }
+        public T Data { get; set; }
+    }
 
-        public int Lenght => GetEnumerator().Count();
+    private Node? _head;
 
-        public LinkedList()
+    public int Lenght => GetEnumerator().Count();
+
+    public bool IsEmpty => _head == null;
+
+    public void AddHead(T t)
+    {
+        Node node = new(t)
         {
-            _head = null;
-        }
+            Previous = _head
+        };
+        _head = node;
+    }
 
-        public void AddHead(T t)
+    public T? GetHead()
+    {
+        return IsEmpty ? default : _head.Data;
+    }
+
+    public bool TryRemoveHead()
+    {
+        if (IsEmpty) return false;
+        _head = _head.Previous;
+        return true;
+    }
+
+    public IEnumerable<T> GetEnumerator()
+    {
+        Node? current = _head;
+
+        while (current != null)
         {
-            Node n = new(t)
-            {
-                Previous = _head
-            };
-            _head = n;
-        }
-
-        public T GetHead()
-        {
-            return _head.Data;
-        }
-
-        public void RemoveHead()
-        {
-            if (_head is null) return;
-            _head = _head.Previous;
-        }
-
-        public IEnumerable<T> GetEnumerator()
-        {
-            Node? current = _head;
-
-            while (current != null)
-            {
-                yield return current.Data;
-                current = current.Previous;
-            }
-        }
-
-        public T? FindMin()
-        {
-            if (_head is null || _head.Data is null) return default;
-            if (_head.Data is not IComparable) return default;
-
-            var list = GetEnumerator().ToArray();
-            T? min = default;
-            if (_head.Data is string) min = _head.Data;
-            foreach (T? item in list)
-            {
-                if (item is not IComparable itemComparable) continue;
-                var minComparable = min as IComparable;
-                var result = itemComparable.CompareTo(minComparable);
-                if (result < 0) min = item;
-            }
-
-            return min;
-        }
-
-        public override string ToString()
-        {
-            var list = GetEnumerator();
-            string b = "";
-            foreach (T i in list)
-            {
-                b += Convert.ToString(i);
-                b += ", ";
-            }
-
-            b = b[..^2];
-
-            return b;
+            yield return current.Data;
+            current = current.Previous;
         }
     }
 
-    internal class Program
+    public T? FindMin()
     {
-        public static void Main()
+        if (IsEmpty || _head.Data is null) return default;
+        if (_head.Data is not IComparable) return default;
+
+        var list = GetEnumerator().ToArray();
+        T? min = default;
+        if (_head.Data is string) min = _head.Data;
+        foreach (T? item in list)
         {
-            Console.OutputEncoding = Encoding.Unicode;
-            LinkedList<int> intList = new();
-
-            for (int x = 0; x < 10; x++)
-            {
-                intList.AddHead(x);
-            }
-
-            Console.WriteLine("Виведення пов'язаного списку:\n" + intList);
-
-            Console.WriteLine("\nВивід довжини пов'язаного списку:\n" + intList.Lenght);
-            Console.WriteLine("\nЩоб дізнатись чи список пустий можна дізнатись його довжину та, якщо вона більше 0, то він не пустий");
-            Console.WriteLine("\nВиведення першого елементу із пов'язаного списку:\n" + intList.GetHead());
-            intList.RemoveHead();
-            Console.WriteLine("\nВидалення елементу із пов'язаного списку:\n" + intList);
-            Console.WriteLine("\nЗнаходження мінімального елементу пов'язаного списку:\n" + intList.FindMin());
-
-
-            LinkedList<string> stringList = new();
-            stringList.AddHead("a");
-            stringList.AddHead("b");
-            stringList.AddHead("c");
-            Console.WriteLine("\nВиведення пов'язаного списку складеного із рядків:\n" + stringList);
-            Console.WriteLine("\nЗнаходження мінімального елементу пов'язаного списку складеного із рядків\n" + stringList.FindMin());
+            if (item is not IComparable itemComparable) continue;
+            var minComparable = min as IComparable;
+            var result = itemComparable.CompareTo(minComparable);
+            if (result < 0) min = item;
         }
+
+        return min;
+    }
+
+    public override string ToString()
+    {
+        if (IsEmpty) return "no elements";
+        var list = GetEnumerator();
+        string b = "";
+        foreach (T i in list)
+        {
+            b += Convert.ToString(i);
+            b += ", ";
+        }
+
+        b = b[..^2];
+
+        return b;
+    }
+}
+
+internal class Program
+{
+    public static void Main()
+    {
+        Console.OutputEncoding = Encoding.Unicode;
+        MyLinkedList<int> intList = new();
+        MyLinkedList<int> emptyList = new();
+
+        for (int x = 0; x < 10; x++)
+        {
+            intList.AddHead(x);
+        }
+
+        Console.WriteLine("Виведення пов'язаного списку:\n" + intList);
+
+        Console.WriteLine("\nВивід довжини пов'язаного списку:\n" + intList.Lenght);
+        Console.WriteLine("\nВиведення чи пустий список\n" + intList.IsEmpty);
+        Console.WriteLine("\nВиведення першого елементу із пов'язаного списку:\n" + intList.GetHead());
+        Console.WriteLine("\nВиведення першого елементу із пустого списку:\n" + emptyList.GetHead());
+        intList.TryRemoveHead();
+        Console.WriteLine("\nВидалення елементу із пов'язаного списку:\n" + intList);
+        emptyList.TryRemoveHead();
+        Console.WriteLine("\nВидалення елементу із пустого списку:\n" + emptyList);
+        Console.WriteLine("\nЗнаходження мінімального елементу пов'язаного списку:\n" + intList.FindMin());
+
+
+        MyLinkedList<string> stringList = new();
+        stringList.AddHead("a");
+        stringList.AddHead("b");
+        stringList.AddHead("c");
+        Console.WriteLine("\nВиведення пов'язаного списку складеного із рядків:\n" + stringList);
+        Console.WriteLine("\nЗнаходження мінімального елементу пов'язаного списку складеного із рядків\n" + stringList.FindMin());
     }
 }
