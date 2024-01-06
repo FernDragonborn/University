@@ -17,6 +17,16 @@ public class ArrayListOfMyQueuesTests
     }
 
     [Fact]
+    public void ArrayList_Add_NullQueue_ArgumentNullException()
+    {
+        // Arrange
+        ArrayListOfMyQueues arrayList = new ArrayListOfMyQueues();
+
+        // Act & Assert
+        Assert.Throws<ArgumentNullException>(() => arrayList.Add(null));
+    }
+
+    [Fact]
     public void ArrayList_RemoveAt_Success()
     {
         // Arrange
@@ -60,6 +70,16 @@ public class ArrayListOfMyQueuesTests
 
         // Assert
         Assert.Equal(queue, result);
+    }
+
+    [Fact]
+    public void ArrayList_Peek_InvalidIndex_ArgumentOutOfRangeException()
+    {
+        // Arrange
+        ArrayListOfMyQueues arrayList = new ArrayListOfMyQueues();
+
+        // Act & Assser
+        Assert.Throws<ArgumentOutOfRangeException>(arrayList.Peek);
     }
 
     [Fact]
@@ -140,6 +160,17 @@ public class MuQueueTests
     }
 
     [Fact]
+    public void MyQueue_Peek_InvalidIndex_ArgumentOutOfRangeException()
+    {
+        // Arrange
+        MyQueue queue = new MyQueue(0);
+
+        // Act & Assert
+        Assert.Throws<InvalidOperationException>(() => queue.Peek());
+        Assert.True(queue.IsEmpty);
+    }
+
+    [Fact]
     public void MyQueue_WriteToConsole()
     {
         // Arrange
@@ -157,16 +188,6 @@ public class MuQueueTests
         string expectedOutput = "1 - 0 contains: \"TestData\"";
 
         Assert.Equal(expectedOutput, actualOutput);
-    }
-
-    [Fact]
-    public void ArrayList_Add_NullQueue_ArgumentNullException()
-    {
-        // Arrange
-        ArrayListOfMyQueues arrayList = new ArrayListOfMyQueues();
-
-        // Act & Assert
-        Assert.Throws<ArgumentNullException>(() => arrayList.Add(null));
     }
 }
 

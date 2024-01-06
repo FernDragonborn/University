@@ -6,12 +6,6 @@ public class ArrayListOfMyQueues
 {
     private readonly ArrayList _arrayList = new();
 
-    public MyQueue? this[int i]
-    {
-        get => (MyQueue?)_arrayList[i];
-        set => _arrayList[i] = value;
-    }
-
     public int Count => _arrayList.Count;
 
     public bool IsEmpty => Count == 0;
@@ -46,6 +40,7 @@ public class ArrayListOfMyQueues
         }
     }
 }
+
 public class MyQueue
 {
     private readonly Queue<Element> _queue = new();
