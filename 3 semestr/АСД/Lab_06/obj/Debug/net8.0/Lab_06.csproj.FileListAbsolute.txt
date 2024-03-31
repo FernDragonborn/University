@@ -1,0 +1,15 @@
+D:\data\code\University\3 semestr\АСД\Lab_06\bin\Debug\net8.0\Lab_06.exe
+D:\data\code\University\3 semestr\АСД\Lab_06\bin\Debug\net8.0\Lab_06.deps.json
+D:\data\code\University\3 semestr\АСД\Lab_06\bin\Debug\net8.0\Lab_06.runtimeconfig.json
+D:\data\code\University\3 semestr\АСД\Lab_06\bin\Debug\net8.0\Lab_06.dll
+D:\data\code\University\3 semestr\АСД\Lab_06\bin\Debug\net8.0\Lab_06.pdb
+D:\data\code\University\3 semestr\АСД\Lab_06\obj\Debug\net8.0\Lab_06.GeneratedMSBuildEditorConfig.editorconfig
+D:\data\code\University\3 semestr\АСД\Lab_06\obj\Debug\net8.0\Lab_06.AssemblyInfoInputs.cache
+D:\data\code\University\3 semestr\АСД\Lab_06\obj\Debug\net8.0\Lab_06.AssemblyInfo.cs
+D:\data\code\University\3 semestr\АСД\Lab_06\obj\Debug\net8.0\Lab_06.csproj.CoreCompileInputs.cache
+D:\data\code\University\3 semestr\АСД\Lab_06\obj\Debug\net8.0\Lab_06.sourcelink.json
+D:\data\code\University\3 semestr\АСД\Lab_06\obj\Debug\net8.0\Lab_06.dll
+D:\data\code\University\3 semestr\АСД\Lab_06\obj\Debug\net8.0\refint\Lab_06.dll
+D:\data\code\University\3 semestr\АСД\Lab_06\obj\Debug\net8.0\Lab_06.pdb
+D:\data\code\University\3 semestr\АСД\Lab_06\obj\Debug\net8.0\Lab_06.genruntimeconfig.cache
+D:\data\code\University\3 semestr\АСД\Lab_06\obj\Debug\net8.0\ref\Lab_06.dll

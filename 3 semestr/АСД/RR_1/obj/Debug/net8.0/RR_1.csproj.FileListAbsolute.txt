@@ -1,0 +1,15 @@
+D:\data\code\University\3 semestr\АСД\RR_1\bin\Debug\net8.0\RR_1.exe
+D:\data\code\University\3 semestr\АСД\RR_1\bin\Debug\net8.0\RR_1.deps.json
+D:\data\code\University\3 semestr\АСД\RR_1\bin\Debug\net8.0\RR_1.runtimeconfig.json
+D:\data\code\University\3 semestr\АСД\RR_1\bin\Debug\net8.0\RR_1.dll
+D:\data\code\University\3 semestr\АСД\RR_1\bin\Debug\net8.0\RR_1.pdb
+D:\data\code\University\3 semestr\АСД\RR_1\obj\Debug\net8.0\RR_1.GeneratedMSBuildEditorConfig.editorconfig
+D:\data\code\University\3 semestr\АСД\RR_1\obj\Debug\net8.0\RR_1.AssemblyInfoInputs.cache
+D:\data\code\University\3 semestr\АСД\RR_1\obj\Debug\net8.0\RR_1.AssemblyInfo.cs
+D:\data\code\University\3 semestr\АСД\RR_1\obj\Debug\net8.0\RR_1.csproj.CoreCompileInputs.cache
+D:\data\code\University\3 semestr\АСД\RR_1\obj\Debug\net8.0\RR_1.sourcelink.json
+D:\data\code\University\3 semestr\АСД\RR_1\obj\Debug\net8.0\RR_1.dll
+D:\data\code\University\3 semestr\АСД\RR_1\obj\Debug\net8.0\refint\RR_1.dll
+D:\data\code\University\3 semestr\АСД\RR_1\obj\Debug\net8.0\RR_1.pdb
+D:\data\code\University\3 semestr\АСД\RR_1\obj\Debug\net8.0\RR_1.genruntimeconfig.cache
+D:\data\code\University\3 semestr\АСД\RR_1\obj\Debug\net8.0\ref\RR_1.dll
