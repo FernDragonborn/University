@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="cryptographyCLI/cryptographyCLI.csproj" />
+  <Project Path="cryptographyLib/cryptographyLib.csproj" />
+  <Project Path="cryptographyTests/cryptographyTests.csproj" />
+</Solution>

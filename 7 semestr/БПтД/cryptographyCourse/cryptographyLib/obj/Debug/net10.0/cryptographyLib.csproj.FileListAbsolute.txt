@@ -1,0 +1,11 @@
+C:\Users\Fern\RiderProjects\cryptographyCourse\cryptographyLib\bin\Debug\net10.0\cryptographyLib.deps.json
+C:\Users\Fern\RiderProjects\cryptographyCourse\cryptographyLib\bin\Debug\net10.0\cryptographyLib.dll
+C:\Users\Fern\RiderProjects\cryptographyCourse\cryptographyLib\bin\Debug\net10.0\cryptographyLib.pdb
+C:\Users\Fern\RiderProjects\cryptographyCourse\cryptographyLib\obj\Debug\net10.0\cryptographyLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fern\RiderProjects\cryptographyCourse\cryptographyLib\obj\Debug\net10.0\cryptographyLib.AssemblyInfoInputs.cache
+C:\Users\Fern\RiderProjects\cryptographyCourse\cryptographyLib\obj\Debug\net10.0\cryptographyLib.AssemblyInfo.cs
+C:\Users\Fern\RiderProjects\cryptographyCourse\cryptographyLib\obj\Debug\net10.0\cryptographyLib.csproj.CoreCompileInputs.cache
+C:\Users\Fern\RiderProjects\cryptographyCourse\cryptographyLib\obj\Debug\net10.0\cryptographyLib.dll
+C:\Users\Fern\RiderProjects\cryptographyCourse\cryptographyLib\obj\Debug\net10.0\refint\cryptographyLib.dll
+C:\Users\Fern\RiderProjects\cryptographyCourse\cryptographyLib\obj\Debug\net10.0\cryptographyLib.pdb
+C:\Users\Fern\RiderProjects\cryptographyCourse\cryptographyLib\obj\Debug\net10.0\ref\cryptographyLib.dll
