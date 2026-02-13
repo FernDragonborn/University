@@ -16,17 +16,17 @@ public class WindowsCryptoApiTests
         }
 
         var crypto = new WinCryptoWrapper();
-        string original = "Sensitive Data for Windows";
+        const string original = "Sensitive Data for Windows";
 
         try
         {
             // Цей метод всередині викликає CryptAcquireContext, CryptGenKey і т.д.
-            byte[] encrypted = crypto.EncryptString(original);
+            var encrypted = crypto.EncryptString(original);
                 
             // Переконуємось, що дані змінились
             Assert.NotEqual(System.Text.Encoding.UTF8.GetBytes(original), encrypted);
 
-            string decrypted = crypto.DecryptString(encrypted);
+            var decrypted = crypto.DecryptString(encrypted);
 
             Assert.Equal(original, decrypted);
         }

@@ -21,21 +21,21 @@ public static class CaesarCipher
     {
         if (string.IsNullOrEmpty(text)) return text;
 
-        StringBuilder result = new StringBuilder();
+        var result = new StringBuilder();
             
         // Працюємо з верхнім регістром для простоти
-        string input = text.ToUpper();
+        var input = text.ToUpper();
 
-        foreach (char c in input)
+        foreach (var c in input)
         {
             // Якщо символ є в нашому алфавіті (A-Z)
-            int index = Alphabet.IndexOf(c);
+            var index = Alphabet.IndexOf(c);
                 
             if (index >= 0)
             {
                 // Формула: (Index + Shift) % Length
                 // Додаткова магія "+ Alphabet.Length" потрібна, щоб коректно обробляти від'ємний зсув
-                int newIndex = (index + shift) % Alphabet.Length;
+                var newIndex = (index + shift) % Alphabet.Length;
                     
                 if (newIndex < 0) 
                     newIndex += Alphabet.Length;
@@ -72,22 +72,22 @@ public static class VigenereCipher
         if (string.IsNullOrEmpty(text) || string.IsNullOrEmpty(key)) 
             return text;
 
-        StringBuilder result = new StringBuilder();
+        var result = new StringBuilder();
             
-        string input = text.ToUpper();
-        string normalizedKey = key.ToUpper();
+        var input = text.ToUpper();
+        var normalizedKey = key.ToUpper();
             
-        int keyIndex = 0;
+        var keyIndex = 0;
 
-        foreach (char c in input)
+        foreach (var c in input)
         {
-            int inputIndex = Alphabet.IndexOf(c);
+            var inputIndex = Alphabet.IndexOf(c);
 
             if (inputIndex >= 0)
             {
                 // Знаходимо зсув для поточної букви ключа
-                char keyChar = normalizedKey[keyIndex % normalizedKey.Length];
-                int keyShift = Alphabet.IndexOf(keyChar);
+                var keyChar = normalizedKey[keyIndex % normalizedKey.Length];
+                var keyShift = Alphabet.IndexOf(keyChar);
 
                 // Якщо дешифруємо, то віднімаємо зсув
                 if (!isEncrypting)
@@ -96,7 +96,7 @@ public static class VigenereCipher
                 }
 
                 // Застосовуємо зсув (аналогічно до Цезаря)
-                int newIndex = (inputIndex + keyShift) % Alphabet.Length;
+                var newIndex = (inputIndex + keyShift) % Alphabet.Length;
                     
                 if (newIndex < 0) 
                     newIndex += Alphabet.Length;

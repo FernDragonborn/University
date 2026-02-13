@@ -16,7 +16,7 @@ public class RsaAndSignatureTests
         BigInteger exp = 10;
         BigInteger mod = 1000;
 
-        BigInteger result = RSAEngine.ModPow(baseVal, exp, mod);
+        var result = RSAEngine.ModPow(baseVal, exp, mod);
 
         Assert.Equal(new BigInteger(24), result);
     }
@@ -32,7 +32,7 @@ public class RsaAndSignatureTests
         var keys = rsa.GenerateKeys(p: 61, q: 53); 
 
         BigInteger phi = (61 - 1) * (53 - 1);
-        BigInteger check = (keys.E * keys.D) % phi;
+        var check = (keys.E * keys.D) % phi;
 
         Assert.Equal(BigInteger.One, check);
     }
@@ -46,10 +46,10 @@ public class RsaAndSignatureTests
         BigInteger message = 12345;
 
         // Шифруємо публічним (E, N)
-        BigInteger encrypted = rsa.Encrypt(message, keys.E, keys.N);
+        var encrypted = rsa.Encrypt(message, keys.E, keys.N);
             
         // Розшифровуємо приватним (D, N)
-        BigInteger decrypted = rsa.Decrypt(encrypted, keys.D, keys.N);
+        var decrypted = rsa.Decrypt(encrypted, keys.D, keys.N);
 
         Assert.Equal(message, decrypted);
     }
@@ -64,14 +64,14 @@ public class RsaAndSignatureTests
         var rsa = new RSAEngine();
         var keys = rsa.GenerateKeys(p: 61, q: 53); // Використовуємо ключі з Lab 6
             
-        string document = "Contract Agreement text";
+        const string document = "Contract Agreement text";
             
         // Act
         // 1. Створюємо підпис (Хеш -> Шифруємо приватним ключем D)
         var signature = signer.SignData(document, keys.D, keys.N);
 
         // 2. Перевіряємо підпис (Розшифровуємо публічним E -> Звіряємо хеш)
-        bool isValid = signer.VerifySignature(document, signature, keys.E, keys.N);
+        var isValid = signer.VerifySignature(document, signature, keys.E, keys.N);
 
         // Assert
         Assert.True(isValid);
@@ -84,14 +84,14 @@ public class RsaAndSignatureTests
         var rsa = new RSAEngine();
         var keys = rsa.GenerateKeys(61, 53);
             
-        string document = "Pay $100";
+        const string document = "Pay $100";
         var signature = signer.SignData(document, keys.D, keys.N);
 
         // Хакер змінює документ
-        string tamperedDocument = "Pay $9000";
+        const string tamperedDocument = "Pay $9000";
 
         // Перевірка має провалитися
-        bool isValid = signer.VerifySignature(tamperedDocument, signature, keys.E, keys.N);
+        var isValid = signer.VerifySignature(tamperedDocument, signature, keys.E, keys.N);
 
         Assert.False(isValid);
     }

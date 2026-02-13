@@ -26,16 +26,16 @@ public class FrequencyAnalysisTests
         // Arrange
         // Припустимо, ми знаємо, що в мові найчастіша літера 'O'
         // Зашифруємо текст так, щоб 'O' стала 'T' (зсув 5)
-        string textWithManyOs = "OOOOO OOOOO"; 
-        int secretShift = 5;
-        string encrypted = CaesarCipher.Encrypt(textWithManyOs, secretShift);
+        const string textWithManyOs = "OOOOO OOOOO"; 
+        const int secretShift = 5;
+        var encrypted = CaesarCipher.Encrypt(textWithManyOs, secretShift);
 
         var cracker = new FrequencyCracker();
 
         // Act
         // Метод Crack має знайти найчастіший символ у шифротексті ('T')
         // і відняти від нього еталонний символ ('O'). 'T' - 'O' = 5.
-        int foundShift = cracker.Crack(encrypted, targetChar: 'O');
+        var foundShift = cracker.Crack(encrypted, targetChar: 'O');
 
         // Assert
         Assert.Equal(secretShift, foundShift);

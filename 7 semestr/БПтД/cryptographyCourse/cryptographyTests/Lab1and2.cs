@@ -13,7 +13,7 @@ public class SubstitutionCiphersTests
     public void Caesar_Encrypt_ShouldShiftCorrectly(string input, int shift, string expected)
     {
         // Act
-        string result = CaesarCipher.Encrypt(input, shift);
+        var result = CaesarCipher.Encrypt(input, shift);
 
         // Assert
         Assert.Equal(expected, result);
@@ -24,7 +24,7 @@ public class SubstitutionCiphersTests
     [InlineData("APP", 1, "ZOO")] 
     public void Caesar_Decrypt_ShouldReverseShift(string input, int shift, string expected)
     {
-        string result = CaesarCipher.Decrypt(input, shift);
+        var result = CaesarCipher.Decrypt(input, shift);
         Assert.Equal(expected, result);
     }
 
@@ -73,7 +73,7 @@ public class SubstitutionCiphersTests
     public void Vigenere_Decrypt_ShouldRestoreKnownText(string cipherText, string key, string expectedPlain)
     {
         // Act
-        string result = VigenereCipher.Decrypt(cipherText, key);
+        var result = VigenereCipher.Decrypt(cipherText, key);
 
         // Assert
         Assert.Equal(expectedPlain, result);
