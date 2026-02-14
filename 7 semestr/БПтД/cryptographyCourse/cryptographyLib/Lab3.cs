@@ -1,7 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-
-namespace cryptographyLib;
+﻿namespace cryptographyLib;
 
 public class FrequencyCracker
 {
