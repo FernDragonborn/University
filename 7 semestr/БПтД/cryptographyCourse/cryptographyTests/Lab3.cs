@@ -1,5 +1,4 @@
 ﻿using cryptographyLib;
-using Xunit;
 
 namespace cryptographyTests;
 

@@ -1,6 +1,4 @@
-﻿using System.Text;
-using cryptographyLib;
-using Xunit;
+﻿using cryptographyLib;
 
 namespace cryptographyTests;
 
@@ -13,29 +11,24 @@ public class XorCipherTests
         var generator1 = new LinearCongruentialGenerator(12345);
         var generator2 = new LinearCongruentialGenerator(12345);
 
-        for (var i = 0; i < 100; i++)
-        {
-            Assert.Equal(generator1.Next(), generator2.Next());
-        }
+        for (var i = 0; i < 100; i++) 
+            Assert.Equal(generator1.NextByte(), generator2.NextByte());
     }
 
     [Fact]
-    public void Xor_RoundTrip_ShouldRestoreData()
+    public void XorCipher_ShouldEncryptAndDecrypt_WithSameSeed()
     {
         // Arrange
-        var cipher = new XorCipher();
-        var originalData = Encoding.UTF8.GetBytes("Secret Data");
-        var seed = 999;
+        const string secretMessage = "Secret Data 123";
+        const long key = 987654321;
 
         // Act
-        // Шифруємо
-        var encrypted = cipher.Transform(originalData, seed);
-            
-        // Дешифруємо (XOR оборотний, викликаємо той самий метод)
-        var decrypted = cipher.Transform(encrypted, seed);
+        var encrypted = XorCipher.Process(secretMessage, key);
+
+        var decrypted = XorCipher.Decrypt(encrypted, key);
 
         // Assert
-        Assert.NotEqual(originalData, encrypted); // Дані мали змінитися
-        Assert.Equal(originalData, decrypted);    // Дані мали відновитися
+        Assert.NotEqual(secretMessage, Convert.ToBase64String(encrypted)); 
+        Assert.Equal(secretMessage, decrypted);
     }
 }
