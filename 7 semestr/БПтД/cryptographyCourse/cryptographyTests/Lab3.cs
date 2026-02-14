@@ -1,4 +1,5 @@
 ﻿using cryptographyLib;
+using Xunit;
 
 namespace cryptographyTests;
 
@@ -12,7 +13,7 @@ public class FrequencyAnalysisTests
         const string text = "AAABBC";
 
         // Act
-        var freqs = analyzer.Analyze(text);
+        var freqs = FrequencyCracker.Analyze(text);
 
         // Assert
         Assert.Equal(3, freqs['A']);
@@ -35,7 +36,7 @@ public class FrequencyAnalysisTests
         // Act
         // Метод Crack має знайти найчастіший символ у шифротексті ('T')
         // і відняти від нього еталонний символ ('O'). 'T' - 'O' = 5.
-        var foundShift = cracker.Crack(encrypted, targetChar: 'O');
+        var foundShift = FrequencyCracker.Crack(encrypted, targetChar: 'O');
 
         // Assert
         Assert.Equal(secretShift, foundShift);

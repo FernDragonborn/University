@@ -1,4 +1,7 @@
-﻿namespace cryptographyLib;
+﻿using System;
+using System.Collections.Generic;
+
+namespace cryptographyLib;
 
 public class LinearCongruentialGenerator(int seed)
 {

@@ -1,4 +1,5 @@
-﻿using System.Runtime.InteropServices;
+﻿using System;
+using System.Runtime.InteropServices;
 using System.Text;
 
 namespace cryptographyLib;
@@ -11,10 +12,13 @@ public partial class WinCryptoWrapper : IDisposable
     private const uint AlgClassDataEncrypt = 3 << 13;
     private const uint AlgTypeStream = 4 << 9;
     private const uint AlgSidRc4 = 1;
-    private const uint CalgRc4 = (AlgClassDataEncrypt | AlgTypeStream | AlgSidRc4);
+    private const uint CalgRc4 = AlgClassDataEncrypt | AlgTypeStream | AlgSidRc4;
     private const uint CryptExportable = 0x00000001;
     
-    [LibraryImport("advapi32.dll", SetLastError = true, StringMarshalling = StringMarshalling.Utf16)]
+    [LibraryImport("advapi32.dll", 
+        EntryPoint = "CryptAcquireContextW",
+        SetLastError = true, 
+        StringMarshalling = StringMarshalling.Utf16)]
     [return: MarshalAs(UnmanagedType.Bool)]
     private static partial bool CryptAcquireContext(
         out IntPtr phProv,
