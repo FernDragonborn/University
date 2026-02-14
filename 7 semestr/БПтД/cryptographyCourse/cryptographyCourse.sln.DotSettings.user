@@ -9,5 +9,6 @@
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::E576B00C-270E-10D6-1037-C5357E890C1C::net10.0::cryptographyTests.WindowsCryptoApiTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::E576B00C-270E-10D6-1037-C5357E890C1C::net10.0::cryptographyTests.XorCipherTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::E576B00C-270E-10D6-1037-C5357E890C1C::net10.0::cryptographyTests.RsaAndSignatureTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
