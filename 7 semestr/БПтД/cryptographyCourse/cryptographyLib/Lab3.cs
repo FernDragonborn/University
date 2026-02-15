@@ -5,18 +5,20 @@ public class FrequencyCracker
     private const string Alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     /// <summary>
-    /// Підраховує частоту появи кожної літери в тексті.
+    ///     Підраховує частоту появи кожної літери в тексті.
     /// </summary>
     public static Dictionary<char, int> Analyze(string text)
     {
         var occurences = new Dictionary<char, int>();
+
         if (string.IsNullOrEmpty(text))
             return occurences;
 
         var input = text.ToUpper();
+
         foreach (var c in input.Where(c => Alphabet.Contains(c)))
         {
-            occurences.TryAdd(c, 0);
+            occurences.TryAdd(c, value: 0);
             occurences[c] += 1;
         }
 
@@ -24,7 +26,7 @@ public class FrequencyCracker
     }
 
     /// <summary>
-    /// Намагається зламати шифр Цезаря методом частотного аналізу.
+    ///     Намагається зламати шифр Цезаря методом частотного аналізу.
     /// </summary>
     /// <param name="cipherText">Зашифрований текст</param>
     /// <param name="targetChar">Літера, яка найчастіше зустрічається у цій мові (за замовчуванням 'E' для англійської)</param>
@@ -33,6 +35,7 @@ public class FrequencyCracker
     {
         // 0. Отримуємо частотність входжень
         var occurences = Analyze(cipherText);
+
         if (occurences.Count == 0)
             return 0;
 
@@ -50,7 +53,7 @@ public class FrequencyCracker
         var shift = foundIndex - targetIndex;
 
         // 3. Нормалізація зсуву
-        if (shift < 0) 
+        if (shift < 0)
             shift += Alphabet.Length;
 
         return shift;
