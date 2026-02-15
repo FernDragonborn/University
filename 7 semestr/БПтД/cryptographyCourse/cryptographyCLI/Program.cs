@@ -4,609 +4,579 @@ using System.Text;
 using cryptographyLib;
 using Spectre.Console;
 
+// Для RSA (BigInteger)
+// Твоя бібліотека
+
 namespace cryptographyCLI;
 
 [SuppressMessage("Interoperability", "CA1416:Validate platform compatibility")]
 public static class Program
 {
-    // Стан для RSA (щоб зберігати ключі між меню)
+    // Глобальний стан для RSA
     private static Keys? _rsaKeys;
-
-    private static readonly string[] MainMenu =
-    [
-        "Lab 1: Caesar Cipher (Simple Substitution)",
-        "Lab 2: Vigenere Cipher (Polyalphabetic)",
-        "Lab 3: Frequency Analysis (Cracking Caesar)",
-        "Lab 4: Stream Cipher (XOR + LCG)",
-        "Lab 5: RSA Encryption (Asymmetric)",
-        "Lab 6: Digital Signatures",
-        "HW: Windows CryptoAPI (RC4)",
-        "[red]Exit[/]"
-    ];
-
-    private static readonly string[] ContentInputMenu =
-    [
-        "Manual Text Input",
-        "Load from File",
-        "[grey]Back[/]"
-    ];
-
-    private static readonly string[] SaveOrPrintTextMenu =
-    [
-        "Print to Console",
-        "Save to File"
-    ];
-
-    private static readonly string[] SaveOrPrintBytesMenu =
-    [
-        "Print as Base64",
-        "Save Binary to File"
-    ];
 
     public static void Main()
     {
         Console.OutputEncoding = Encoding.UTF8;
-        //Console.InputEncoding = Encoding.UTF8;
-        AnsiConsole.Profile.Capabilities.Interactive = true;
-
-        AnsiConsole.Write(
-            new FigletText("CRYPTO MASTER")
-                .LeftJustified()
-                .Color(Color.Cyan1));
-
-        AnsiConsole.Write(
-            new FigletText("CRYPTO MASTER")
-                .LeftJustified()
-                .Color(Color.Cyan1));
+        Console.InputEncoding = Encoding.UTF8;
 
         while (true)
         {
             AnsiConsole.Clear();
-            AnsiConsole.Write(new Rule("[yellow]Main Menu - All Labs[/]").RuleStyle("grey"));
-
+            AnsiConsole.Write(new Rule("[bold yellow]Main Menu[/]").RuleStyle("grey"));
             var choice = AnsiConsole.Prompt(
                 new SelectionPrompt<string>()
                     .Title("Select Laboratory Work:")
-                    .PageSize(pageSize: 12)
-                    .AddChoices(MainMenu));
+                    .PageSize(pageSize: 10)
+                    .AddChoices(
+                        "Lab 1: Caesar Cipher (Simple Substitution)",
+                        "Lab 2: Vigenere Cipher (Polyalphabetic)",
+                        "Lab 3: Frequency Analysis (Cracking Caesar)",
+                        "Lab 4: Stream Cipher (XOR + LCG)",
+                        "Lab 5: RSA Encryption (Asymmetric)",
+                        "Lab 6: Digital Signatures",
+                        "HW: Windows CryptoAPI (RC4)",
+                        "[red]Exit[/]"
+                    ));
 
-            if (choice == "[red]Exit[/]") return;
+            if (choice == "[red]Exit[/]") break;
 
-            try
+            switch (choice)
             {
-                if (choice.StartsWith("Lab 1")) MenuLab1();
-                else if (choice.StartsWith("Lab 2")) MenuLab2();
-                else if (choice.StartsWith("Lab 3")) MenuLab3();
-                else if (choice.StartsWith("Lab 4")) MenuLab4();
-                else if (choice.StartsWith("Lab 5")) MenuLab5_RSA();
-                else if (choice.StartsWith("Lab 6")) MenuLab6_Signatures();
-                else if (choice.StartsWith("HW")) MenuHomework();
-            }
-            catch (Exception ex)
-            {
-                AnsiConsole.WriteException(ex);
-                Pause();
+                case "Lab 1: Caesar Cipher (Simple Substitution)": MenuLab1(); break;
+                case "Lab 2: Vigenere Cipher (Polyalphabetic)": MenuLab2(); break;
+                case "Lab 3: Frequency Analysis (Cracking Caesar)": MenuLab3(); break;
+                case "Lab 4: Stream Cipher (XOR + LCG)": MenuLab4(); break;
+                case "Lab 5: RSA Encryption (Asymmetric)": MenuLab5(); break;
+                case "Lab 6: Digital Signatures": MenuLab6(); break;
+                case "HW: Windows CryptoAPI (RC4)": MenuHW(); break;
             }
         }
     }
 
-    // --- HELPER: Ввід тексту або файлу ---
-    private static string? GetContentInput(string promptTitle)
-    {
-        var inputType = AnsiConsole.Prompt(
-            new SelectionPrompt<string>()
-                .Title($"[blue]{promptTitle}[/] - Select Input Source:")
-                .AddChoices(ContentInputMenu));
-
-        if (inputType == "[grey]Back[/]")
-            return null;
-
-        if (inputType == "Load from File")
-        {
-            var path = Ask("[green]Enter file path[/]: ");
-
-            if (!File.Exists(path))
-            {
-                AnsiConsole.MarkupLine("[red]File not found![/]");
-                return null;
-            }
-
-            return File.ReadAllText(path, Encoding.UTF8);
-        }
-
-        return AskInputOrBack("Enter text");
-    }
-
-    // --- HELPER: Збереження результату ---
-    private static void SaveOrPrintResult(string content)
-    {
-        AnsiConsole.WriteLine();
-
-        var choice = AnsiConsole.Prompt(
-            new SelectionPrompt<string>()
-                .Title("What to do with the result?")
-                .AddChoices(SaveOrPrintTextMenu));
-
-        if (choice == "Save to File")
-        {
-            var path = Ask("Enter path to save:");
-
-            if (string.IsNullOrWhiteSpace(path))
-            {
-                AnsiConsole.MarkupLine("[red]Filename cannot be empty![/]");
-                return;
-            }
-
-            File.WriteAllText(path, content, Encoding.UTF8);
-            AnsiConsole.MarkupLine($"[green]Saved to {path}[/]");
-        }
-        else
-            AnsiConsole.Write(new Panel(content).Header("Result").BorderColor(Color.Green));
-    }
-
-    // Перевантаження для байтів (для Lab 4 і HW)
-    private static void SaveOrPrintBytes(byte[] data)
-    {
-        AnsiConsole.WriteLine();
-
-        var choice = AnsiConsole.Prompt(
-            new SelectionPrompt<string>()
-                .Title("What to do with the result?")
-                .AddChoices(SaveOrPrintBytesMenu));
-
-        if (choice == "Save Binary to File")
-        {
-            var path = Ask("Enter path to save:");
-
-            if (string.IsNullOrWhiteSpace(path))
-            {
-                AnsiConsole.MarkupLine("[red]Filename cannot be empty![/]");
-                return;
-            }
-
-            File.WriteAllBytes(path, data);
-            AnsiConsole.MarkupLine($"[green]Saved {data.Length} bytes to {path}[/]");
-        }
-        else
-        {
-            var base64 = Convert.ToBase64String(data);
-            AnsiConsole.Write(new Panel(base64).Header("Result (Base64)").BorderColor(Color.Green));
-        }
-    }
-
-    // --- LAB 1: CAESAR ---
+    // ==========================================
+    // LAB 1: CAESAR CIPHER
+    // ==========================================
     private static void MenuLab1()
     {
         while (true)
         {
             AnsiConsole.Clear();
-            AnsiConsole.Write(new Rule("[blue]Lab 1: Caesar Cipher[/]"));
+            AnsiConsole.Write(new Rule("[green]Lab 1: Caesar Cipher[/]"));
 
-            var choice = AnsiConsole.Prompt(new SelectionPrompt<string>()
+            var action = AnsiConsole.Prompt(new SelectionPrompt<string>()
+                .Title("Select Action:")
                 .AddChoices("Encrypt", "Decrypt", "[grey]Back[/]"));
 
-            if (choice == "[grey]Back[/]") return;
+            if (action == "[grey]Back[/]") return;
 
-            var text = GetContentInput("Input Text");
-            if (text == null) continue;
+            var text = GetContentInput("Enter text");
+            if (string.IsNullOrEmpty(text)) continue;
 
-            var shiftStr = AskInputOrBack("Enter shift (number)");
+            var shiftStr = AskInputOrBack("Enter shift (integer)");
             if (shiftStr == null) continue;
 
             if (!int.TryParse(shiftStr, out var shift))
             {
-                AnsiConsole.MarkupLine("[red]Invalid number![/]");
-                Pause();
+                PrintErr("Invalid shift! Must be a number.");
                 continue;
             }
 
-            var result = choice == "Encrypt"
-                ? CaesarCipher.Encrypt(text, shift)
-                : CaesarCipher.Decrypt(text, shift);
+            string result;
+
+            if (action == "Encrypt")
+                result = CaesarCipher.Encrypt(text, shift);
+            else
+                result = CaesarCipher.Decrypt(text, shift);
 
             SaveOrPrintResult(result);
-            Pause();
         }
     }
 
-    // --- LAB 2: VIGENERE ---
+    // ==========================================
+    // LAB 2: VIGENERE CIPHER
+    // ==========================================
     private static void MenuLab2()
     {
         while (true)
         {
             AnsiConsole.Clear();
-            AnsiConsole.Write(new Rule("[blue]Lab 2: Vigenere Cipher[/]"));
+            AnsiConsole.Write(new Rule("[green]Lab 2: Vigenere Cipher[/]"));
 
-            var choice = AnsiConsole.Prompt(new SelectionPrompt<string>()
+            var action = AnsiConsole.Prompt(new SelectionPrompt<string>()
+                .Title("Select Action:")
                 .AddChoices("Encrypt", "Decrypt", "[grey]Back[/]"));
 
-            if (choice == "[grey]Back[/]") return;
+            if (action == "[grey]Back[/]") return;
 
-            var text = GetContentInput("Input Text");
-            if (text == null) continue;
+            var text = GetContentInput("Enter text");
+            if (string.IsNullOrEmpty(text)) continue;
 
-            var key = AskInputOrBack("Enter Key (word)");
-            if (key == null) continue;
+            var key = AskInputOrBack("Enter key (word)");
+            if (string.IsNullOrEmpty(key)) continue;
 
-            var result = choice == "Encrypt"
-                ? VigenereCipher.Encrypt(text, key)
-                : VigenereCipher.Decrypt(text, key);
+            string result;
+
+            if (action == "Encrypt")
+                result = VigenereCipher.Encrypt(text, key);
+            else
+                result = VigenereCipher.Decrypt(text, key);
 
             SaveOrPrintResult(result);
-            Pause();
         }
     }
 
-    // --- LAB 3: FREQUENCY ANALYSIS ---
+    // ==========================================
+    // LAB 3: FREQUENCY ANALYSIS
+    // ==========================================
     private static void MenuLab3()
     {
         while (true)
         {
             AnsiConsole.Clear();
-            AnsiConsole.Write(new Rule("[blue]Lab 3: Frequency Analysis[/]"));
+            AnsiConsole.Write(new Rule("[yellow]Lab 3: Frequency Analysis[/]"));
 
-            var choice = AnsiConsole.Prompt(new SelectionPrompt<string>()
-                .AddChoices("Analyze Text Frequency", "Crack Caesar Cipher", "[grey]Back[/]"));
+            var action = AnsiConsole.Prompt(new SelectionPrompt<string>()
+                .AddChoices("Crack Ciphertext", "[grey]Back[/]"));
 
-            if (choice == "[grey]Back[/]") return;
+            if (action == "[grey]Back[/]") return;
 
-            var text = GetContentInput("Cipher Text Source");
-            if (text == null) continue;
+            var text = GetContentInput("Enter encrypted text");
+            if (string.IsNullOrEmpty(text)) continue;
 
-            if (choice.StartsWith("Analyze"))
-            {
-                var freqs = FrequencyCracker.Analyze(text);
+            var guessedShift = FrequencyCracker.Crack(text);
+            var decrypted = CaesarCipher.Decrypt(text, guessedShift);
 
-                // Малюємо графік
-                var chart = new BarChart()
-                    .Width(width: 60)
-                    .Label("[green]Character Frequency[/]")
-                    .CenterLabel();
-
-                foreach (var pair in freqs.OrderByDescending(x => x.Value).Take(count: 10))
-                    chart.AddItem(pair.Key.ToString(), pair.Value, Color.Yellow);
-
-                AnsiConsole.Write(chart);
-            }
-            else
-            {
-                var shift = FrequencyCracker.Crack(text);
-                AnsiConsole.MarkupLine($"[bold]Predicted Shift:[/] [green]{shift}[/]");
-
-                var crackedText = CaesarCipher.Decrypt(text, shift);
-
-                AnsiConsole.Write(
-                    new Panel(crackedText.Substring(startIndex: 0, Math.Min(val1: 100, crackedText.Length)) + "...")
-                        .Header("Preview of Decrypted Text"));
-
-                SaveOrPrintResult(crackedText);
-            }
-
-            Pause();
+            AnsiConsole.MarkupLine($"[green]Analyzed! Best guess shift: {guessedShift}[/]");
+            SaveOrPrintResult(decrypted);
         }
     }
 
-    // --- LAB 4: STREAM CIPHER (XOR) ---
+    // ==========================================
+    // LAB 4: STREAM CIPHER (XOR)
+    // ==========================================
     private static void MenuLab4()
     {
         while (true)
         {
             AnsiConsole.Clear();
             AnsiConsole.Write(new Rule("[blue]Lab 4: Stream Cipher (XOR)[/]"));
-            AnsiConsole.MarkupLine("[dim]Note: Encrypt takes text, Decrypt takes bytes/file[/]");
 
-            var choice = AnsiConsole.Prompt(new SelectionPrompt<string>()
+            var mode = AnsiConsole.Prompt(new SelectionPrompt<string>()
+                .Title("Select Mode:")
                 .AddChoices("Encrypt Data", "Decrypt Data", "[grey]Back[/]"));
 
-            if (choice == "[grey]Back[/]") return;
+            if (mode == "[grey]Back[/]") return;
 
-            var seedStr = AskInputOrBack("Enter Seed (number)");
+            var seedStr = AskInputOrBack("Enter Key (Seed - integer number)");
             if (seedStr == null) continue;
-            var seed = long.Parse(seedStr);
 
-            if (choice == "Encrypt Text")
+            if (!long.TryParse(seedStr, out var seed))
             {
-                var text = GetContentInput("Input Text");
-                if (text == null) continue;
-
-                var resultBytes = XorCipher.Process(text, seed);
-                SaveOrPrintBytes(resultBytes);
+                PrintErr("Invalid key! Must be a number.");
+                continue;
             }
+
+            if (mode == "Encrypt Data")
+                HandleLab4Encrypt(seed);
             else
-            {
-                // Для дешифрування нам потрібні байти
-                byte[] inputBytes;
-
-                var source = AnsiConsole.Prompt(new SelectionPrompt<string>()
-                    .AddChoices("Read from Binary File", "Enter Base64 String"));
-
-                if (source == "Read from Binary File")
-                {
-                    var path = Ask("Enter [green]file path[/]:");
-
-                    if (string.IsNullOrWhiteSpace(path))
-                    {
-                        AnsiConsole.MarkupLine("[red]Empty path![/]");
-                        continue;
-                    }
-
-                    if (!File.Exists(path))
-                    {
-                        AnsiConsole.MarkupLine("[red]File not found[/]");
-                        Pause();
-                        continue;
-                    }
-
-                    inputBytes = File.ReadAllBytes(path);
-                }
-                else
-                {
-                    var b64 = AskInputOrBack("Base64 string");
-                    if (b64 == null) continue;
-
-                    try
-                    {
-                        inputBytes = Convert.FromBase64String(b64);
-                    }
-                    catch
-                    {
-                        AnsiConsole.MarkupLine("[red]Invalid Base64[/]");
-                        Pause();
-                        continue;
-                    }
-                }
-
-                var resultString = XorCipher.Decrypt(inputBytes, seed);
-                SaveOrPrintResult(resultString);
-            }
+                HandleLab4Decrypt(seed);
 
             Pause();
         }
     }
 
-    // --- HW: WIN API (RC4) ---
-    private static void MenuHomework()
+    private static void HandleLab4Encrypt(long seed)
+    {
+        var source = AnsiConsole.Prompt(new SelectionPrompt<string>()
+            .Title("Select Input Source:")
+            .AddChoices("Enter Plain Text (Raw String)", "Load Text from File", "[grey]Back[/]"));
+
+        if (source == "[grey]Back[/]") return;
+
+        string? textToEncrypt = null;
+
+        if (source == "Enter Plain Text (Raw String)")
+            textToEncrypt = AskInputOrBack("Enter text to encrypt");
+        else if (source == "Load Text from File")
+            textToEncrypt = TryLoadTextFromFile();
+
+        if (string.IsNullOrEmpty(textToEncrypt)) return;
+
+        var resultBytes = XorCipher.Process(textToEncrypt, seed);
+        SaveOrPrintBytes(resultBytes);
+    }
+
+    private static void HandleLab4Decrypt(long seed)
+    {
+        var source = AnsiConsole.Prompt(new SelectionPrompt<string>()
+            .Title("Select Encrypted Input Source:")
+            .AddChoices("Read from Binary File", "Enter Base64 String", "Enter Plain Text (Raw String)",
+                "[grey]Back[/]"));
+
+        if (source == "[grey]Back[/]") return;
+
+        byte[]? inputBytes = null;
+
+        if (source == "Read from Binary File")
+            inputBytes = TryLoadBytesFromFile();
+        else if (source == "Enter Base64 String")
+        {
+            var b64 = AskInputOrBack("Paste Base64 string");
+
+            if (!string.IsNullOrEmpty(b64))
+            {
+                try
+                {
+                    inputBytes = Convert.FromBase64String(b64);
+                }
+                catch
+                {
+                    PrintErr("Invalid Base64 format!");
+                }
+            }
+        }
+        else if (source == "Enter Plain Text (Raw String)")
+        {
+            var rawText = AskInputOrBack("Enter plain text to decrypt");
+
+            if (!string.IsNullOrEmpty(rawText))
+                inputBytes = Encoding.UTF8.GetBytes(rawText);
+        }
+
+        if (inputBytes == null) return;
+
+        var resultString = XorCipher.Decrypt(inputBytes, seed);
+        SaveOrPrintResult(resultString);
+    }
+
+    // ==========================================
+    // LAB 5: RSA
+    // ==========================================
+    private static void MenuLab5()
     {
         while (true)
         {
             AnsiConsole.Clear();
-            AnsiConsole.Write(new Rule("[purple]HW: Windows CryptoAPI (RC4)[/]"));
+            AnsiConsole.Write(new Rule("[purple]Lab 5: RSA Encryption[/]"));
+
+            // Виправлено доступ до полів: _rsaKeys.N, _rsaKeys.E
+            AnsiConsole.MarkupLine(_rsaKeys == null
+                ? "[yellow]Keys: Not Generated[/]"
+                : $"[green]Keys: Active (N={_rsaKeys.N})[/]");
 
             var choice = AnsiConsole.Prompt(new SelectionPrompt<string>()
-                .AddChoices("Encrypt", "Decrypt", "[grey]Back[/]"));
+                .AddChoices("Generate Keys", "Encrypt", "Decrypt", "[grey]Back[/]"));
+
+            if (choice == "[grey]Back[/]") return;
+
+            if (choice == "Generate Keys")
+            {
+                AnsiConsole.MarkupLine("Generating keys... Please wait.");
+                // Генеруємо (p=61, q=53 як приклад, або можна додати ввід)
+                _rsaKeys = RsaEngine.GenerateKeys(p: 61, q: 53);
+
+                // Виправлено вивід: keys.E, keys.D, keys.N
+                AnsiConsole.MarkupLine("[green]Keys generated![/]");
+                AnsiConsole.MarkupLine($"Public Key (E={_rsaKeys.E}, N={_rsaKeys.N})");
+                AnsiConsole.MarkupLine($"Private Key (D={_rsaKeys.D}, N={_rsaKeys.N})");
+                Pause();
+            }
+            else if (choice == "Encrypt")
+            {
+                if (_rsaKeys == null)
+                {
+                    PrintErr("Generate keys first!");
+                    continue;
+                }
+
+                var text = GetContentInput("Enter text to encrypt");
+                if (string.IsNullOrEmpty(text)) continue;
+
+                // Перетворюємо текст на число (спрощено, весь текст як одне велике число)
+                var bytes = Encoding.UTF8.GetBytes(text);
+                var bigIntData = new BigInteger(bytes, isUnsigned: true, isBigEndian: true);
+
+                if (bigIntData >= _rsaKeys.N)
+                {
+                    PrintErr("Data too large for this key size! Try shorter text.");
+                    continue;
+                }
+
+                // Виправлено: передаємо E та N
+                var encrypted = RsaEngine.Process(bigIntData, _rsaKeys.E, _rsaKeys.N);
+                SaveOrPrintResult(encrypted.ToString());
+            }
+            else if (choice == "Decrypt")
+            {
+                if (_rsaKeys == null)
+                {
+                    PrintErr("Generate keys first!");
+                    continue;
+                }
+
+                var inputStr = AskInputOrBack("Enter numeric value (BigInteger) to decrypt");
+                if (inputStr == null) continue;
+
+                if (BigInteger.TryParse(inputStr, out var encryptedVal))
+                {
+                    // Виправлено: передаємо D та N
+                    var decryptedBigInt = RsaEngine.Process(encryptedVal, _rsaKeys.D, _rsaKeys.N);
+
+                    var decryptedBytes = decryptedBigInt.ToByteArray(isUnsigned: true, isBigEndian: true);
+                    var decryptedText = Encoding.UTF8.GetString(decryptedBytes);
+
+                    SaveOrPrintResult(decryptedText);
+                }
+                else
+                    PrintErr("Invalid number format");
+            }
+        }
+    }
+
+    // ==========================================
+    // LAB 6: DIGITAL SIGNATURES
+    // ==========================================
+    private static void MenuLab6()
+    {
+        while (true)
+        {
+            AnsiConsole.Clear();
+            AnsiConsole.Write(new Rule("[orange1]Lab 6: Digital Signatures[/]"));
+
+            if (_rsaKeys == null)
+            {
+                AnsiConsole.MarkupLine("[yellow]RSA Keys are missing. Using default test keys...[/]");
+                _rsaKeys = RsaEngine.GenerateKeys(p: 61, q: 53);
+            }
+
+            var choice = AnsiConsole.Prompt(new SelectionPrompt<string>()
+                .AddChoices("Sign Data", "Verify Signature", "[grey]Back[/]"));
+
+            if (choice == "[grey]Back[/]") return;
+
+            if (choice == "Sign Data")
+            {
+                var text = GetContentInput("Enter text to sign");
+                if (string.IsNullOrEmpty(text)) continue;
+
+                try
+                {
+                    // Виправлено: передаємо D (Private Exponent) та N
+                    var signature = DigitalSignatureService.SignData(text, _rsaKeys.D, _rsaKeys.N);
+                    AnsiConsole.MarkupLine("[green]Signed successfully![/]");
+                    SaveOrPrintResult(signature.ToString());
+                }
+                catch (Exception ex)
+                {
+                    PrintErr($"Signing failed: {ex.Message}");
+                }
+            }
+            else if (choice == "Verify Signature")
+            {
+                var text = GetContentInput("Enter original text");
+                if (string.IsNullOrEmpty(text)) continue;
+
+                var sigStr = AskInputOrBack("Enter signature (number)");
+                if (sigStr == null) continue;
+
+                if (BigInteger.TryParse(sigStr, out var signature))
+                {
+                    // Виправлено: передаємо E (Public Exponent) та N
+                    var isValid = DigitalSignatureService.VerifySignature(text, signature, _rsaKeys.E, _rsaKeys.N);
+
+                    if (isValid)
+                        AnsiConsole.MarkupLine("[green bold]VERIFICATION SUCCESSFUL: Signature is valid.[/]");
+                    else
+                        AnsiConsole.MarkupLine("[red bold]VERIFICATION FAILED: Signature is invalid![/]");
+
+                    Pause();
+                }
+                else
+                    PrintErr("Invalid signature format");
+            }
+        }
+    }
+
+    // ==========================================
+    // HW: WINDOWS CRYPTO API (RC4)
+    // ==========================================
+    private static void MenuHW()
+    {
+        while (true)
+        {
+            AnsiConsole.Clear();
+            AnsiConsole.Write(new Rule("[red]HW: Windows CryptoAPI (RC4)[/]"));
+
+            var choice = AnsiConsole.Prompt(new SelectionPrompt<string>()
+                .AddChoices("Encrypt (RC4)", "Decrypt (RC4)", "[grey]Back[/]"));
 
             if (choice == "[grey]Back[/]") return;
 
             try
             {
                 using var crypto = new WinCryptoWrapper();
-                AnsiConsole.MarkupLine("[gray]System context acquired & Key generated.[/]");
 
-                if (choice == "Encrypt")
+                if (choice == "Encrypt (RC4)")
                 {
-                    var text = GetContentInput("Text to Encrypt");
-                    if (text == null) continue;
+                    var text = GetContentInput("Enter text to encrypt");
+                    if (string.IsNullOrEmpty(text)) continue;
 
                     var encryptedBytes = crypto.EncryptString(text);
                     SaveOrPrintBytes(encryptedBytes);
                 }
                 else
                 {
-                    // Для дешифрування треба подати байти. 
-                    // В рамках цієї реалізації (wrapper) ключ генерується випадково в конструкторі.
-                    // Тому дешифрувати можна ТІЛЬКИ те, що зашифрували в ЦІЙ ЖЕ сесії об'єкта.
-                    // Але оскільки ми перестворюємо об'єкт crypto, старі дані не розшифруються.
-                    // ЦЕ ОБМЕЖЕННЯ БІБЛІОТЕКИ DZ.CS (ключ не передається в конструктор).
+                    var source = AnsiConsole.Prompt(new SelectionPrompt<string>()
+                        .Title("Select Encrypted Source:")
+                        .AddChoices("Enter Base64 String", "Read from Binary File", "[grey]Back[/]"));
 
-                    AnsiConsole.MarkupLine("[red]Warning: WinCryptoWrapper generates a NEW random key each time.[/]");
-                    AnsiConsole.MarkupLine("To test decryption properly, we must Encrypt AND Decrypt in one go:");
+                    if (source == "[grey]Back[/]") continue;
 
-                    var text = AskInputOrBack("Enter text to test full cycle");
-                    if (text == null) continue;
+                    byte[]? inputBytes = null;
 
-                    var enc = crypto.EncryptString(text);
-                    AnsiConsole.MarkupLine($"[green]Encrypted bytes:[/] {Convert.ToBase64String(enc)}");
+                    if (source == "Enter Base64 String")
+                    {
+                        var b64 = AskInputOrBack("Paste Base64");
+                        if (b64 != null) inputBytes = Convert.FromBase64String(b64);
+                    }
+                    else
+                        inputBytes = TryLoadBytesFromFile();
 
-                    var dec = crypto.DecryptString(enc);
-                    AnsiConsole.MarkupLine($"[green]Decrypted text:[/] {dec}");
+                    if (inputBytes != null)
+                    {
+                        var decryptedText = crypto.DecryptString(inputBytes);
+                        SaveOrPrintResult(decryptedText);
+                    }
                 }
             }
             catch (Exception ex)
             {
-                AnsiConsole.WriteException(ex);
+                PrintErr($"CryptoAPI Error: {ex.Message}");
             }
+        }
+    }
 
+    // ==========================================
+    // HELPER METHODS
+    // ==========================================
+
+    private static string? GetContentInput(string promptText)
+    {
+        var choice = AnsiConsole.Prompt(new SelectionPrompt<string>()
+            .Title($"{promptText} via:")
+            .AddChoices("Manual Input", "Load from File", "[grey]Back[/]"));
+
+        if (choice == "[grey]Back[/]") return null;
+
+        if (choice == "Manual Input")
+            return AskInputOrBack(promptText);
+
+        return TryLoadTextFromFile();
+    }
+
+    private static string? TryLoadTextFromFile()
+    {
+        var rawPath = Ask("Enter file path:");
+
+        if (string.IsNullOrWhiteSpace(rawPath))
+        {
+            PrintErr("File path is empty.");
+            return null;
+        }
+
+        var path = rawPath.Trim(trimChar: '"');
+
+        if (!File.Exists(path))
+        {
+            PrintErr($"File not found: {path}");
+            return null;
+        }
+
+        return File.ReadAllText(path, Encoding.UTF8);
+    }
+
+    private static byte[]? TryLoadBytesFromFile()
+    {
+        var rawPath = Ask("Enter file path:");
+
+        if (string.IsNullOrWhiteSpace(rawPath))
+        {
+            PrintErr("File path is empty.");
+            return null;
+        }
+
+        var path = rawPath.Trim(trimChar: '"');
+
+        if (!File.Exists(path))
+        {
+            PrintErr($"File not found: {path}");
+            return null;
+        }
+
+        return File.ReadAllBytes(path);
+    }
+
+    private static void SaveOrPrintResult(string content)
+    {
+        var choice = AnsiConsole.Prompt(new SelectionPrompt<string>()
+            .Title("Select Output Format:")
+            .AddChoices("Print to Console", "Save to File"));
+
+        if (choice == "Print to Console")
+        {
+            var panel = new Panel(new Text(content));
+            panel.Header = new PanelHeader("Result");
+            panel.BorderColor(Color.Green);
+            AnsiConsole.Write(panel);
             Pause();
-        }
-    }
-
-    // --- LAB 5: RSA ---
-    private static void MenuLab5_RSA()
-    {
-        while (true)
-        {
-            AnsiConsole.Clear();
-            AnsiConsole.Write(new Rule("[blue]Lab 5: RSA Encryption[/]"));
-
-            if (_rsaKeys != null)
-                AnsiConsole.MarkupLine($"[dim]Current Keys: N has {_rsaKeys.N.GetBitLength()} bits[/]");
-            else
-                AnsiConsole.MarkupLine("[dim]Keys: Not generated yet[/]");
-
-            var choice = AnsiConsole.Prompt(new SelectionPrompt<string>()
-                .AddChoices("Generate Keys", "Encrypt Message", "Decrypt Message", "[grey]Back[/]"));
-
-            if (choice == "[grey]Back[/]") return;
-
-            if (choice == "Generate Keys")
-                GenerateKeysInteractive();
-            else if (choice.StartsWith("Encrypt"))
-            {
-                if (!EnsureKeysExist()) continue;
-                // RSA шифрує числа. Якщо хочеш текст, його треба перевести в BigInteger.
-                // Для простоти лаби - вводимо число або текст, який конвертуємо в байти -> число.
-
-                var input = AskInputOrBack("Enter numeric message (or text)");
-                if (input == null) continue;
-
-                BigInteger msg;
-
-                if (!BigInteger.TryParse(input, out msg))
-                {
-                    // Пробуємо як текст -> число
-                    var bytes = Encoding.UTF8.GetBytes(input);
-                    msg = new BigInteger(bytes, isUnsigned: true, isBigEndian: true);
-                    AnsiConsole.MarkupLine($"[gray]Converted text to number: {msg}[/]");
-                }
-
-                if (msg >= _rsaKeys!.N)
-                {
-                    AnsiConsole.MarkupLine("[red]Message too big![/]");
-                    Pause();
-                    continue;
-                }
-
-                var enc = RsaEngine.Process(msg, _rsaKeys.E, _rsaKeys.N);
-                AnsiConsole.MarkupLine($"[green]Encrypted Number:[/] {enc}");
-
-                // Можна зберегти число у файл як текст
-                SaveOrPrintResult(enc.ToString());
-                Pause();
-            }
-            else if (choice.StartsWith("Decrypt"))
-            {
-                if (!EnsureKeysExist()) continue;
-
-                // Читаємо число з файлу або консолі
-                var encStr = GetContentInput("Encrypted Number Source");
-                if (encStr == null) continue;
-
-                if (!BigInteger.TryParse(encStr, out var encMsg))
-                {
-                    AnsiConsole.MarkupLine("[red]Invalid number[/]");
-                    Pause();
-                    continue;
-                }
-
-                var dec = RsaEngine.Process(encMsg, _rsaKeys!.D, _rsaKeys.N);
-                AnsiConsole.MarkupLine($"[green]Decrypted Number:[/] {dec}");
-
-                // Спробуємо конвертувати назад у текст (якщо це був текст)
-                try
-                {
-                    var bytes = dec.ToByteArray(isUnsigned: true, isBigEndian: true);
-                    var txt = Encoding.UTF8.GetString(bytes);
-                    AnsiConsole.MarkupLine($"[dim]Text representation: {txt}[/]");
-                }
-                catch
-                {
-                    // ignored
-                }
-
-                Pause();
-            }
-        }
-    }
-
-    private static void GenerateKeysInteractive()
-    {
-        var method = AnsiConsole.Prompt(new SelectionPrompt<string>()
-            .Title("Method:")
-            .AddChoices("Auto (Mersenne Primes)", "Manual Input"));
-
-        BigInteger p, q;
-
-        if (method.StartsWith("Auto"))
-        {
-            p = BigInteger.Pow(value: 2, exponent: 127) - 1;
-            q = BigInteger.Pow(value: 2, exponent: 521) - 1;
         }
         else
         {
-            var pStr = Ask("P:");
-            var qStr = Ask("Q:");
+            var path = Ask("Enter path to save (.txt):");
 
-            if (string.IsNullOrWhiteSpace(pStr) || string.IsNullOrEmpty(qStr))
+            if (!string.IsNullOrWhiteSpace(path))
             {
-                AnsiConsole.MarkupLine("[red]Invalid input! Keys generation aborted.[/]");
-                return;
-            }
-
-            if (!BigInteger.TryParse(pStr, out p) || !BigInteger.TryParse(qStr, out q))
-            {
-                AnsiConsole.MarkupLine("[red]Values must be numbers![/]");
-                return;
+                File.WriteAllText(path, content);
+                AnsiConsole.MarkupLine($"[green]Saved to {path}[/]");
+                Pause();
             }
         }
-
-        AnsiConsole.Status().Start("Generating...", ctx => { _rsaKeys = RsaEngine.GenerateKeys(p, q); });
-        AnsiConsole.MarkupLine("[green]Keys Generated![/]");
-        Pause();
     }
 
-    // --- LAB 6: SIGNATURES ---
-    private static void MenuLab6_Signatures()
+    private static void SaveOrPrintBytes(byte[] data)
     {
-        while (true)
+        var choice = AnsiConsole.Prompt(new SelectionPrompt<string>()
+            .Title("Select Output Format:")
+            .AddChoices("Print as Base64", "Save Binary to File"));
+
+        if (choice == "Print as Base64")
         {
-            AnsiConsole.Clear();
-            AnsiConsole.Write(new Rule("[blue]Lab 6: Digital Signatures[/]"));
+            var base64 = Convert.ToBase64String(data);
+            var panel = new Panel(new Text(base64));
+            panel.Header = new PanelHeader("Encrypted Data (Base64)");
+            panel.BorderColor(Color.Yellow);
+            AnsiConsole.Write(panel);
+            Pause();
+        }
+        else
+        {
+            var path = Ask("Enter path to save (.bin):");
 
-            var choice = AnsiConsole.Prompt(new SelectionPrompt<string>()
-                .AddChoices("Sign Document", "Verify Signature", "[grey]Back[/]"));
-
-            if (choice == "[grey]Back[/]") return;
-
-            if (choice.StartsWith("Sign"))
+            if (!string.IsNullOrWhiteSpace(path))
             {
-                if (!EnsureKeysExist()) continue;
-
-                // Тут "Document" може бути текстом або вмістом файлу
-                var doc = GetContentInput("Document to Sign");
-                if (doc == null) continue;
-
-                var sig = DigitalSignatureService.SignData(doc, _rsaKeys!.D, _rsaKeys.N);
-                AnsiConsole.MarkupLine("[green]Signature generated![/]");
-                SaveOrPrintResult(sig.ToString());
-                Pause();
-            }
-            else
-            {
-                if (!EnsureKeysExist()) continue;
-
-                var doc = GetContentInput("Original Document");
-                if (doc == null) continue;
-
-                var sigStr = AskInputOrBack("Enter Signature (number)");
-                if (sigStr == null) continue;
-
-                var isValid =
-                    DigitalSignatureService.VerifySignature(doc, BigInteger.Parse(sigStr), _rsaKeys!.E, _rsaKeys.N);
-
-                if (isValid) AnsiConsole.Write(new Panel("VALID").BorderColor(Color.Green));
-                else AnsiConsole.Write(new Panel("INVALID").BorderColor(Color.Red));
-
+                File.WriteAllBytes(path, data);
+                AnsiConsole.MarkupLine($"[green]Saved {data.Length} bytes to {path}[/]");
                 Pause();
             }
         }
     }
 
-    // --- UTILS ---
     private static string? AskInputOrBack(string prompt)
     {
-        // 1. Примусово скидаємо кольори, щоб не було конфліктів стилів
         Console.ResetColor();
-
-        // 2. Виводимо текст звичайним Console.Write (без Spectre!)
-        // Це гарантує, що курсор стоїть там, де треба.
         Console.Write($"{prompt} (type 'b' to back): ");
-
-        // 3. Використовуємо стандартний ReadLine, який пройшов твій тест
         var input = Console.ReadLine();
-
-        // 4. Повертаємо красивий колір для Spectre (наприклад, білий або дефолтний)
-        // Це потрібно, щоб наступні меню не стали сірими/чорними
-        Console.ResetColor();
 
         if (string.IsNullOrWhiteSpace(input) || input.Trim().ToLower() == "b")
             return null;
@@ -614,16 +584,16 @@ public static class Program
         return input;
     }
 
-    private static bool EnsureKeysExist()
+    private static string? Ask(string prompt)
     {
-        if (_rsaKeys == null)
-        {
-            AnsiConsole.MarkupLine("[red]Keys not generated! Go to Lab 5 first.[/]");
-            Pause();
-            return false;
-        }
+        Console.Write($"{prompt} ");
+        return Console.ReadLine();
+    }
 
-        return true;
+    private static void PrintErr(string msg)
+    {
+        AnsiConsole.MarkupLine($"[red]{msg}[/]");
+        Pause();
     }
 
     private static void Pause()
@@ -631,18 +601,5 @@ public static class Program
         AnsiConsole.WriteLine();
         AnsiConsole.Markup("[grey]Press any key...[/]");
         Console.ReadKey(intercept: true);
-    }
-
-    private static string? Ask(string? writeText = null)
-    {
-        if (writeText != null)
-            AnsiConsole.MarkupLine(writeText);
-
-        var rawString = Console.ReadLine();
-
-        if (string.IsNullOrWhiteSpace(rawString))
-            return null;
-
-        return rawString.Trim(trimChar: '"').Trim(trimChar: '\'');
     }
 }
