@@ -24,6 +24,7 @@ public static class Program
         {
             AnsiConsole.Clear();
             AnsiConsole.Write(new Rule("[bold yellow]Main Menu[/]").RuleStyle("grey"));
+
             var choice = AnsiConsole.Prompt(
                 new SelectionPrompt<string>()
                     .Title("Select Laboratory Work:")
@@ -272,14 +273,13 @@ public static class Program
 
             if (choice == "Generate Keys")
             {
-                AnsiConsole.MarkupLine("Generating keys... Please wait.");
-                // Генеруємо (p=61, q=53 як приклад, або можна додати ввід)
-                _rsaKeys = RsaEngine.GenerateKeys(p: 61, q: 53);
+                AnsiConsole.MarkupLine("Generating 2048-bit keys... This may take a few seconds.");
 
-                // Виправлено вивід: keys.E, keys.D, keys.N
+                _rsaKeys = RsaEngine.GenerateKeys();
+
                 AnsiConsole.MarkupLine("[green]Keys generated![/]");
-                AnsiConsole.MarkupLine($"Public Key (E={_rsaKeys.E}, N={_rsaKeys.N})");
-                AnsiConsole.MarkupLine($"Private Key (D={_rsaKeys.D}, N={_rsaKeys.N})");
+                // Виводити ключі повністю не варто, вони будуть на пів екрана
+                AnsiConsole.MarkupLine($"Modulus length: {_rsaKeys.N.GetBitLength()} bits");
                 Pause();
             }
             else if (choice == "Encrypt")
@@ -347,7 +347,7 @@ public static class Program
             if (_rsaKeys == null)
             {
                 AnsiConsole.MarkupLine("[yellow]RSA Keys are missing. Using default test keys...[/]");
-                _rsaKeys = RsaEngine.GenerateKeys(p: 61, q: 53);
+                _rsaKeys = RsaEngine.GenerateKeys();
             }
 
             var choice = AnsiConsole.Prompt(new SelectionPrompt<string>()
