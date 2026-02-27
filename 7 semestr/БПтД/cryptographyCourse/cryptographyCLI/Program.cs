@@ -34,13 +34,17 @@ public static class Program
                         "Lab 2: Vigenere Cipher (Polyalphabetic)",
                         "Lab 3: Frequency Analysis (Cracking Caesar)",
                         "Lab 4: Stream Cipher (XOR + LCG)",
-                        "Lab 5: RSA Encryption (Asymmetric)",
-                        "Lab 6: Digital Signatures",
+                        "Lab 5: Digital Signatures & Hashing",
+                        "Lab 6: RSA Encryption (Asymmetric)",
                         "HW: Windows CryptoAPI (RC4)",
                         "[red]Exit[/]"
                     ));
 
-            if (choice == "[red]Exit[/]") break;
+            if (choice == "[red]Exit[/]")
+            {
+                Console.Clear();
+                break;
+            }
 
             switch (choice)
             {
@@ -48,8 +52,8 @@ public static class Program
                 case "Lab 2: Vigenere Cipher (Polyalphabetic)": MenuLab2(); break;
                 case "Lab 3: Frequency Analysis (Cracking Caesar)": MenuLab3(); break;
                 case "Lab 4: Stream Cipher (XOR + LCG)": MenuLab4(); break;
-                case "Lab 5: RSA Encryption (Asymmetric)": MenuLab5(); break;
-                case "Lab 6: Digital Signatures": MenuLab6(); break;
+                case "Lab 5: Digital Signatures & Hashing": MenuLab5(); break;
+                case "Lab 6: RSA Encryption (Asymmetric)": MenuLab6(); break;
                 case "HW: Windows CryptoAPI (RC4)": MenuHW(); break;
             }
         }
@@ -252,14 +256,14 @@ public static class Program
     }
 
     // ==========================================
-    // LAB 5: RSA
+    // LAB 6: RSA
     // ==========================================
-    private static void MenuLab5()
+    private static void MenuLab6()
     {
         while (true)
         {
             AnsiConsole.Clear();
-            AnsiConsole.Write(new Rule("[purple]Lab 5: RSA Encryption[/]"));
+            AnsiConsole.Write(new Rule("[purple]Lab 6: RSA Encryption[/]"));
 
             // Виправлено доступ до полів: _rsaKeys.N, _rsaKeys.E
             AnsiConsole.MarkupLine(_rsaKeys == null
@@ -267,20 +271,14 @@ public static class Program
                 : $"[green]Keys: Active (N={_rsaKeys.N})[/]");
 
             var choice = AnsiConsole.Prompt(new SelectionPrompt<string>()
-                .AddChoices("Generate Keys", "Encrypt", "Decrypt", "[grey]Back[/]"));
+                .AddChoices("Encrypt", "Decrypt", "[grey]Back[/]"));
 
             if (choice == "[grey]Back[/]") return;
 
-            if (choice == "Generate Keys")
+            if (_rsaKeys == null)
             {
-                AnsiConsole.MarkupLine("Generating 2048-bit keys... This may take a few seconds.");
-
+                AnsiConsole.MarkupLine("[yellow]RSA Keys are missing. UGenerating new keys...[/]");
                 _rsaKeys = RsaEngine.GenerateKeys();
-
-                AnsiConsole.MarkupLine("[green]Keys generated![/]");
-                // Виводити ключі повністю не варто, вони будуть на пів екрана
-                AnsiConsole.MarkupLine($"Modulus length: {_rsaKeys.N.GetBitLength()} bits");
-                Pause();
             }
             else if (choice == "Encrypt")
             {
@@ -315,10 +313,24 @@ public static class Program
                     continue;
                 }
 
-                var inputStr = AskInputOrBack("Enter numeric value (BigInteger) to decrypt");
-                if (inputStr == null) continue;
+                var inputChoice = AnsiConsole.Prompt(
+                    new SelectionPrompt<string>()
+                        .Title("How to load the cipher?")
+                        .AddChoices("Manual Input", "Load from File", "[grey]Back[/]")
+                );
 
-                if (BigInteger.TryParse(inputStr, out var encryptedVal))
+                if (inputChoice == "[grey]Back[/]") return;
+
+                string? cipherStr = null;
+
+                if (inputChoice == "Manual Input")
+                    cipherStr = AskInputOrBack("Enter cipher (numbers)");
+                else if (inputChoice == "Load from File")
+                    cipherStr = TryLoadTextFromFile();
+
+                if (string.IsNullOrWhiteSpace(cipherStr)) return;
+
+                if (BigInteger.TryParse(cipherStr, out var encryptedVal))
                 {
                     // Виправлено: передаємо D та N
                     var decryptedBigInt = RsaEngine.Process(encryptedVal, _rsaKeys.D, _rsaKeys.N);
@@ -335,25 +347,26 @@ public static class Program
     }
 
     // ==========================================
-    // LAB 6: DIGITAL SIGNATURES
+    // LAB 5: DIGITAL SIGNATURES
     // ==========================================
-    private static void MenuLab6()
+    private static void MenuLab5()
     {
         while (true)
         {
             AnsiConsole.Clear();
-            AnsiConsole.Write(new Rule("[orange1]Lab 6: Digital Signatures[/]"));
+            AnsiConsole.Write(new Rule("[orange1]Lab 5: Digital Signatures[/]"));
 
             if (_rsaKeys == null)
             {
-                AnsiConsole.MarkupLine("[yellow]RSA Keys are missing. Using default test keys...[/]");
+                AnsiConsole.MarkupLine("[yellow]RSA Keys are missing. UGenerating new keys...[/]");
                 _rsaKeys = RsaEngine.GenerateKeys();
             }
 
             var choice = AnsiConsole.Prompt(new SelectionPrompt<string>()
                 .AddChoices("Sign Data", "Verify Signature", "[grey]Back[/]"));
 
-            if (choice == "[grey]Back[/]") return;
+            if (choice == "[grey]Back[/]")
+                return;
 
             if (choice == "Sign Data")
             {
@@ -533,7 +546,15 @@ public static class Program
         }
         else
         {
-            var path = Ask("Enter path to save (.txt):");
+            var rawPath = Ask("Enter file path:");
+
+            if (string.IsNullOrWhiteSpace(rawPath))
+            {
+                PrintErr("File path is empty.");
+                return;
+            }
+
+            var path = rawPath.Trim(trimChar: '"');
 
             if (!string.IsNullOrWhiteSpace(path))
             {
