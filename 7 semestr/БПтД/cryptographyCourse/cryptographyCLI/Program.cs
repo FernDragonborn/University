@@ -12,9 +12,9 @@ namespace cryptographyCLI;
 [SuppressMessage("Interoperability", "CA1416:Validate platform compatibility")]
 public static class Program
 {
-    // Глобальний стан для RSA
     private static Keys? _rsaKeys;
-
+    private static WinCryptoWrapper? _rc4Crypto;
+    
     public static void Main()
     {
         Console.OutputEncoding = Encoding.UTF8;
@@ -265,7 +265,6 @@ public static class Program
             AnsiConsole.Clear();
             AnsiConsole.Write(new Rule("[purple]Lab 6: RSA Encryption[/]"));
 
-            // Виправлено доступ до полів: _rsaKeys.N, _rsaKeys.E
             AnsiConsole.MarkupLine(_rsaKeys == null
                 ? "[yellow]Keys: Not Generated[/]"
                 : $"[green]Keys: Active (N={_rsaKeys.N})[/]");
@@ -277,7 +276,7 @@ public static class Program
 
             if (_rsaKeys == null)
             {
-                AnsiConsole.MarkupLine("[yellow]RSA Keys are missing. UGenerating new keys...[/]");
+                AnsiConsole.MarkupLine("[yellow]RSA Keys are missing. Generating new keys...[/]");
                 _rsaKeys = RsaEngine.GenerateKeys();
             }
             else if (choice == "Encrypt")
@@ -349,67 +348,91 @@ public static class Program
     // ==========================================
     // LAB 5: DIGITAL SIGNATURES
     // ==========================================
-    private static void MenuLab5()
+  private static void MenuLab5()
+{
+    // Змінна для зберігання останнього підпису в рамках цієї сесії
+    BigInteger? lastSignature = null; 
+
+    while (true)
     {
-        while (true)
+        AnsiConsole.Clear();
+        AnsiConsole.Write(new Rule("[orange1]Lab 5: Digital Signatures[/]"));
+        
+        if (_rsaKeys == null)
         {
-            AnsiConsole.Clear();
-            AnsiConsole.Write(new Rule("[orange1]Lab 5: Digital Signatures[/]"));
-
-            if (_rsaKeys == null)
+            AnsiConsole.MarkupLine("[yellow]RSA Keys are missing. Generating new keys...[/]");
+            _rsaKeys = RsaEngine.GenerateKeys();
+        }
+        
+        if (lastSignature.HasValue)
+        {
+            var panel = new Panel(new Text(lastSignature.Value.ToString()))
             {
-                AnsiConsole.MarkupLine("[yellow]RSA Keys are missing. UGenerating new keys...[/]");
-                _rsaKeys = RsaEngine.GenerateKeys();
+                Header = new PanelHeader("[cyan]Останній згенерований підпис (скопіюйте звідси)[/]"),
+                Border = BoxBorder.Double,
+                BorderStyle = new Style(Color.Green),
+                Expand = true
+            };
+            AnsiConsole.Write(panel);
+            AnsiConsole.WriteLine();
+        }
+
+        var choice = AnsiConsole.Prompt(new SelectionPrompt<string>()
+            .AddChoices("Sign Data", "Verify Signature", "[grey]Back[/]"));
+
+        if (choice == "[grey]Back[/]")
+            return;
+
+        if (choice == "Sign Data")
+        {
+            var text = GetContentInput("Enter text to sign");
+            if (string.IsNullOrEmpty(text)) continue;
+
+            try
+            {
+                var signature = DigitalSignatureService.SignData(text, _rsaKeys.D, _rsaKeys.N);
+                
+                lastSignature = signature; 
+                AnsiConsole.MarkupLine("[green]Signed successfully![/]");
+                
+                SaveOrPrintResult(signature.ToString()); 
             }
-
-            var choice = AnsiConsole.Prompt(new SelectionPrompt<string>()
-                .AddChoices("Sign Data", "Verify Signature", "[grey]Back[/]"));
-
-            if (choice == "[grey]Back[/]")
-                return;
-
-            if (choice == "Sign Data")
+            catch (Exception ex)
             {
-                var text = GetContentInput("Enter text to sign");
-                if (string.IsNullOrEmpty(text)) continue;
-
-                try
-                {
-                    // Виправлено: передаємо D (Private Exponent) та N
-                    var signature = DigitalSignatureService.SignData(text, _rsaKeys.D, _rsaKeys.N);
-                    AnsiConsole.MarkupLine("[green]Signed successfully![/]");
-                    SaveOrPrintResult(signature.ToString());
-                }
-                catch (Exception ex)
-                {
-                    PrintErr($"Signing failed: {ex.Message}");
-                }
+                PrintErr($"Signing failed: {ex.Message}");
+                Pause(); 
             }
-            else if (choice == "Verify Signature")
+        }
+        else if (choice == "Verify Signature")
+        {
+            var text = GetContentInput("Enter original text");
+            if (string.IsNullOrEmpty(text)) continue;
+
+            var sigStr = AskInputOrBack("Enter signature (or 'a' for automatic copy from existing)");
+            if (sigStr == "a") sigStr = lastSignature.ToString();
+            if (sigStr == null) continue;
+
+            if (BigInteger.TryParse(sigStr, out var signature))
             {
-                var text = GetContentInput("Enter original text");
-                if (string.IsNullOrEmpty(text)) continue;
+                // Виправлено: передаємо E (Public Exponent) та N
+                var isValid = DigitalSignatureService.VerifySignature(text, signature, _rsaKeys.E, _rsaKeys.N);
 
-                var sigStr = AskInputOrBack("Enter signature (number)");
-                if (sigStr == null) continue;
-
-                if (BigInteger.TryParse(sigStr, out var signature))
-                {
-                    // Виправлено: передаємо E (Public Exponent) та N
-                    var isValid = DigitalSignatureService.VerifySignature(text, signature, _rsaKeys.E, _rsaKeys.N);
-
-                    if (isValid)
-                        AnsiConsole.MarkupLine("[green bold]VERIFICATION SUCCESSFUL: Signature is valid.[/]");
-                    else
-                        AnsiConsole.MarkupLine("[red bold]VERIFICATION FAILED: Signature is invalid![/]");
-
-                    Pause();
-                }
+                if (isValid)
+                    AnsiConsole.MarkupLine("[green bold]VERIFICATION SUCCESSFUL: Signature is valid.[/]");
                 else
-                    PrintErr("Invalid signature format");
+                    AnsiConsole.MarkupLine("[red bold]VERIFICATION FAILED: Signature is invalid![/]");
+
+                Pause();
+            }
+            else
+            {
+                PrintErr("Invalid signature format");
+                Pause(); // Додаємо паузу, щоб встигнути прочитати помилку
             }
         }
     }
+}
+
 
     // ==========================================
     // HW: WINDOWS CRYPTO API (RC4)
@@ -420,7 +443,18 @@ public static class Program
         {
             AnsiConsole.Clear();
             AnsiConsole.Write(new Rule("[red]HW: Windows CryptoAPI (RC4)[/]"));
-
+            
+            if (_rc4Crypto == null)
+            {
+                AnsiConsole.MarkupLine("[yellow]Ініціалізація Windows CryptoAPI...[/]");
+                _rc4Crypto = new WinCryptoWrapper();
+                AnsiConsole.MarkupLine("[green]New RC4 key generated.[/]");
+            }
+            else
+            {
+                AnsiConsole.MarkupLine("[green]Using existing RC4 key.[/]");
+            }
+            
             var choice = AnsiConsole.Prompt(new SelectionPrompt<string>()
                 .AddChoices("Encrypt (RC4)", "Decrypt (RC4)", "[grey]Back[/]"));
 
@@ -428,14 +462,12 @@ public static class Program
 
             try
             {
-                using var crypto = new WinCryptoWrapper();
-
                 if (choice == "Encrypt (RC4)")
                 {
                     var text = GetContentInput("Enter text to encrypt");
                     if (string.IsNullOrEmpty(text)) continue;
 
-                    var encryptedBytes = crypto.EncryptString(text);
+                    var encryptedBytes = _rc4Crypto.EncryptString(text);
                     SaveOrPrintBytes(encryptedBytes);
                 }
                 else
@@ -458,7 +490,7 @@ public static class Program
 
                     if (inputBytes != null)
                     {
-                        var decryptedText = crypto.DecryptString(inputBytes);
+                        var decryptedText = _rc4Crypto.DecryptString(inputBytes);
                         SaveOrPrintResult(decryptedText);
                     }
                 }

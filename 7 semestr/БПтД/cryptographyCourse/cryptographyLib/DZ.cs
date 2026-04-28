@@ -65,6 +65,14 @@ public partial class WinCryptoWrapper : IDisposable
     private static partial bool CryptReleaseContext(IntPtr hProv, uint dwFlags);
     // ReSharper restore UnusedMethodReturnValue.Local
     
+    [LibraryImport("advapi32.dll", SetLastError = true)]
+    [return: MarshalAs(UnmanagedType.Bool)]
+    private static partial bool CryptDuplicateKey(
+        IntPtr hKey, 
+        IntPtr pdwReserved, 
+        uint dwFlags, 
+        out IntPtr phKey);
+    
     private IntPtr _hProvider;
     private IntPtr _hKey;
     
@@ -84,38 +92,62 @@ public partial class WinCryptoWrapper : IDisposable
 
     public byte[] EncryptString(string text)
     {
-        var dataBytes = Encoding.UTF8.GetBytes(text);
-        var dataLen = (uint)dataBytes.Length;
-        
-        // Створюємо надмірно великий буфер, щоб уникнути переповнення під час процесу шифрування 
-        var bufferLen = dataLen * 2; 
-        var buffer = new byte[bufferLen];
-        Array.Copy(dataBytes, buffer, dataLen);
+        // Створюємо тимчасовий дублікат ключа
+        if (!CryptDuplicateKey(_hKey, IntPtr.Zero, 0, out var hTempKey))
+            throw new Exception("CryptDuplicateKey failed.");
 
-        if (!CryptEncrypt(_hKey, IntPtr.Zero, true, 0, buffer, ref dataLen, bufferLen))
+        try
         {
-            throw new Exception($"Encryption failed. Error code: {Marshal.GetLastWin32Error()}");
-        }
+            var dataBytes = Encoding.UTF8.GetBytes(text);
+            var dataLen = (uint)dataBytes.Length;
+        
+            var bufferLen = dataLen * 2; 
+            var buffer = new byte[bufferLen];
+            Array.Copy(dataBytes, buffer, dataLen);
 
-        // Обрізаємо буфер до реального розміру зашифрованих даних
-        var result = new byte[dataLen];
-        Array.Copy(buffer, result, dataLen);
-        return result;
+            // Використовуємо hTempKey замість _hKey!
+            if (!CryptEncrypt(hTempKey, IntPtr.Zero, true, 0, buffer, ref dataLen, bufferLen))
+            {
+                throw new Exception($"Encryption failed. Error code: {Marshal.GetLastWin32Error()}");
+            }
+
+            var result = new byte[dataLen];
+            Array.Copy(buffer, result, dataLen);
+            return result;
+        }
+        finally
+        {
+            // Знищуємо тимчасовий ключ, щоб не було витоку пам'яті
+            CryptDestroyKey(hTempKey);
+        }
     }
 
     public string DecryptString(byte[] encryptedData)
     {
-        var buffer = new byte[encryptedData.Length];
-        Array.Copy(encryptedData, buffer, encryptedData.Length);
-        var dataLen = (uint)buffer.Length;
+        // Створюємо тимчасовий дублікат ключа (він матиме початковий стан!)
+        if (!CryptDuplicateKey(_hKey, IntPtr.Zero, 0, out var hTempKey))
+            throw new Exception("CryptDuplicateKey failed.");
 
-        if (!CryptDecrypt(_hKey, IntPtr.Zero, true, 0, buffer, ref dataLen))
+        try
         {
-            throw new Exception($"Decryption failed. Error code: {Marshal.GetLastWin32Error()}");
-        }
+            var buffer = new byte[encryptedData.Length];
+            Array.Copy(encryptedData, buffer, encryptedData.Length);
+            var dataLen = (uint)buffer.Length;
 
-        return Encoding.UTF8.GetString(buffer, 0, (int)dataLen);
+            // Використовуємо hTempKey замість _hKey!
+            if (!CryptDecrypt(hTempKey, IntPtr.Zero, true, 0, buffer, ref dataLen))
+            {
+                throw new Exception($"Decryption failed. Error code: {Marshal.GetLastWin32Error()}");
+            }
+
+            return Encoding.UTF8.GetString(buffer, 0, (int)dataLen);
+        }
+        finally
+        {
+            CryptDestroyKey(hTempKey);
+        }
     }
+    
 
     public void Dispose()
     {
