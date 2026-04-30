@@ -1,0 +1,235 @@
+Sprint 0,,,,,
+BE-001,Project Init & Database Setup,"1. Створити .NET Web API проєкт.
+
+2. Підключити EF Core + Npgsql (Postgres).
+
+3. Реалізувати BaseEntity (Id as Guid v7, CreatedAt, UpdatedAt, DeletedAt).
+
+4. Налаштувати Global Query Filter для Soft Delete (.Where(e => e.DeletedAt == null)).
+
+5. Налаштувати генерацію GUID v7 для ID.",-,Done,
+BE-002,Auth Infrastructure (JWT),"1. Налаштувати Microsoft.AspNetCore.Authentication.JwtBearer.
+
+2. Створити сервіс для генерації токенів (TokenService).
+
+3. Створити сутність User (успадковує BaseEntity).",BE-001,Done,
+BE-003,Test setup,1. Створити тести із feature-файлів (SpecFlow),BE-001,Done,
+ID,Назва,Опис,Залежить від,Статус,
+FE-001,Project Init & Layouts,"1. Ініціалізувати SvelteKit проєкт.
+
+2. Налаштувати TailwindCSS (або іншу стилізацію).
+
+3. Створити базовий root layout (Header, Footer).
+
+4. Налаштувати аліаси шляхів ($lib, $components).",-,Done,"1. ✅ 
+2. ✅ Tailwind v4 не потребує файлу tailwind.config.ts, все налаштування відбувається в файлах *.css з імпортом Tailwind 
+3. ✅ Слава Gemini
+4. ✅ SvelteKit має заготовлені аліаси (frontend/.svelte-kit/tsconfig.json)"
+FE-002,API Client Setup,"1. Налаштувати Axios або Fetch wrapper.
+
+2. Реалізувати інтерцептори для додавання JWT токена в заголовки.
+
+3. Реалізувати обробку помилок (401 Unauthorized -> редирект на логін).",-,Done,"1. Врапер наче норм, я не розумію
+2. Під час авторизації токен додавався, треба тестити далі, думаю зараз можна позначити, як виконане
+3. Ппр: зробив просте перехоплення помилок із окремою сторінклю"
+FE-003,Test setup,1. Створити тести із feature-файлів (cucumber.js),FE-001,Done,"Ппр: готово, доповнюватиметься по мірі дописування коду"
+Sprint 1,,,,,
+BE-101,Auth Endpoints,"Реалізувати AuthController:
+
+1. POST /register (Валідація, хешування пароля, перевірка унікальності ніка/email, створення User).
+
+2. POST /login (Перевірка пароля, видача JWT).
+
+Tech: FluentValidation для вхідних даних.",BE-002,Done,1. де реєстрація в бд? 
+ID,Назва,Опис,Залежить від,Статус,Коментар
+FE-101,Auth Pages,"1. Створити сторінки /login та /register.
+
+2. Реалізувати форми з клієнтською валідацією.
+
+3. Інтеграція з BE-101.
+
+4. Збереження токена (Cookies/LocalStorage) та редирект.",BE-101,Done,"1. ✅
+2. ✅
+3. ✅
+4. ✅"
+FE-102,User Store & Route Guard,"1. Створити Svelte Store (userStore) для зберігання стану юзера.
+
+2. Реалізувати захист маршрутів (Protected Routes) у hooks.server.ts (перевірка наявності токена).",FE-002,Done,
+ID,Назва,Опис,Залежить від,Статус,Коментар
+DO-001,Docker,"1. Написати docker-compose.yml для підняття всієї інфраструктури (API + Frontend + Postgres + Redis (опціонально)).
+
+2. Докерфайли: бекенд, бд, caddy",-,Done,1. ✅
+Sprint 2,,,,,
+BE-901,TMDB Integration Service,"1. Отримати API Key для TMDB.
+
+2. Створити сервіс TmdbService для пошуку (SearchAsync) та отримання деталей (GetByIdAsync).
+
+3. Мапінг зовнішніх даних на нашу модель (включаючи переклади).",BE-001,Done,
+BE-902,Media Entities & Cache Logic,"1. Створити сутності Media та MediaTranslations (ENUM Status).
+
+2. Реалізувати логіку GetOrCreate: шукаємо в БД -> якщо немає, тягнемо з API -> зберігаємо -> віддаємо.",BE-901,Done,
+BE-903,Search Endpoint,"Реалізувати GET /api/search?q=...:
+
+1. Пошук по локальній БД (Approved/Official translations).
+
+2. Пошук по зовнішньому API.
+
+3. Об'єднання результатів.",BE-902,Done,
+ID,Назва,Опис,Залежить від,Статус,Коментар
+FE-901,Global Search Component,"1. Компонент Searchbar з ""debouncing"" (затримка вводу).
+
+2. Випадаючий список результатів або перехід на сторінку пошуку.
+
+3. Інтеграція з BE-903.",BE-903,New,
+FE-902,Media Page (Basic),"1. Сторінка /media/[id].
+
+2. Підтримка двох типів ID (наш GUID та TMDB ID).
+
+3. Відображення інфо про фільм (постер, опис, рік).",BE-902,New,
+Sprint 3,,,,,
+BE-201,Profile CRUD,"1. GET /api/profiles/{username} (публічні дані).
+
+2. PUT /api/profiles/me (редагування свого профілю).
+
+3. Завантаження аватарки (можна поки що просто URL строку, без S3).",BE-101,Done,
+BE-202,Follow Logic,"1. Сутність Follow (Soft Delete).
+
+2. POST /api/profiles/{username}/follow.
+
+3. DELETE /api/profiles/{username}/follow (Soft Delete).
+
+4. Додати поле isFollowing у відповідь BE-201.",BE-201,Done,
+ID,Назва,Опис,Залежить від,Статус,Коментар
+FE-201,Profile Page,"1. Сторінка /profile/[username].
+
+2. Умовний рендеринг: кнопка ""Редагувати"" (якщо я) або ""Підписатися"" (якщо чужий).",BE-201,New,
+FE-202,Follow Button Component,"1. Stateful-кнопка (змінює стан Follow/Unfollow миттєво).
+
+2. Інтеграція з BE-202.",BE-202,New,
+FE-203,Edit Profile Page,"1. Форма редагування даних (Ім'я, Біо, Аватар).",FE-201,New,
+Sprint 4,,,,,
+BE-401,Review & Comment Entities,"1. Сутності Review, ReviewLike, Comment (Soft Delete).
+
+2. Налаштування EF (BRL-4: унікальний індекс user+media).",BE-001,Done,
+BE-402,Review CRUD Endpoints,"1. POST /api/media/{id}/reviews.
+
+2. GET /api/media/{id}/reviews.
+
+3. Лайки та коментарі API.",BE-401,Done,
+BE-501,Tracking (Status) Logic,"1. Сутність TrackingStatus (ENUM).
+
+2. POST /api/tracking (Upsert логіка).",BE-401,Done,
+ID,Назва,Опис,Залежить від,Статус,Коментар
+FE-401,Rich Text Editor,1. Інтеграція Tiptap або Quill для написання рецензій.,-,New,
+FE-402,Review Components,"1. ReviewList та ReviewItem на сторінці медіа.
+
+2. Форма створення рецензії.
+
+3. Інтеграція з BE-402.",BE-402,New,
+FE-501,Status Button,"1. Випадаючий список статусів (""Дивлюся"", ""У планах"").
+
+2. Інтеграція з BE-501.",BE-501,New,
+Sprint 5,,,,,
+BE-801,Collection Entities & Access Service,"1. Сутності Collection, CollectionItem (Soft Delete).
+
+2. Сутність CollectionAccess (без Soft Delete).
+
+3. Core Service: ICollectionAccessService (методи CanView, CanEdit з логікою перевірки власника, публічності та таблиці доступу).",BE-001,New,
+BE-802,Collection CRUD,"1. POST /api/collections (Create).
+
+2. PUT /api/collections/{id} (Update info).
+
+3. DELETE /api/collections/{id} (Soft Delete).
+
+4. Всюди інтегрувати перевірку CanEdit.",BE-801,New,
+BE-803,Sharing Endpoints,"1. POST /api/collections/{id}/access (Надати доступ юзеру).
+
+2. DELETE .../access/{userId} (Забрати доступ).
+
+3. GET .../access (Подивитись, хто має доступ).",BE-802,New,
+BE-804,Collection Items Logic,"1. POST .../items (Додати медіа).
+
+2. DELETE .../items/{itemId} (Видалити медіа).
+
+3. GET /api/collections/{id} (Повернути збірку з елементами, перевіривши CanView).",BE-802,New,
+ID,Назва,Опис,Залежить від,Статус,Коментар
+FE-801,Collections Dashboard,"1. Вкладка ""Списки"" у профілі.
+
+2. Рендеринг списку збірок (відображення іконок ""Приватна"", ""Спільна"").",BE-804,New,
+FE-802,Collection Detail Page,"1. Сторінка /collections/[id].
+
+2. Список фільмів у збірці.
+
+3. Кнопки видалення (якщо власник).",BE-804,New,
+FE-803,Share Modal Component,"1. Модалка з пошуком юзерів.
+
+2. Список тих, хто має доступ.
+
+3. Вибір рівня: ""Private""/""Public"".
+
+4. Інтеграція з BE-803.",BE-803,New,
+FE-804,"""Add to List"" Button","1. Кнопка на сторінці фільму.
+
+2. Завантажує мої списки -> додає фільм у вибраний.",BE-804,New,
+Sprint 6,,,,,
+BE-601,Reporting System,"1. Сутність Report (ENUM Status: Pending, Resolved...).
+
+2. POST /api/reports (Створити скаргу).
+
+3. Аудит: поле ProcessedByUserId.",BE-001,In progress,
+BE-602,Moderation Dashboard API,"1. GET /api/moderation/reports (Фільтр по 'Pending').
+
+2. POST .../resolve (Soft delete контенту + оновлення статусу скарги).
+
+3. POST .../dismiss (Відхилення скарги).",BE-601,New,
+BE-603,Translation Moderation API,"1. GET /api/moderation/translations (Pending).
+
+2. POST .../approve (Status -> Approved).
+
+3. POST .../reject (Status -> Rejected).",BE-902,New,
+ID,Назва,Опис,Залежить від,Статус,Коментар
+FE-601,Report Modal,"1. Універсальна модалка ""Поскаржитись"" (Reason select, Comment textarea).
+
+2. Підключити до Review, Comment, Profile.",BE-601,New,
+FE-602,Moderator Layout,"1. Захищений маршрут /moderation.
+
+2. Перевірка ролі (Moderator/Admin).",-,New,
+FE-603,Reports Queue UI,"1. Таблиця скарг.
+
+2. Відображення контенту, на який поскаржились.
+
+3. Кнопки ""Видалити"" / ""Відхилити"".",BE-602,New,
+FE-604,Translation Queue UI,"1. Таблиця запропонованих перекладів.
+
+2. Порівняння (Оригінал vs Пропозиція).
+
+3. Кнопки ""Схвалити"" / ""Відхилити"".",BE-603,New,
+Sprint 7,,,,,
+BE-701,User Management API,"1. GET /api/admin/users (Пагінація, пошук).
+
+2. POST .../role (Зміна ролі).
+
+3. DELETE .../user (Soft Delete юзера).",BE-201,Done,
+BE-702,Statistics Aggregation,"1. GET /api/admin/stats.
+
+2. SQL-запити з COUNT, GROUP BY (по датах, жанрах).
+
+3. Генерація CSV/Excel файлу для завантаження.",BE-001,New,
+BE-703,Global Media Management,"1. PUT /api/admin/translations/{id} (Примусове редагування офіційних назв).
+
+2. DELETE /api/admin/media/{id} (Soft delete фільму).",BE-902,Done,
+ID,Назва,Опис,Залежить від,Статус,Коментар
+FE-701,Admin Layout & Users,"1. Захищений маршрут /admin.
+
+2. Таблиця юзерів з пошуком та зміною ролей.",BE-701,New,
+FE-702,Statistics Dashboard,"1. Графіки (Chart.js) для нових юзерів/рецензій.
+
+2. ""Date Picker"" для фільтрації.
+
+3. Кнопка ""Завантажити звіт"".",BE-702,New,
+Sprint 8,,,,,
+BE-004,Logging (Serilog),Налаштувати структурне логування в файл/консоль для відстеження помилок.,-,New,
+BE-005,Global Exception Handler,Middleware для перехоплення всіх помилок і видачі гарних JSON-відповідей (500 Internal Server Error).,-,New,
+FE-004,Error Pages,Гарні сторінки 404 Not Found та 500 Error.,-,New,
+QA-001,Manual Testing,Пройтись по всіх .feature файлах і перевірити відповідність (Smoke Test).,-,New,
+ID,Назва,Опис,Залежить від,Статус,Коментар

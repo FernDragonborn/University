@@ -1,0 +1,52 @@
+Спринт,ID,Робота,Виконавець,О (год),Н (год),П (год)
+Sprint 0,BE-001,Project Init & Database Setup,Пл,4,6,10
+Sprint 0,BE-002,Auth Infrastructure (JWT),Пл,3,5,8
+Sprint 0,BE-003,Test Setup (SpecFlow),А,4,6,10
+Sprint 0,FE-001,Project Init & Layouts,П,4,6,8
+Sprint 0,FE-002,API Client Setup,П,4,8,12
+Sprint 0,FE-003,Test Setup (Cucumber.js),А,3,5,8
+Sprint 1,BE-101,Auth Endpoints (register / login),Пл,6,10,16
+Sprint 1,FE-101,Auth Pages (login / register),П,6,8,12
+Sprint 1,FE-102,User Store & Route Guard,П,2,4,6
+Sprint 1,DO-001,Docker (docker-compose),А,4,6,10
+Sprint 2,BE-901,TMDB Integration Service,Пл,6,10,16
+Sprint 2,BE-902,Media Entities & Cache Logic,Пл,4,8,12
+Sprint 2,BE-903,Search Endpoint,Пл,3,5,8
+Sprint 2,FE-901,Global Search Component,П,4,6,10
+Sprint 2,FE-902,Media Page (Basic),П,4,6,10
+Sprint 3,BE-201,Profile CRUD,Пл,4,6,10
+Sprint 3,BE-202,Follow Logic,Пл,3,5,8
+Sprint 3,FE-201,Profile Page,П,4,6,10
+Sprint 3,FE-202,Follow Button Component,П,1,2,4
+Sprint 3,FE-203,Edit Profile Page,П,3,4,6
+Sprint 4,BE-401,Review & Comment Entities,Пл,3,5,8
+Sprint 4,BE-402,Review CRUD + Likes + Comments,Пл,8,12,18
+Sprint 4,BE-501,Tracking Logic (Upsert),Пл,2,4,6
+Sprint 4,FE-401,Rich Text Editor (Tiptap),П,4,8,14
+Sprint 4,FE-402,Review Components,П,4,6,10
+Sprint 4,FE-501,Status Button,П,2,3,5
+Sprint 5,BE-801,Collection Entities & Access Service,Пл,4,6,10
+Sprint 5,BE-802,Collection CRUD,Пл,3,5,8
+Sprint 5,BE-803,Sharing Endpoints,Пл,2,4,6
+Sprint 5,BE-804,Collection Items Logic,Пл,2,4,6
+Sprint 5,FE-801,Collections Dashboard,П,3,5,8
+Sprint 5,FE-802,Collection Detail Page,П,3,5,8
+Sprint 5,FE-803,Share Modal Component,П,4,6,10
+Sprint 5,FE-804,"Add to List" Button,П,2,3,5
+Sprint 6,BE-601,Reporting System,Пл,3,5,8
+Sprint 6,BE-602,Moderation Dashboard API,Пл,4,6,10
+Sprint 6,BE-603,Translation Moderation API,Пл,2,4,6
+Sprint 6,FE-601,Report Modal,П,2,3,5
+Sprint 6,FE-602,Moderator Layout,П,2,3,5
+Sprint 6,FE-603,Reports Queue UI,П,3,5,8
+Sprint 6,FE-604,Translation Queue UI,П,3,5,8
+Sprint 7,BE-701,User Management API,Пл,3,5,8
+Sprint 7,BE-702,Statistics Aggregation + CSV,Пл,6,10,16
+Sprint 7,BE-703,Global Media Management,Пл,2,3,5
+Sprint 7,FE-701,Admin Layout & Users Table,П,4,6,10
+Sprint 7,FE-702,Statistics Dashboard (Chart.js),П,6,10,16
+Sprint 8,BE-004,Logging (Serilog),А,2,4,6
+Sprint 8,BE-005,Global Exception Handler,А,2,3,5
+Sprint 8,FE-004,Error Pages (404 / 500),П,1,2,4
+Sprint 8,QA-001,Manual Smoke Testing,А,6,10,16
+Sprint 8,QA-002,Performance Testing,А,6,8,12
