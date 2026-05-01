@@ -1,0 +1,61 @@
+{
+    "pandoc_path": "C:\\Users\\fern\\AppData\\Local\\Pandoc\\pandoc.exe",
+    "discipline": "Проєктування виробничих експертних систем",
+    "teacher_title": "професор каф. 603, д.т.н., проф.",
+    "teacher_name": "Шостак І. В.",
+    "student_name": "Астаф'єв А. Г.",
+    "student_group": "642п",
+    "student_year": "4",
+    "specialty": "121 Інженерія програмного забезпечення",
+    "city": "Харків",
+    "year": "2026",
+    "no_title": false,
+    "no_toc": false,
+    "keep_hr": false,
+    "page_numbers": true,
+    "page_number_start": 2,
+    "font_name": "Times New Roman",
+    "font_size": 14,
+    "code_font_name": "Courier New",
+    "code_font_size": 10,
+    "line_spacing": 1.1,
+    "first_line_indent": 1.0,
+    "heading_align": "left",
+    "table_align": "left",
+    "body_margin_top": 2.0,
+    "body_margin_bottom": 2.0,
+    "body_margin_left": 3.0,
+    "body_margin_right": 1.5,
+    "files": [
+        {
+            "file": "ЛБ1_Основи_CLIPS.md",
+            "type": "Лабораторна робота",
+            "num": "1",
+            "topic": "Вивчення основних можливостей і базових команд середовища CLIPS"
+        },
+        {
+            "file": "ЛБ2_Факти_CLIPS.md",
+            "type": "Лабораторна робота",
+            "num": "2",
+            "topic": "Факти в середовищі CLIPS"
+        },
+        {
+            "file": "ЛБ3_Правила_CLIPS.md",
+            "type": "Лабораторна робота",
+            "num": "3",
+            "topic": "Правила в середовищі CLIPS"
+        },
+        {
+            "file": "ЛБ4_Функції_CLIPS.md",
+            "type": "Лабораторна робота",
+            "num": "4",
+            "topic": "Зовнішні функції в середовищі CLIPS"
+        },
+        {
+            "file": "РГР_ПВЕС.md",
+            "type": "Розрахунково-графічна робота",
+            "num": "",
+            "topic": "Проектування виробничих експертних систем"
+        }
+    ]
+}
