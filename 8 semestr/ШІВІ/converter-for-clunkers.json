@@ -1,0 +1,61 @@
+{
+    "pandoc_path": "C:\\Users\\fern\\AppData\\Local\\Pandoc\\pandoc.exe",
+    "discipline": "Штучний інтелект в ігрових застосунках",
+    "teacher_title": "к.т.н., доцент, доцент каф. 603",
+    "teacher_name": "Волобуєва Л. О.",
+    "student_name": "Астаф'єв А. Г.",
+    "student_group": "642п",
+    "student_year": "4",
+    "specialty": "121 Інженерія програмного забезпечення",
+    "city": "Харків",
+    "year": "2026",
+    "no_title": false,
+    "no_toc": false,
+    "keep_hr": false,
+    "page_numbers": true,
+    "page_number_start": 2,
+    "font_name": "Times New Roman",
+    "font_size": 14,
+    "code_font_name": "Courier New",
+    "code_font_size": 10,
+    "line_spacing": 1.1,
+    "first_line_indent": 1.0,
+    "heading_align": "left",
+    "table_align": "left",
+    "body_margin_top": 2.0,
+    "body_margin_bottom": 2.0,
+    "body_margin_left": 3.0,
+    "body_margin_right": 1.5,
+    "files": [
+        {
+            "file": "ЛБ1_Аналіз_даних.md",
+            "type": "Лабораторна робота",
+            "num": "1",
+            "topic": "Ознайомлення з інструментарієм аналітики Python"
+        },
+        {
+            "file": "ЛБ2_Scikit_learn.md",
+            "type": "Лабораторна робота",
+            "num": "2",
+            "topic": "Рішення завдань інтелектуального аналізу засобами Python"
+        },
+        {
+            "file": "ЛБ3_Нейронні_мережі.md",
+            "type": "Лабораторна робота",
+            "num": "3",
+            "topic": "Вибір моделі нейронної мережі та застосування для об'єктів навчання засобами Python"
+        },
+        {
+            "file": "ЛБ4_Нечітка_логіка.md",
+            "type": "Лабораторна робота",
+            "num": "4",
+            "topic": "Створення та дослідження нечіткої системи з використанням нечіткої логіки в Python"
+        },
+        {
+            "file": "ЛБ5_Підкріплення.md",
+            "type": "Лабораторна робота",
+            "num": "5",
+            "topic": "Навчання з підкріпленням"
+        }
+    ]
+}
