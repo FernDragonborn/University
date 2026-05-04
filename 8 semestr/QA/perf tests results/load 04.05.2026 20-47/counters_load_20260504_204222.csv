@@ -1,0 +1,2521 @@
+Timestamp,Provider,Counter Name,Counter Type,Mean/Increment
+05/04/2026 18:42:42,System.Runtime,CPU Usage (%),Metric,0.36038691230627695
+05/04/2026 18:42:42,System.Runtime,Working Set (MB),Metric,241.913856
+05/04/2026 18:42:42,System.Runtime,GC Heap Size (MB),Metric,22.308
+05/04/2026 18:42:42,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:42:42,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:42,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:42,System.Runtime,ThreadPool Thread Count,Metric,16
+05/04/2026 18:42:42,System.Runtime,ThreadPool Queue Length,Metric,1
+05/04/2026 18:42:42,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:43,System.Runtime,CPU Usage (%),Metric,44.9368297050134
+05/04/2026 18:42:43,System.Runtime,Working Set (MB),Metric,242.962432
+05/04/2026 18:42:43,System.Runtime,GC Heap Size (MB),Metric,30.305744
+05/04/2026 18:42:43,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:43,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:43,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:43,System.Runtime,ThreadPool Thread Count,Metric,16
+05/04/2026 18:42:43,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:42:43,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:44,System.Runtime,CPU Usage (%),Metric,23.920798849833574
+05/04/2026 18:42:44,System.Runtime,Working Set (MB),Metric,241.60256
+05/04/2026 18:42:44,System.Runtime,GC Heap Size (MB),Metric,26.615264
+05/04/2026 18:42:44,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:42:44,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:44,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:44,System.Runtime,ThreadPool Thread Count,Metric,16
+05/04/2026 18:42:44,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:42:44,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:45,System.Runtime,CPU Usage (%),Metric,22.91382103104145
+05/04/2026 18:42:45,System.Runtime,Working Set (MB),Metric,243.699712
+05/04/2026 18:42:45,System.Runtime,GC Heap Size (MB),Metric,31.136752
+05/04/2026 18:42:45,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:45,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:45,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:45,System.Runtime,ThreadPool Thread Count,Metric,16
+05/04/2026 18:42:45,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:42:45,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:46,System.Runtime,CPU Usage (%),Metric,63.330017668333625
+05/04/2026 18:42:46,System.Runtime,Working Set (MB),Metric,245.010432
+05/04/2026 18:42:46,System.Runtime,GC Heap Size (MB),Metric,23.392936
+05/04/2026 18:42:46,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:42:46,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:46,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:46,System.Runtime,ThreadPool Thread Count,Metric,16
+05/04/2026 18:42:46,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:42:46,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:47,System.Runtime,CPU Usage (%),Metric,27.025838782526446
+05/04/2026 18:42:47,System.Runtime,Working Set (MB),Metric,247.762944
+05/04/2026 18:42:47,System.Runtime,GC Heap Size (MB),Metric,31.8292
+05/04/2026 18:42:47,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:47,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:47,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:47,System.Runtime,ThreadPool Thread Count,Metric,16
+05/04/2026 18:42:47,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:42:47,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:48,System.Runtime,CPU Usage (%),Metric,28.538618831039397
+05/04/2026 18:42:48,System.Runtime,Working Set (MB),Metric,250.646528
+05/04/2026 18:42:48,System.Runtime,GC Heap Size (MB),Metric,44.193544
+05/04/2026 18:42:48,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:48,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:48,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:48,System.Runtime,ThreadPool Thread Count,Metric,16
+05/04/2026 18:42:48,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:42:48,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:49,System.Runtime,CPU Usage (%),Metric,65.880112379282
+05/04/2026 18:42:49,System.Runtime,Working Set (MB),Metric,251.43296
+05/04/2026 18:42:49,System.Runtime,GC Heap Size (MB),Metric,35.134368
+05/04/2026 18:42:49,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:42:49,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:49,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:49,System.Runtime,ThreadPool Thread Count,Metric,16
+05/04/2026 18:42:49,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:42:49,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:50,System.Runtime,CPU Usage (%),Metric,29.592240246901234
+05/04/2026 18:42:50,System.Runtime,Working Set (MB),Metric,254.0544
+05/04/2026 18:42:50,System.Runtime,GC Heap Size (MB),Metric,44.276656
+05/04/2026 18:42:50,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:50,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:50,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:50,System.Runtime,ThreadPool Thread Count,Metric,16
+05/04/2026 18:42:50,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:42:50,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:51,System.Runtime,CPU Usage (%),Metric,14.764587493637089
+05/04/2026 18:42:51,System.Runtime,Working Set (MB),Metric,258.510848
+05/04/2026 18:42:51,System.Runtime,GC Heap Size (MB),Metric,27.581728
+05/04/2026 18:42:51,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:42:51,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:51,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:51,System.Runtime,ThreadPool Thread Count,Metric,16
+05/04/2026 18:42:51,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:42:51,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:52,System.Runtime,CPU Usage (%),Metric,80.21866699417981
+05/04/2026 18:42:52,System.Runtime,Working Set (MB),Metric,264.54016
+05/04/2026 18:42:52,System.Runtime,GC Heap Size (MB),Metric,28.97944
+05/04/2026 18:42:52,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:42:52,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:52,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:52,System.Runtime,ThreadPool Thread Count,Metric,16
+05/04/2026 18:42:52,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:42:52,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:53,System.Runtime,CPU Usage (%),Metric,24.900994871300636
+05/04/2026 18:42:53,System.Runtime,Working Set (MB),Metric,265.981952
+05/04/2026 18:42:53,System.Runtime,GC Heap Size (MB),Metric,32.911336
+05/04/2026 18:42:53,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:53,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:53,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:53,System.Runtime,ThreadPool Thread Count,Metric,16
+05/04/2026 18:42:53,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:42:53,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:54,System.Runtime,CPU Usage (%),Metric,28.81290580964104
+05/04/2026 18:42:54,System.Runtime,Working Set (MB),Metric,266.899456
+05/04/2026 18:42:54,System.Runtime,GC Heap Size (MB),Metric,49.979896
+05/04/2026 18:42:54,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:54,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:54,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:54,System.Runtime,ThreadPool Thread Count,Metric,16
+05/04/2026 18:42:54,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:42:54,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:55,System.Runtime,CPU Usage (%),Metric,67.37106252383087
+05/04/2026 18:42:55,System.Runtime,Working Set (MB),Metric,267.292672
+05/04/2026 18:42:55,System.Runtime,GC Heap Size (MB),Metric,35.76692
+05/04/2026 18:42:55,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:42:55,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:55,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:55,System.Runtime,ThreadPool Thread Count,Metric,16
+05/04/2026 18:42:55,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:42:55,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:56,System.Runtime,CPU Usage (%),Metric,19.586673538981426
+05/04/2026 18:42:56,System.Runtime,Working Set (MB),Metric,268.210176
+05/04/2026 18:42:56,System.Runtime,GC Heap Size (MB),Metric,47.750536
+05/04/2026 18:42:56,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:56,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:56,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:56,System.Runtime,ThreadPool Thread Count,Metric,16
+05/04/2026 18:42:56,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:42:56,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:57,System.Runtime,CPU Usage (%),Metric,23.687935915134275
+05/04/2026 18:42:57,System.Runtime,Working Set (MB),Metric,268.996608
+05/04/2026 18:42:57,System.Runtime,GC Heap Size (MB),Metric,39.530352
+05/04/2026 18:42:57,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:42:57,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:57,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:57,System.Runtime,ThreadPool Thread Count,Metric,16
+05/04/2026 18:42:57,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:42:57,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:58,System.Runtime,CPU Usage (%),Metric,54.37498211588637
+05/04/2026 18:42:58,System.Runtime,Working Set (MB),Metric,268.996608
+05/04/2026 18:42:58,System.Runtime,GC Heap Size (MB),Metric,48.767256
+05/04/2026 18:42:58,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:58,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:58,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:58,System.Runtime,ThreadPool Thread Count,Metric,16
+05/04/2026 18:42:58,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:42:58,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:59,System.Runtime,CPU Usage (%),Metric,13.163718595210304
+05/04/2026 18:42:59,System.Runtime,Working Set (MB),Metric,273.05984
+05/04/2026 18:42:59,System.Runtime,GC Heap Size (MB),Metric,38.199944
+05/04/2026 18:42:59,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:42:59,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:59,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:42:59,System.Runtime,ThreadPool Thread Count,Metric,16
+05/04/2026 18:42:59,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:42:59,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:00,System.Runtime,CPU Usage (%),Metric,12.358141614492732
+05/04/2026 18:43:00,System.Runtime,Working Set (MB),Metric,270.716928
+05/04/2026 18:43:00,System.Runtime,GC Heap Size (MB),Metric,30.043448
+05/04/2026 18:43:00,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:43:00,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:00,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:00,System.Runtime,ThreadPool Thread Count,Metric,16
+05/04/2026 18:43:00,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:00,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:01,System.Runtime,CPU Usage (%),Metric,55.16544915954158
+05/04/2026 18:43:01,System.Runtime,Working Set (MB),Metric,270.58176
+05/04/2026 18:43:01,System.Runtime,GC Heap Size (MB),Metric,39.887744
+05/04/2026 18:43:01,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:01,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:01,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:01,System.Runtime,ThreadPool Thread Count,Metric,14
+05/04/2026 18:43:01,System.Runtime,ThreadPool Queue Length,Metric,1
+05/04/2026 18:43:01,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:02,System.Runtime,CPU Usage (%),Metric,13.27667506515309
+05/04/2026 18:43:02,System.Runtime,Working Set (MB),Metric,270.58176
+05/04/2026 18:43:02,System.Runtime,GC Heap Size (MB),Metric,55.60332
+05/04/2026 18:43:02,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:02,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:02,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:02,System.Runtime,ThreadPool Thread Count,Metric,14
+05/04/2026 18:43:02,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:02,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:03,System.Runtime,CPU Usage (%),Metric,6.366329020701241
+05/04/2026 18:43:03,System.Runtime,Working Set (MB),Metric,270.58176
+05/04/2026 18:43:03,System.Runtime,GC Heap Size (MB),Metric,38.505336
+05/04/2026 18:43:03,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:43:03,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:03,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:03,System.Runtime,ThreadPool Thread Count,Metric,14
+05/04/2026 18:43:03,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:03,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:04,System.Runtime,CPU Usage (%),Metric,55.34477353460059
+05/04/2026 18:43:04,System.Runtime,Working Set (MB),Metric,269.426688
+05/04/2026 18:43:04,System.Runtime,GC Heap Size (MB),Metric,53.561232
+05/04/2026 18:43:04,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:04,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:04,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:04,System.Runtime,ThreadPool Thread Count,Metric,14
+05/04/2026 18:43:04,System.Runtime,ThreadPool Queue Length,Metric,16
+05/04/2026 18:43:04,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:06,System.Runtime,CPU Usage (%),Metric,11.845455163642821
+05/04/2026 18:43:06,System.Runtime,Working Set (MB),Metric,273.620992
+05/04/2026 18:43:06,System.Runtime,GC Heap Size (MB),Metric,39.75708
+05/04/2026 18:43:06,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:43:06,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:06,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:06,System.Runtime,ThreadPool Thread Count,Metric,14
+05/04/2026 18:43:06,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:06,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:07,System.Runtime,CPU Usage (%),Metric,65.94380792838486
+05/04/2026 18:43:07,System.Runtime,Working Set (MB),Metric,273.620992
+05/04/2026 18:43:07,System.Runtime,GC Heap Size (MB),Metric,57.483504
+05/04/2026 18:43:07,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:07,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:07,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:07,System.Runtime,ThreadPool Thread Count,Metric,14
+05/04/2026 18:43:07,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:07,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:08,System.Runtime,CPU Usage (%),Metric,4.6410337638913415
+05/04/2026 18:43:08,System.Runtime,Working Set (MB),Metric,273.620992
+05/04/2026 18:43:08,System.Runtime,GC Heap Size (MB),Metric,43.002992
+05/04/2026 18:43:08,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:43:08,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:08,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:08,System.Runtime,ThreadPool Thread Count,Metric,14
+05/04/2026 18:43:08,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:08,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:09,System.Runtime,CPU Usage (%),Metric,18.588976505552843
+05/04/2026 18:43:09,System.Runtime,Working Set (MB),Metric,275.324928
+05/04/2026 18:43:09,System.Runtime,GC Heap Size (MB),Metric,61.273064
+05/04/2026 18:43:09,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:09,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:09,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:09,System.Runtime,ThreadPool Thread Count,Metric,14
+05/04/2026 18:43:09,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:09,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:10,System.Runtime,CPU Usage (%),Metric,55.51363469225426
+05/04/2026 18:43:10,System.Runtime,Working Set (MB),Metric,278.07744
+05/04/2026 18:43:10,System.Runtime,GC Heap Size (MB),Metric,48.677016
+05/04/2026 18:43:10,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:43:10,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:10,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:10,System.Runtime,ThreadPool Thread Count,Metric,14
+05/04/2026 18:43:10,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:10,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:11,System.Runtime,CPU Usage (%),Metric,5.674114945704596
+05/04/2026 18:43:11,System.Runtime,Working Set (MB),Metric,278.07744
+05/04/2026 18:43:11,System.Runtime,GC Heap Size (MB),Metric,55.120488
+05/04/2026 18:43:11,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:11,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:11,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:11,System.Runtime,ThreadPool Thread Count,Metric,14
+05/04/2026 18:43:11,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:11,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:12,System.Runtime,CPU Usage (%),Metric,20.121456153699487
+05/04/2026 18:43:12,System.Runtime,Working Set (MB),Metric,274.993152
+05/04/2026 18:43:12,System.Runtime,GC Heap Size (MB),Metric,54.314392
+05/04/2026 18:43:12,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:43:12,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:12,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:12,System.Runtime,ThreadPool Thread Count,Metric,14
+05/04/2026 18:43:12,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:12,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:13,System.Runtime,CPU Usage (%),Metric,54.04819652955327
+05/04/2026 18:43:13,System.Runtime,Working Set (MB),Metric,274.993152
+05/04/2026 18:43:13,System.Runtime,GC Heap Size (MB),Metric,63.716376
+05/04/2026 18:43:13,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:13,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:13,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:13,System.Runtime,ThreadPool Thread Count,Metric,14
+05/04/2026 18:43:13,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:13,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:14,System.Runtime,CPU Usage (%),Metric,16.103135415124715
+05/04/2026 18:43:14,System.Runtime,Working Set (MB),Metric,275.386368
+05/04/2026 18:43:14,System.Runtime,GC Heap Size (MB),Metric,52.651968
+05/04/2026 18:43:14,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:43:14,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:14,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:14,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:43:14,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:14,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:15,System.Runtime,CPU Usage (%),Metric,10.236994425354043
+05/04/2026 18:43:15,System.Runtime,Working Set (MB),Metric,275.386368
+05/04/2026 18:43:15,System.Runtime,GC Heap Size (MB),Metric,63.037224
+05/04/2026 18:43:15,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:15,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:15,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:15,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:43:15,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:15,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:16,System.Runtime,CPU Usage (%),Metric,55.239818406920634
+05/04/2026 18:43:16,System.Runtime,Working Set (MB),Metric,275.386368
+05/04/2026 18:43:16,System.Runtime,GC Heap Size (MB),Metric,51.575944
+05/04/2026 18:43:16,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:43:16,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:16,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:16,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:43:16,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:16,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:17,System.Runtime,CPU Usage (%),Metric,19.197445942062753
+05/04/2026 18:43:17,System.Runtime,Working Set (MB),Metric,275.386368
+05/04/2026 18:43:17,System.Runtime,GC Heap Size (MB),Metric,48.47692
+05/04/2026 18:43:17,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:43:17,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:17,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:17,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:43:17,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:17,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:18,System.Runtime,CPU Usage (%),Metric,6.393509408281549
+05/04/2026 18:43:18,System.Runtime,Working Set (MB),Metric,275.386368
+05/04/2026 18:43:18,System.Runtime,GC Heap Size (MB),Metric,55.266216
+05/04/2026 18:43:18,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:18,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:18,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:18,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:43:18,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:18,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:19,System.Runtime,CPU Usage (%),Metric,61.81347728728142
+05/04/2026 18:43:19,System.Runtime,Working Set (MB),Metric,275.386368
+05/04/2026 18:43:19,System.Runtime,GC Heap Size (MB),Metric,53.662416
+05/04/2026 18:43:19,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:43:19,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:19,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:19,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:43:19,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:19,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:20,System.Runtime,CPU Usage (%),Metric,10.41297645801088
+05/04/2026 18:43:20,System.Runtime,Working Set (MB),Metric,274.386944
+05/04/2026 18:43:20,System.Runtime,GC Heap Size (MB),Metric,42.922976
+05/04/2026 18:43:20,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:43:20,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:20,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:20,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:43:20,System.Runtime,ThreadPool Queue Length,Metric,1
+05/04/2026 18:43:20,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:21,System.Runtime,CPU Usage (%),Metric,8.459894594681199
+05/04/2026 18:43:21,System.Runtime,Working Set (MB),Metric,274.386944
+05/04/2026 18:43:21,System.Runtime,GC Heap Size (MB),Metric,54.562288
+05/04/2026 18:43:21,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:21,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:21,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:21,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:43:21,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:21,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:22,System.Runtime,CPU Usage (%),Metric,63.28329670484351
+05/04/2026 18:43:22,System.Runtime,Working Set (MB),Metric,277.925888
+05/04/2026 18:43:22,System.Runtime,GC Heap Size (MB),Metric,45.750464
+05/04/2026 18:43:22,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:43:22,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:22,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:22,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:43:22,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:22,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:23,System.Runtime,CPU Usage (%),Metric,7.582972598064582
+05/04/2026 18:43:23,System.Runtime,Working Set (MB),Metric,277.925888
+05/04/2026 18:43:23,System.Runtime,GC Heap Size (MB),Metric,53.84768
+05/04/2026 18:43:23,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:23,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:23,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:23,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:43:23,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:23,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:24,System.Runtime,CPU Usage (%),Metric,13.957973302316494
+05/04/2026 18:43:24,System.Runtime,Working Set (MB),Metric,277.925888
+05/04/2026 18:43:24,System.Runtime,GC Heap Size (MB),Metric,49.737552
+05/04/2026 18:43:24,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:43:24,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:24,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:24,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:43:24,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:24,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:25,System.Runtime,CPU Usage (%),Metric,58.27867334481541
+05/04/2026 18:43:25,System.Runtime,Working Set (MB),Metric,278.05696
+05/04/2026 18:43:25,System.Runtime,GC Heap Size (MB),Metric,64.47016
+05/04/2026 18:43:25,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:25,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:25,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:25,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:43:25,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:25,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:26,System.Runtime,CPU Usage (%),Metric,6.733192963305721
+05/04/2026 18:43:26,System.Runtime,Working Set (MB),Metric,278.05696
+05/04/2026 18:43:26,System.Runtime,GC Heap Size (MB),Metric,47.964088
+05/04/2026 18:43:26,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:43:26,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:26,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:26,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:43:26,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:26,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:27,System.Runtime,CPU Usage (%),Metric,15.843291372011334
+05/04/2026 18:43:27,System.Runtime,Working Set (MB),Metric,278.05696
+05/04/2026 18:43:27,System.Runtime,GC Heap Size (MB),Metric,44.53624
+05/04/2026 18:43:27,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:43:27,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:27,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:27,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:43:27,System.Runtime,ThreadPool Queue Length,Metric,1
+05/04/2026 18:43:27,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:28,System.Runtime,CPU Usage (%),Metric,55.44361490828509
+05/04/2026 18:43:28,System.Runtime,Working Set (MB),Metric,277.106688
+05/04/2026 18:43:28,System.Runtime,GC Heap Size (MB),Metric,48.310536
+05/04/2026 18:43:28,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:43:28,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:28,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:28,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:43:28,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:28,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:29,System.Runtime,CPU Usage (%),Metric,20.32801942623577
+05/04/2026 18:43:29,System.Runtime,Working Set (MB),Metric,281.300992
+05/04/2026 18:43:29,System.Runtime,GC Heap Size (MB),Metric,66.3822
+05/04/2026 18:43:29,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:29,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:29,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:29,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:43:29,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:29,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:30,System.Runtime,CPU Usage (%),Metric,12.58780954221917
+05/04/2026 18:43:30,System.Runtime,Working Set (MB),Metric,285.233152
+05/04/2026 18:43:30,System.Runtime,GC Heap Size (MB),Metric,52.63048
+05/04/2026 18:43:30,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:43:30,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:30,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:30,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:43:30,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:30,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:31,System.Runtime,CPU Usage (%),Metric,48.8333940259082
+05/04/2026 18:43:31,System.Runtime,Working Set (MB),Metric,285.233152
+05/04/2026 18:43:31,System.Runtime,GC Heap Size (MB),Metric,60.335752
+05/04/2026 18:43:31,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:31,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:31,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:31,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:43:31,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:31,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:32,System.Runtime,CPU Usage (%),Metric,23.541802722507242
+05/04/2026 18:43:32,System.Runtime,Working Set (MB),Metric,285.626368
+05/04/2026 18:43:32,System.Runtime,GC Heap Size (MB),Metric,56.258552
+05/04/2026 18:43:32,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:43:32,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:32,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:32,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:43:32,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:32,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:33,System.Runtime,CPU Usage (%),Metric,9.93234221611379
+05/04/2026 18:43:33,System.Runtime,Working Set (MB),Metric,285.626368
+05/04/2026 18:43:33,System.Runtime,GC Heap Size (MB),Metric,68.742488
+05/04/2026 18:43:33,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:33,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:33,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:33,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:43:33,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:33,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:36,System.Runtime,CPU Usage (%),Metric,27.843718402190152
+05/04/2026 18:43:36,System.Runtime,Working Set (MB),Metric,283.451392
+05/04/2026 18:43:36,System.Runtime,GC Heap Size (MB),Metric,50.28368
+05/04/2026 18:43:36,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:43:36,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:36,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:36,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:43:36,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:36,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:37,System.Runtime,CPU Usage (%),Metric,27.943061404552036
+05/04/2026 18:43:37,System.Runtime,Working Set (MB),Metric,283.451392
+05/04/2026 18:43:37,System.Runtime,GC Heap Size (MB),Metric,56.595976
+05/04/2026 18:43:37,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:43:37,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:37,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:37,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:43:37,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:37,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:38,System.Runtime,CPU Usage (%),Metric,44.44376213433695
+05/04/2026 18:43:38,System.Runtime,Working Set (MB),Metric,283.451392
+05/04/2026 18:43:38,System.Runtime,GC Heap Size (MB),Metric,57.83584
+05/04/2026 18:43:38,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:43:38,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:38,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:38,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:43:38,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:38,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:39,System.Runtime,CPU Usage (%),Metric,7.760050276152485
+05/04/2026 18:43:39,System.Runtime,Working Set (MB),Metric,283.451392
+05/04/2026 18:43:39,System.Runtime,GC Heap Size (MB),Metric,53.096392
+05/04/2026 18:43:39,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:43:39,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:39,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:39,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:43:39,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:39,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:40,System.Runtime,CPU Usage (%),Metric,24.7916839452048
+05/04/2026 18:43:40,System.Runtime,Working Set (MB),Metric,283.451392
+05/04/2026 18:43:40,System.Runtime,GC Heap Size (MB),Metric,59.819232
+05/04/2026 18:43:40,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:43:40,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:40,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:40,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:43:40,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:40,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:41,System.Runtime,CPU Usage (%),Metric,47.761934925890195
+05/04/2026 18:43:41,System.Runtime,Working Set (MB),Metric,283.451392
+05/04/2026 18:43:41,System.Runtime,GC Heap Size (MB),Metric,60.835312
+05/04/2026 18:43:41,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:43:41,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:41,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:41,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:43:41,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:41,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:42,System.Runtime,CPU Usage (%),Metric,15.403143642780375
+05/04/2026 18:43:42,System.Runtime,Working Set (MB),Metric,285.155328
+05/04/2026 18:43:42,System.Runtime,GC Heap Size (MB),Metric,55.701272
+05/04/2026 18:43:42,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:43:42,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:42,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:42,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:43:42,System.Runtime,ThreadPool Queue Length,Metric,1
+05/04/2026 18:43:42,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:43,System.Runtime,CPU Usage (%),Metric,13.879114591399084
+05/04/2026 18:43:43,System.Runtime,Working Set (MB),Metric,285.2864
+05/04/2026 18:43:43,System.Runtime,GC Heap Size (MB),Metric,66.781968
+05/04/2026 18:43:43,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:43,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:43,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:43,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:43:43,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:43,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:44,System.Runtime,CPU Usage (%),Metric,55.055826246506655
+05/04/2026 18:43:44,System.Runtime,Working Set (MB),Metric,282.783744
+05/04/2026 18:43:44,System.Runtime,GC Heap Size (MB),Metric,56.31284
+05/04/2026 18:43:44,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:43:44,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:44,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:44,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:43:44,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:44,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:45,System.Runtime,CPU Usage (%),Metric,17.541778637689834
+05/04/2026 18:43:45,System.Runtime,Working Set (MB),Metric,282.783744
+05/04/2026 18:43:45,System.Runtime,GC Heap Size (MB),Metric,61.877568
+05/04/2026 18:43:45,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:43:45,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:45,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:45,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:43:45,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:45,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:46,System.Runtime,CPU Usage (%),Metric,6.829794742485471
+05/04/2026 18:43:46,System.Runtime,Working Set (MB),Metric,282.914816
+05/04/2026 18:43:46,System.Runtime,GC Heap Size (MB),Metric,56.541488
+05/04/2026 18:43:46,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:43:46,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:46,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:46,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:43:46,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:46,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:47,System.Runtime,CPU Usage (%),Metric,60.05185678190343
+05/04/2026 18:43:47,System.Runtime,Working Set (MB),Metric,282.914816
+05/04/2026 18:43:47,System.Runtime,GC Heap Size (MB),Metric,72.70492
+05/04/2026 18:43:47,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:47,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:47,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:47,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:43:47,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:47,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:48,System.Runtime,CPU Usage (%),Metric,10.82492043094901
+05/04/2026 18:43:48,System.Runtime,Working Set (MB),Metric,289.206272
+05/04/2026 18:43:48,System.Runtime,GC Heap Size (MB),Metric,56.255
+05/04/2026 18:43:48,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:43:48,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:48,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:48,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:43:48,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:48,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:49,System.Runtime,CPU Usage (%),Metric,8.908157723099643
+05/04/2026 18:43:49,System.Runtime,Working Set (MB),Metric,289.337344
+05/04/2026 18:43:49,System.Runtime,GC Heap Size (MB),Metric,74.142648
+05/04/2026 18:43:49,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:49,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:49,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:49,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:43:49,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:49,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:50,System.Runtime,CPU Usage (%),Metric,60.81446309015213
+05/04/2026 18:43:50,System.Runtime,Working Set (MB),Metric,289.468416
+05/04/2026 18:43:50,System.Runtime,GC Heap Size (MB),Metric,69.805656
+05/04/2026 18:43:50,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:43:50,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:50,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:50,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:43:50,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:50,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:51,System.Runtime,CPU Usage (%),Metric,6.113252222096731
+05/04/2026 18:43:51,System.Runtime,Working Set (MB),Metric,289.468416
+05/04/2026 18:43:51,System.Runtime,GC Heap Size (MB),Metric,77.277552
+05/04/2026 18:43:51,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:51,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:51,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:51,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:43:51,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:51,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:52,System.Runtime,CPU Usage (%),Metric,12.816598409163834
+05/04/2026 18:43:52,System.Runtime,Working Set (MB),Metric,288.493568
+05/04/2026 18:43:52,System.Runtime,GC Heap Size (MB),Metric,67.483984
+05/04/2026 18:43:52,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:43:52,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:52,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:52,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:43:52,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:52,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:53,System.Runtime,CPU Usage (%),Metric,58.08906871583283
+05/04/2026 18:43:53,System.Runtime,Working Set (MB),Metric,286.80192
+05/04/2026 18:43:53,System.Runtime,GC Heap Size (MB),Metric,53.781768
+05/04/2026 18:43:53,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:43:53,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:53,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:53,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:43:53,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:53,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:54,System.Runtime,CPU Usage (%),Metric,8.498338913391017
+05/04/2026 18:43:54,System.Runtime,Working Set (MB),Metric,286.80192
+05/04/2026 18:43:54,System.Runtime,GC Heap Size (MB),Metric,55.279616
+05/04/2026 18:43:54,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:43:54,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:54,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:54,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:43:54,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:54,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:55,System.Runtime,CPU Usage (%),Metric,13.579576656799002
+05/04/2026 18:43:55,System.Runtime,Working Set (MB),Metric,286.80192
+05/04/2026 18:43:55,System.Runtime,GC Heap Size (MB),Metric,58.177432
+05/04/2026 18:43:55,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:43:55,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:55,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:55,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:43:55,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:55,System.Runtime,Exception Count (Count / 1 sec),Rate,44
+05/04/2026 18:43:56,System.Runtime,CPU Usage (%),Metric,56.3341504693388
+05/04/2026 18:43:56,System.Runtime,Working Set (MB),Metric,286.80192
+05/04/2026 18:43:56,System.Runtime,GC Heap Size (MB),Metric,67.073768
+05/04/2026 18:43:56,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:56,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:56,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:56,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:43:56,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:56,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:57,System.Runtime,CPU Usage (%),Metric,12.15004802074978
+05/04/2026 18:43:57,System.Runtime,Working Set (MB),Metric,286.80192
+05/04/2026 18:43:57,System.Runtime,GC Heap Size (MB),Metric,65.605984
+05/04/2026 18:43:57,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:43:57,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:57,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:57,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:43:57,System.Runtime,ThreadPool Queue Length,Metric,1
+05/04/2026 18:43:57,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:58,System.Runtime,CPU Usage (%),Metric,13.342653225701039
+05/04/2026 18:43:58,System.Runtime,Working Set (MB),Metric,286.670848
+05/04/2026 18:43:58,System.Runtime,GC Heap Size (MB),Metric,62.999704
+05/04/2026 18:43:58,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:43:58,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:58,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:58,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:43:58,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:58,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:59,System.Runtime,CPU Usage (%),Metric,55.29582245656427
+05/04/2026 18:43:59,System.Runtime,Working Set (MB),Metric,286.670848
+05/04/2026 18:43:59,System.Runtime,GC Heap Size (MB),Metric,56.488616
+05/04/2026 18:43:59,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:43:59,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:59,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:43:59,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:43:59,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:43:59,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:00,System.Runtime,CPU Usage (%),Metric,14.280163672851726
+05/04/2026 18:44:00,System.Runtime,Working Set (MB),Metric,286.80192
+05/04/2026 18:44:00,System.Runtime,GC Heap Size (MB),Metric,71.316
+05/04/2026 18:44:00,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:00,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:00,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:00,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:44:00,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:00,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:01,System.Runtime,CPU Usage (%),Metric,8.66189512852085
+05/04/2026 18:44:01,System.Runtime,Working Set (MB),Metric,286.80192
+05/04/2026 18:44:01,System.Runtime,GC Heap Size (MB),Metric,70.267896
+05/04/2026 18:44:01,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:01,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:01,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:01,System.Runtime,ThreadPool Thread Count,Metric,8
+05/04/2026 18:44:01,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:01,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:02,System.Runtime,CPU Usage (%),Metric,57.7054871666257
+05/04/2026 18:44:02,System.Runtime,Working Set (MB),Metric,286.80192
+05/04/2026 18:44:02,System.Runtime,GC Heap Size (MB),Metric,60.868648
+05/04/2026 18:44:02,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:44:02,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:02,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:02,System.Runtime,ThreadPool Thread Count,Metric,8
+05/04/2026 18:44:02,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:02,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:03,System.Runtime,CPU Usage (%),Metric,13.257140554161412
+05/04/2026 18:44:03,System.Runtime,Working Set (MB),Metric,286.80192
+05/04/2026 18:44:03,System.Runtime,GC Heap Size (MB),Metric,61.091592
+05/04/2026 18:44:03,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:03,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:03,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:03,System.Runtime,ThreadPool Thread Count,Metric,8
+05/04/2026 18:44:03,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:03,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:06,System.Runtime,CPU Usage (%),Metric,28.186816914818667
+05/04/2026 18:44:06,System.Runtime,Working Set (MB),Metric,286.670848
+05/04/2026 18:44:06,System.Runtime,GC Heap Size (MB),Metric,77.142056
+05/04/2026 18:44:06,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:44:06,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:06,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:06,System.Runtime,ThreadPool Thread Count,Metric,8
+05/04/2026 18:44:06,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:06,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:07,System.Runtime,CPU Usage (%),Metric,8.37768996764062
+05/04/2026 18:44:07,System.Runtime,Working Set (MB),Metric,296.370176
+05/04/2026 18:44:07,System.Runtime,GC Heap Size (MB),Metric,64.012104
+05/04/2026 18:44:07,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:07,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:07,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:07,System.Runtime,ThreadPool Thread Count,Metric,8
+05/04/2026 18:44:07,System.Runtime,ThreadPool Queue Length,Metric,1
+05/04/2026 18:44:07,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:08,System.Runtime,CPU Usage (%),Metric,21.750729827769877
+05/04/2026 18:44:08,System.Runtime,Working Set (MB),Metric,296.370176
+05/04/2026 18:44:08,System.Runtime,GC Heap Size (MB),Metric,79.253072
+05/04/2026 18:44:08,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:08,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:08,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:08,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:44:08,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:08,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:09,System.Runtime,CPU Usage (%),Metric,46.35955215391119
+05/04/2026 18:44:09,System.Runtime,Working Set (MB),Metric,296.370176
+05/04/2026 18:44:09,System.Runtime,GC Heap Size (MB),Metric,88.431728
+05/04/2026 18:44:09,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:09,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:09,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:09,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:44:09,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:09,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:10,System.Runtime,CPU Usage (%),Metric,12.05718039501402
+05/04/2026 18:44:10,System.Runtime,Working Set (MB),Metric,296.38656
+05/04/2026 18:44:10,System.Runtime,GC Heap Size (MB),Metric,83.929704
+05/04/2026 18:44:10,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:10,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:10,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:10,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:44:10,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:10,System.Runtime,Exception Count (Count / 1 sec),Rate,32
+05/04/2026 18:44:11,System.Runtime,CPU Usage (%),Metric,20.31671793784796
+05/04/2026 18:44:11,System.Runtime,Working Set (MB),Metric,300.449792
+05/04/2026 18:44:11,System.Runtime,GC Heap Size (MB),Metric,79.951368
+05/04/2026 18:44:11,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:11,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:11,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:11,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:44:11,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:11,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:12,System.Runtime,CPU Usage (%),Metric,50.55159998794887
+05/04/2026 18:44:12,System.Runtime,Working Set (MB),Metric,300.580864
+05/04/2026 18:44:12,System.Runtime,GC Heap Size (MB),Metric,88.862752
+05/04/2026 18:44:12,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:12,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:12,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:12,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:44:12,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:12,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:13,System.Runtime,CPU Usage (%),Metric,15.29292098816518
+05/04/2026 18:44:13,System.Runtime,Working Set (MB),Metric,259.715072
+05/04/2026 18:44:13,System.Runtime,GC Heap Size (MB),Metric,21.465048
+05/04/2026 18:44:13,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:44:13,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:44:13,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:13,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:44:13,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:13,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:14,System.Runtime,CPU Usage (%),Metric,10.380292276356272
+05/04/2026 18:44:14,System.Runtime,Working Set (MB),Metric,259.715072
+05/04/2026 18:44:14,System.Runtime,GC Heap Size (MB),Metric,39.171344
+05/04/2026 18:44:14,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:14,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:14,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:14,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:44:14,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:14,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:15,System.Runtime,CPU Usage (%),Metric,59.87778807587432
+05/04/2026 18:44:15,System.Runtime,Working Set (MB),Metric,259.715072
+05/04/2026 18:44:15,System.Runtime,GC Heap Size (MB),Metric,32.651672
+05/04/2026 18:44:15,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:15,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:15,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:15,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:44:15,System.Runtime,ThreadPool Queue Length,Metric,1
+05/04/2026 18:44:15,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:16,System.Runtime,CPU Usage (%),Metric,12.014447883657821
+05/04/2026 18:44:16,System.Runtime,Working Set (MB),Metric,259.846144
+05/04/2026 18:44:16,System.Runtime,GC Heap Size (MB),Metric,44.663328
+05/04/2026 18:44:16,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:16,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:16,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:16,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:44:16,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:16,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:17,System.Runtime,CPU Usage (%),Metric,5.025190445284809
+05/04/2026 18:44:17,System.Runtime,Working Set (MB),Metric,255.668224
+05/04/2026 18:44:17,System.Runtime,GC Heap Size (MB),Metric,15.742072
+05/04/2026 18:44:17,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:17,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:17,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:17,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:44:17,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:17,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:18,System.Runtime,CPU Usage (%),Metric,64.27349962256402
+05/04/2026 18:44:18,System.Runtime,Working Set (MB),Metric,255.668224
+05/04/2026 18:44:18,System.Runtime,GC Heap Size (MB),Metric,18.388616
+05/04/2026 18:44:18,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:18,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:18,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:18,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:44:18,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:18,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:19,System.Runtime,CPU Usage (%),Metric,8.504845757485185
+05/04/2026 18:44:19,System.Runtime,Working Set (MB),Metric,255.668224
+05/04/2026 18:44:19,System.Runtime,GC Heap Size (MB),Metric,31.712144
+05/04/2026 18:44:19,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:19,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:19,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:19,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:44:19,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:19,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:20,System.Runtime,CPU Usage (%),Metric,10.965801489358988
+05/04/2026 18:44:20,System.Runtime,Working Set (MB),Metric,255.668224
+05/04/2026 18:44:20,System.Runtime,GC Heap Size (MB),Metric,23.863176
+05/04/2026 18:44:20,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:20,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:20,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:20,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:44:20,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:20,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:21,System.Runtime,CPU Usage (%),Metric,60.83674144380689
+05/04/2026 18:44:21,System.Runtime,Working Set (MB),Metric,255.668224
+05/04/2026 18:44:21,System.Runtime,GC Heap Size (MB),Metric,18.773664
+05/04/2026 18:44:21,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:21,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:21,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:21,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:44:21,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:21,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:22,System.Runtime,CPU Usage (%),Metric,6.230722279471028
+05/04/2026 18:44:22,System.Runtime,Working Set (MB),Metric,251.465728
+05/04/2026 18:44:22,System.Runtime,GC Heap Size (MB),Metric,16.132992
+05/04/2026 18:44:22,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:22,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:22,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:22,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:44:22,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:22,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:23,System.Runtime,CPU Usage (%),Metric,16.793512704881223
+05/04/2026 18:44:23,System.Runtime,Working Set (MB),Metric,247.271424
+05/04/2026 18:44:23,System.Runtime,GC Heap Size (MB),Metric,16.65448
+05/04/2026 18:44:23,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:44:23,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:23,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:23,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:44:23,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:23,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:24,System.Runtime,CPU Usage (%),Metric,56.359161463707174
+05/04/2026 18:44:24,System.Runtime,Working Set (MB),Metric,247.271424
+05/04/2026 18:44:24,System.Runtime,GC Heap Size (MB),Metric,15.847288
+05/04/2026 18:44:24,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:24,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:24,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:24,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:44:24,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:24,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:25,System.Runtime,CPU Usage (%),Metric,9.362999882726376
+05/04/2026 18:44:25,System.Runtime,Working Set (MB),Metric,247.271424
+05/04/2026 18:44:25,System.Runtime,GC Heap Size (MB),Metric,16.83824
+05/04/2026 18:44:25,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:25,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:25,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:25,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:44:25,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:25,System.Runtime,Exception Count (Count / 1 sec),Rate,8
+05/04/2026 18:44:26,System.Runtime,CPU Usage (%),Metric,13.747120926204067
+05/04/2026 18:44:26,System.Runtime,Working Set (MB),Metric,247.271424
+05/04/2026 18:44:26,System.Runtime,GC Heap Size (MB),Metric,31.676944
+05/04/2026 18:44:26,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:26,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:26,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:26,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:44:26,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:26,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:27,System.Runtime,CPU Usage (%),Metric,56.62778887336975
+05/04/2026 18:44:27,System.Runtime,Working Set (MB),Metric,247.271424
+05/04/2026 18:44:27,System.Runtime,GC Heap Size (MB),Metric,27.409408
+05/04/2026 18:44:27,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:27,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:27,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:27,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:44:27,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:27,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:28,System.Runtime,CPU Usage (%),Metric,15.021495023883901
+05/04/2026 18:44:28,System.Runtime,Working Set (MB),Metric,249.237504
+05/04/2026 18:44:28,System.Runtime,GC Heap Size (MB),Metric,43.3394
+05/04/2026 18:44:28,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:28,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:28,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:28,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:44:28,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:28,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:29,System.Runtime,CPU Usage (%),Metric,8.320554339895697
+05/04/2026 18:44:29,System.Runtime,Working Set (MB),Metric,258.412544
+05/04/2026 18:44:29,System.Runtime,GC Heap Size (MB),Metric,52.413024
+05/04/2026 18:44:29,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:29,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:29,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:29,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:44:29,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:29,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:30,System.Runtime,CPU Usage (%),Metric,57.404286100902496
+05/04/2026 18:44:30,System.Runtime,Working Set (MB),Metric,281.219072
+05/04/2026 18:44:30,System.Runtime,GC Heap Size (MB),Metric,74.91364
+05/04/2026 18:44:30,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:30,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:30,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:30,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:44:30,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:30,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:31,System.Runtime,CPU Usage (%),Metric,15.943699622331923
+05/04/2026 18:44:31,System.Runtime,Working Set (MB),Metric,280.551424
+05/04/2026 18:44:31,System.Runtime,GC Heap Size (MB),Metric,36.858344
+05/04/2026 18:44:31,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:31,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:31,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:31,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:44:31,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:31,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:32,System.Runtime,CPU Usage (%),Metric,6.546855684795539
+05/04/2026 18:44:32,System.Runtime,Working Set (MB),Metric,280.551424
+05/04/2026 18:44:32,System.Runtime,GC Heap Size (MB),Metric,44.70196
+05/04/2026 18:44:32,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:32,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:32,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:32,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:44:32,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:32,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:33,System.Runtime,CPU Usage (%),Metric,58.33565603715853
+05/04/2026 18:44:33,System.Runtime,Working Set (MB),Metric,280.551424
+05/04/2026 18:44:33,System.Runtime,GC Heap Size (MB),Metric,59.838784
+05/04/2026 18:44:33,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:33,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:33,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:33,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:44:33,System.Runtime,ThreadPool Queue Length,Metric,1
+05/04/2026 18:44:33,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:34,System.Runtime,CPU Usage (%),Metric,12.532105505861074
+05/04/2026 18:44:34,System.Runtime,Working Set (MB),Metric,268.00128
+05/04/2026 18:44:34,System.Runtime,GC Heap Size (MB),Metric,36.543032
+05/04/2026 18:44:34,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:34,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:34,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:34,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:44:34,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:34,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:36,System.Runtime,CPU Usage (%),Metric,28.76586320000862
+05/04/2026 18:44:36,System.Runtime,Working Set (MB),Metric,251.256832
+05/04/2026 18:44:36,System.Runtime,GC Heap Size (MB),Metric,22.8116
+05/04/2026 18:44:36,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:44:36,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:36,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:36,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:44:36,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:36,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:37,System.Runtime,CPU Usage (%),Metric,14.437427717672216
+05/04/2026 18:44:37,System.Runtime,Working Set (MB),Metric,250.372096
+05/04/2026 18:44:37,System.Runtime,GC Heap Size (MB),Metric,33.348368
+05/04/2026 18:44:37,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:37,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:37,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:37,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:44:37,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:37,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:38,System.Runtime,CPU Usage (%),Metric,33.447443608881315
+05/04/2026 18:44:38,System.Runtime,Working Set (MB),Metric,259.940352
+05/04/2026 18:44:38,System.Runtime,GC Heap Size (MB),Metric,52.976144
+05/04/2026 18:44:38,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:38,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:38,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:38,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:44:38,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:38,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:39,System.Runtime,CPU Usage (%),Metric,37.17978602738858
+05/04/2026 18:44:39,System.Runtime,Working Set (MB),Metric,253.984768
+05/04/2026 18:44:39,System.Runtime,GC Heap Size (MB),Metric,16.976312
+05/04/2026 18:44:39,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:39,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:39,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:39,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:44:39,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:39,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:40,System.Runtime,CPU Usage (%),Metric,17.375000383563197
+05/04/2026 18:44:40,System.Runtime,Working Set (MB),Metric,255.164416
+05/04/2026 18:44:40,System.Runtime,GC Heap Size (MB),Metric,32.010256
+05/04/2026 18:44:40,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:40,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:40,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:40,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:44:40,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:40,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:41,System.Runtime,CPU Usage (%),Metric,22.81199936870314
+05/04/2026 18:44:41,System.Runtime,Working Set (MB),Metric,254.808064
+05/04/2026 18:44:41,System.Runtime,GC Heap Size (MB),Metric,25.266616
+05/04/2026 18:44:41,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:41,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:41,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:41,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:44:41,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:41,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:42,System.Runtime,CPU Usage (%),Metric,44.555073648652105
+05/04/2026 18:44:42,System.Runtime,Working Set (MB),Metric,256.774144
+05/04/2026 18:44:42,System.Runtime,GC Heap Size (MB),Metric,49.736904
+05/04/2026 18:44:42,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:42,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:42,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:42,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:44:42,System.Runtime,ThreadPool Queue Length,Metric,1
+05/04/2026 18:44:42,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:43,System.Runtime,CPU Usage (%),Metric,9.479759125245009
+05/04/2026 18:44:43,System.Runtime,Working Set (MB),Metric,256.278528
+05/04/2026 18:44:43,System.Runtime,GC Heap Size (MB),Metric,25.833952
+05/04/2026 18:44:43,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:43,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:43,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:43,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:44:43,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:43,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:44,System.Runtime,CPU Usage (%),Metric,15.30394826677855
+05/04/2026 18:44:44,System.Runtime,Working Set (MB),Metric,256.278528
+05/04/2026 18:44:44,System.Runtime,GC Heap Size (MB),Metric,32.149056
+05/04/2026 18:44:44,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:44,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:44,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:44,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:44:44,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:44,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:45,System.Runtime,CPU Usage (%),Metric,49.08479201671701
+05/04/2026 18:44:45,System.Runtime,Working Set (MB),Metric,256.278528
+05/04/2026 18:44:45,System.Runtime,GC Heap Size (MB),Metric,27.89988
+05/04/2026 18:44:45,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:45,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:45,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:45,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:44:45,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:45,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:46,System.Runtime,CPU Usage (%),Metric,8.157851949921724
+05/04/2026 18:44:46,System.Runtime,Working Set (MB),Metric,256.278528
+05/04/2026 18:44:46,System.Runtime,GC Heap Size (MB),Metric,42.20016
+05/04/2026 18:44:46,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:46,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:46,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:46,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:44:46,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:46,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:47,System.Runtime,CPU Usage (%),Metric,14.224929612853627
+05/04/2026 18:44:47,System.Runtime,Working Set (MB),Metric,260.603904
+05/04/2026 18:44:47,System.Runtime,GC Heap Size (MB),Metric,54.450816
+05/04/2026 18:44:47,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:47,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:47,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:47,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:44:47,System.Runtime,ThreadPool Queue Length,Metric,1
+05/04/2026 18:44:47,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:48,System.Runtime,CPU Usage (%),Metric,53.34104236940543
+05/04/2026 18:44:48,System.Runtime,Working Set (MB),Metric,262.119424
+05/04/2026 18:44:48,System.Runtime,GC Heap Size (MB),Metric,23.52076
+05/04/2026 18:44:48,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:48,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:48,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:48,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:44:48,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:48,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:49,System.Runtime,CPU Usage (%),Metric,5.441288679277546
+05/04/2026 18:44:49,System.Runtime,Working Set (MB),Metric,262.250496
+05/04/2026 18:44:49,System.Runtime,GC Heap Size (MB),Metric,39.43124
+05/04/2026 18:44:49,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:49,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:49,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:49,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:44:49,System.Runtime,ThreadPool Queue Length,Metric,1
+05/04/2026 18:44:49,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:50,System.Runtime,CPU Usage (%),Metric,15.537077053315407
+05/04/2026 18:44:50,System.Runtime,Working Set (MB),Metric,253.616128
+05/04/2026 18:44:50,System.Runtime,GC Heap Size (MB),Metric,28.809104
+05/04/2026 18:44:50,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:50,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:50,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:50,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:44:50,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:50,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:51,System.Runtime,CPU Usage (%),Metric,54.87584768872042
+05/04/2026 18:44:51,System.Runtime,Working Set (MB),Metric,244.846592
+05/04/2026 18:44:51,System.Runtime,GC Heap Size (MB),Metric,14.352
+05/04/2026 18:44:51,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:51,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:51,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:51,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:44:51,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:51,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:52,System.Runtime,CPU Usage (%),Metric,7.498541396221136
+05/04/2026 18:44:52,System.Runtime,Working Set (MB),Metric,244.289536
+05/04/2026 18:44:52,System.Runtime,GC Heap Size (MB),Metric,22.713584
+05/04/2026 18:44:52,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:52,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:52,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:52,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:44:52,System.Runtime,ThreadPool Queue Length,Metric,1
+05/04/2026 18:44:52,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:53,System.Runtime,CPU Usage (%),Metric,15.083062007036286
+05/04/2026 18:44:53,System.Runtime,Working Set (MB),Metric,239.951872
+05/04/2026 18:44:53,System.Runtime,GC Heap Size (MB),Metric,16.049872
+05/04/2026 18:44:53,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:44:53,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:53,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:53,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:44:53,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:53,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:54,System.Runtime,CPU Usage (%),Metric,56.43434727882522
+05/04/2026 18:44:54,System.Runtime,Working Set (MB),Metric,235.37664
+05/04/2026 18:44:54,System.Runtime,GC Heap Size (MB),Metric,14.748728
+05/04/2026 18:44:54,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:54,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:54,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:54,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:44:54,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:54,System.Runtime,Exception Count (Count / 1 sec),Rate,36
+05/04/2026 18:44:55,System.Runtime,CPU Usage (%),Metric,12.734318369798883
+05/04/2026 18:44:55,System.Runtime,Working Set (MB),Metric,235.37664
+05/04/2026 18:44:55,System.Runtime,GC Heap Size (MB),Metric,17.656976
+05/04/2026 18:44:55,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:55,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:55,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:55,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:44:55,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:55,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:56,System.Runtime,CPU Usage (%),Metric,10.165542337945496
+05/04/2026 18:44:56,System.Runtime,Working Set (MB),Metric,235.37664
+05/04/2026 18:44:56,System.Runtime,GC Heap Size (MB),Metric,28.509664
+05/04/2026 18:44:56,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:56,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:56,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:56,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:44:56,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:56,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:57,System.Runtime,CPU Usage (%),Metric,57.65884165080262
+05/04/2026 18:44:57,System.Runtime,Working Set (MB),Metric,231.272448
+05/04/2026 18:44:57,System.Runtime,GC Heap Size (MB),Metric,24.156632
+05/04/2026 18:44:57,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:44:57,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:57,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:57,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:44:57,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:57,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:58,System.Runtime,CPU Usage (%),Metric,16.575083170571087
+05/04/2026 18:44:58,System.Runtime,Working Set (MB),Metric,231.272448
+05/04/2026 18:44:58,System.Runtime,GC Heap Size (MB),Metric,21.610984
+05/04/2026 18:44:58,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,3
+05/04/2026 18:44:58,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:58,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:58,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:44:58,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:58,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:59,System.Runtime,CPU Usage (%),Metric,5.756512886695356
+05/04/2026 18:44:59,System.Runtime,Working Set (MB),Metric,231.534592
+05/04/2026 18:44:59,System.Runtime,GC Heap Size (MB),Metric,19.81428
+05/04/2026 18:44:59,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:44:59,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:59,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:44:59,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:44:59,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:44:59,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:00,System.Runtime,CPU Usage (%),Metric,59.771374013666566
+05/04/2026 18:45:00,System.Runtime,Working Set (MB),Metric,231.665664
+05/04/2026 18:45:00,System.Runtime,GC Heap Size (MB),Metric,25.666136
+05/04/2026 18:45:00,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:00,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:00,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:00,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:00,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:00,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:01,System.Runtime,CPU Usage (%),Metric,11.4876315744636
+05/04/2026 18:45:01,System.Runtime,Working Set (MB),Metric,235.204608
+05/04/2026 18:45:01,System.Runtime,GC Heap Size (MB),Metric,19.750928
+05/04/2026 18:45:01,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:45:01,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:01,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:01,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:01,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:01,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:02,System.Runtime,CPU Usage (%),Metric,9.708776000449966
+05/04/2026 18:45:02,System.Runtime,Working Set (MB),Metric,241.627136
+05/04/2026 18:45:02,System.Runtime,GC Heap Size (MB),Metric,36.948384
+05/04/2026 18:45:02,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:02,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:02,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:02,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:02,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:02,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:03,System.Runtime,CPU Usage (%),Metric,58.93747699336446
+05/04/2026 18:45:03,System.Runtime,Working Set (MB),Metric,245.690368
+05/04/2026 18:45:03,System.Runtime,GC Heap Size (MB),Metric,25.522312
+05/04/2026 18:45:03,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:03,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:03,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:03,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:03,System.Runtime,ThreadPool Queue Length,Metric,1
+05/04/2026 18:45:03,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:06,System.Runtime,CPU Usage (%),Metric,17.988823061622725
+05/04/2026 18:45:06,System.Runtime,Working Set (MB),Metric,243.8144
+05/04/2026 18:45:06,System.Runtime,GC Heap Size (MB),Metric,16.598064
+05/04/2026 18:45:06,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:45:06,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:45:06,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:06,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:06,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:06,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:07,System.Runtime,CPU Usage (%),Metric,36.835254221274944
+05/04/2026 18:45:07,System.Runtime,Working Set (MB),Metric,243.8144
+05/04/2026 18:45:07,System.Runtime,GC Heap Size (MB),Metric,31.423464
+05/04/2026 18:45:07,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:07,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:07,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:07,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:07,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:07,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:08,System.Runtime,CPU Usage (%),Metric,11.630255269684051
+05/04/2026 18:45:08,System.Runtime,Working Set (MB),Metric,239.63648
+05/04/2026 18:45:08,System.Runtime,GC Heap Size (MB),Metric,25.090072
+05/04/2026 18:45:08,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:08,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:08,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:08,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:08,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:08,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:09,System.Runtime,CPU Usage (%),Metric,27.124330412490725
+05/04/2026 18:45:09,System.Runtime,Working Set (MB),Metric,239.443968
+05/04/2026 18:45:09,System.Runtime,GC Heap Size (MB),Metric,21.972624
+05/04/2026 18:45:09,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:09,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:09,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:09,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:09,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:09,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:10,System.Runtime,CPU Usage (%),Metric,43.3060083181803
+05/04/2026 18:45:10,System.Runtime,Working Set (MB),Metric,241.016832
+05/04/2026 18:45:10,System.Runtime,GC Heap Size (MB),Metric,32.902856
+05/04/2026 18:45:10,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:10,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:10,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:10,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:10,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:10,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:11,System.Runtime,CPU Usage (%),Metric,17.285663254706694
+05/04/2026 18:45:11,System.Runtime,Working Set (MB),Metric,253.247488
+05/04/2026 18:45:11,System.Runtime,GC Heap Size (MB),Metric,16.284056
+05/04/2026 18:45:11,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:11,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:11,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:11,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:11,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:11,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:12,System.Runtime,CPU Usage (%),Metric,18.977480958687547
+05/04/2026 18:45:12,System.Runtime,Working Set (MB),Metric,253.108224
+05/04/2026 18:45:12,System.Runtime,GC Heap Size (MB),Metric,23.695624
+05/04/2026 18:45:12,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:12,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:12,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:12,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:12,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:12,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:13,System.Runtime,CPU Usage (%),Metric,49.97842128300836
+05/04/2026 18:45:13,System.Runtime,Working Set (MB),Metric,253.108224
+05/04/2026 18:45:13,System.Runtime,GC Heap Size (MB),Metric,39.167488
+05/04/2026 18:45:13,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:13,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:13,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:13,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:13,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:13,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:14,System.Runtime,CPU Usage (%),Metric,13.09381962697002
+05/04/2026 18:45:14,System.Runtime,Working Set (MB),Metric,239.88224
+05/04/2026 18:45:14,System.Runtime,GC Heap Size (MB),Metric,16.8786
+05/04/2026 18:45:14,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:45:14,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:14,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:14,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:14,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:14,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:15,System.Runtime,CPU Usage (%),Metric,15.999346624106368
+05/04/2026 18:45:15,System.Runtime,Working Set (MB),Metric,241.455104
+05/04/2026 18:45:15,System.Runtime,GC Heap Size (MB),Metric,21.83632
+05/04/2026 18:45:15,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:15,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:15,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:15,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:15,System.Runtime,ThreadPool Queue Length,Metric,1
+05/04/2026 18:45:15,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:16,System.Runtime,CPU Usage (%),Metric,58.04763098660971
+05/04/2026 18:45:16,System.Runtime,Working Set (MB),Metric,243.027968
+05/04/2026 18:45:16,System.Runtime,GC Heap Size (MB),Metric,38.621968
+05/04/2026 18:45:16,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:16,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:16,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:16,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:16,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:16,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:17,System.Runtime,CPU Usage (%),Metric,7.0699971123476795
+05/04/2026 18:45:17,System.Runtime,Working Set (MB),Metric,248.926208
+05/04/2026 18:45:17,System.Runtime,GC Heap Size (MB),Metric,44.529592
+05/04/2026 18:45:17,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:17,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:17,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:17,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:17,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:17,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:18,System.Runtime,CPU Usage (%),Metric,18.73953864203107
+05/04/2026 18:45:18,System.Runtime,Working Set (MB),Metric,262.643712
+05/04/2026 18:45:18,System.Runtime,GC Heap Size (MB),Metric,28.805792
+05/04/2026 18:45:18,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:18,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:18,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:18,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:18,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:18,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:19,System.Runtime,CPU Usage (%),Metric,61.678121105042116
+05/04/2026 18:45:19,System.Runtime,Working Set (MB),Metric,262.643712
+05/04/2026 18:45:19,System.Runtime,GC Heap Size (MB),Metric,50.601528
+05/04/2026 18:45:19,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:19,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:19,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:19,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:19,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:19,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:20,System.Runtime,CPU Usage (%),Metric,6.754433500170649
+05/04/2026 18:45:20,System.Runtime,Working Set (MB),Metric,263.954432
+05/04/2026 18:45:20,System.Runtime,GC Heap Size (MB),Metric,58.520584
+05/04/2026 18:45:20,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:20,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:20,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:20,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:20,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:20,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:21,System.Runtime,CPU Usage (%),Metric,14.304793330507705
+05/04/2026 18:45:21,System.Runtime,Working Set (MB),Metric,257.220608
+05/04/2026 18:45:21,System.Runtime,GC Heap Size (MB),Metric,26.910008
+05/04/2026 18:45:21,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:21,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:21,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:21,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:21,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:21,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:22,System.Runtime,CPU Usage (%),Metric,56.913685979936055
+05/04/2026 18:45:22,System.Runtime,Working Set (MB),Metric,257.744896
+05/04/2026 18:45:22,System.Runtime,GC Heap Size (MB),Metric,19.911312
+05/04/2026 18:45:22,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:22,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:22,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:22,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:22,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:22,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:23,System.Runtime,CPU Usage (%),Metric,13.723253261522467
+05/04/2026 18:45:23,System.Runtime,Working Set (MB),Metric,257.744896
+05/04/2026 18:45:23,System.Runtime,GC Heap Size (MB),Metric,41.445832
+05/04/2026 18:45:23,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:23,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:23,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:23,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:23,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:23,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:24,System.Runtime,CPU Usage (%),Metric,13.188806359121095
+05/04/2026 18:45:24,System.Runtime,Working Set (MB),Metric,259.055616
+05/04/2026 18:45:24,System.Runtime,GC Heap Size (MB),Metric,54.485976
+05/04/2026 18:45:24,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:24,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:24,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:24,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:24,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:24,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:25,System.Runtime,CPU Usage (%),Metric,56.84999651122585
+05/04/2026 18:45:25,System.Runtime,Working Set (MB),Metric,268.099584
+05/04/2026 18:45:25,System.Runtime,GC Heap Size (MB),Metric,63.656816
+05/04/2026 18:45:25,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:25,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:25,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:25,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:25,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:25,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:26,System.Runtime,CPU Usage (%),Metric,15.109079717687724
+05/04/2026 18:45:26,System.Runtime,Working Set (MB),Metric,261.316608
+05/04/2026 18:45:26,System.Runtime,GC Heap Size (MB),Metric,39.888072
+05/04/2026 18:45:26,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:26,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:26,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:26,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:26,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:26,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:27,System.Runtime,CPU Usage (%),Metric,11.404044863993356
+05/04/2026 18:45:27,System.Runtime,Working Set (MB),Metric,252.6208
+05/04/2026 18:45:27,System.Runtime,GC Heap Size (MB),Metric,24.373048
+05/04/2026 18:45:27,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:27,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:27,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:27,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:27,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:27,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:28,System.Runtime,CPU Usage (%),Metric,60.45228100554429
+05/04/2026 18:45:28,System.Runtime,Working Set (MB),Metric,252.6208
+05/04/2026 18:45:28,System.Runtime,GC Heap Size (MB),Metric,39.696336
+05/04/2026 18:45:28,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:28,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:28,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:28,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:28,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:28,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:29,System.Runtime,CPU Usage (%),Metric,12.790274220443315
+05/04/2026 18:45:29,System.Runtime,Working Set (MB),Metric,243.945472
+05/04/2026 18:45:29,System.Runtime,GC Heap Size (MB),Metric,21.97712
+05/04/2026 18:45:29,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:29,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:29,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:29,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:29,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:29,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:30,System.Runtime,CPU Usage (%),Metric,7.025395049467386
+05/04/2026 18:45:30,System.Runtime,Working Set (MB),Metric,243.781632
+05/04/2026 18:45:30,System.Runtime,GC Heap Size (MB),Metric,22.229248
+05/04/2026 18:45:30,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:30,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:30,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:30,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:30,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:30,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:31,System.Runtime,CPU Usage (%),Metric,63.989787798227844
+05/04/2026 18:45:31,System.Runtime,Working Set (MB),Metric,239.489024
+05/04/2026 18:45:31,System.Runtime,GC Heap Size (MB),Metric,29.19748
+05/04/2026 18:45:31,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:31,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:31,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:31,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:31,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:31,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:32,System.Runtime,CPU Usage (%),Metric,8.52633936062767
+05/04/2026 18:45:32,System.Runtime,Working Set (MB),Metric,235.307008
+05/04/2026 18:45:32,System.Runtime,GC Heap Size (MB),Metric,22.00192
+05/04/2026 18:45:32,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:32,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:32,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:32,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:32,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:32,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:33,System.Runtime,CPU Usage (%),Metric,12.249172367549546
+05/04/2026 18:45:33,System.Runtime,Working Set (MB),Metric,235.27424
+05/04/2026 18:45:33,System.Runtime,GC Heap Size (MB),Metric,17.039136
+05/04/2026 18:45:33,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:45:33,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:33,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:33,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:33,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:33,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:36,System.Runtime,CPU Usage (%),Metric,30.996388314091494
+05/04/2026 18:45:36,System.Runtime,Working Set (MB),Metric,235.352064
+05/04/2026 18:45:36,System.Runtime,GC Heap Size (MB),Metric,18.2962
+05/04/2026 18:45:36,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,4
+05/04/2026 18:45:36,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:45:36,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:36,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:36,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:36,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:37,System.Runtime,CPU Usage (%),Metric,35.077660612826215
+05/04/2026 18:45:37,System.Runtime,Working Set (MB),Metric,235.352064
+05/04/2026 18:45:37,System.Runtime,GC Heap Size (MB),Metric,30.0096
+05/04/2026 18:45:37,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:37,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:37,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:37,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:37,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:37,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:38,System.Runtime,CPU Usage (%),Metric,34.63107134972541
+05/04/2026 18:45:38,System.Runtime,Working Set (MB),Metric,235.327488
+05/04/2026 18:45:38,System.Runtime,GC Heap Size (MB),Metric,16.11464
+05/04/2026 18:45:38,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:45:38,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:38,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:38,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:45:38,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:38,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:39,System.Runtime,CPU Usage (%),Metric,15.932419382958823
+05/04/2026 18:45:39,System.Runtime,Working Set (MB),Metric,235.327488
+05/04/2026 18:45:39,System.Runtime,GC Heap Size (MB),Metric,16.299672
+05/04/2026 18:45:39,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:45:39,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:45:39,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:39,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:45:39,System.Runtime,ThreadPool Queue Length,Metric,1
+05/04/2026 18:45:39,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:40,System.Runtime,CPU Usage (%),Metric,28.382606234340372
+05/04/2026 18:45:40,System.Runtime,Working Set (MB),Metric,236.507136
+05/04/2026 18:45:40,System.Runtime,GC Heap Size (MB),Metric,21.5168
+05/04/2026 18:45:40,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:40,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:40,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:40,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:45:40,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:40,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:41,System.Runtime,CPU Usage (%),Metric,43.50593321465404
+05/04/2026 18:45:41,System.Runtime,Working Set (MB),Metric,242.143232
+05/04/2026 18:45:41,System.Runtime,GC Heap Size (MB),Metric,37.847128
+05/04/2026 18:45:41,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:41,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:41,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:41,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:45:41,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:41,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:42,System.Runtime,CPU Usage (%),Metric,12.814191186575611
+05/04/2026 18:45:42,System.Runtime,Working Set (MB),Metric,248.4224
+05/04/2026 18:45:42,System.Runtime,GC Heap Size (MB),Metric,20.193728
+05/04/2026 18:45:42,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:42,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:42,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:42,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:45:42,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:42,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:43,System.Runtime,CPU Usage (%),Metric,23.814359991362913
+05/04/2026 18:45:43,System.Runtime,Working Set (MB),Metric,239.7184
+05/04/2026 18:45:43,System.Runtime,GC Heap Size (MB),Metric,18.665976
+05/04/2026 18:45:43,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:43,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:43,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:43,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:45:43,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:43,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:44,System.Runtime,CPU Usage (%),Metric,48.30904384806643
+05/04/2026 18:45:44,System.Runtime,Working Set (MB),Metric,240.504832
+05/04/2026 18:45:44,System.Runtime,GC Heap Size (MB),Metric,30.677752
+05/04/2026 18:45:44,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:44,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:44,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:44,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:45:44,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:44,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:45,System.Runtime,CPU Usage (%),Metric,8.672742394515673
+05/04/2026 18:45:45,System.Runtime,Working Set (MB),Metric,243.126272
+05/04/2026 18:45:45,System.Runtime,GC Heap Size (MB),Metric,38.859272
+05/04/2026 18:45:45,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:45,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:45,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:45,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:45:45,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:45,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:46,System.Runtime,CPU Usage (%),Metric,20.711960112532818
+05/04/2026 18:45:46,System.Runtime,Working Set (MB),Metric,248.40192
+05/04/2026 18:45:46,System.Runtime,GC Heap Size (MB),Metric,16.773704
+05/04/2026 18:45:46,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:46,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:46,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:46,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:45:46,System.Runtime,ThreadPool Queue Length,Metric,4
+05/04/2026 18:45:46,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:47,System.Runtime,CPU Usage (%),Metric,52.87891642643238
+05/04/2026 18:45:47,System.Runtime,Working Set (MB),Metric,243.888128
+05/04/2026 18:45:47,System.Runtime,GC Heap Size (MB),Metric,22.04656
+05/04/2026 18:45:47,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:47,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:47,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:47,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:45:47,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:47,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:48,System.Runtime,CPU Usage (%),Metric,7.831409820830356
+05/04/2026 18:45:48,System.Runtime,Working Set (MB),Metric,239.484928
+05/04/2026 18:45:48,System.Runtime,GC Heap Size (MB),Metric,18.743048
+05/04/2026 18:45:48,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:48,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:48,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:48,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:45:48,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:48,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:49,System.Runtime,CPU Usage (%),Metric,19.1181645481749
+05/04/2026 18:45:49,System.Runtime,Working Set (MB),Metric,235.147264
+05/04/2026 18:45:49,System.Runtime,GC Heap Size (MB),Metric,23.246808
+05/04/2026 18:45:49,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:49,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:49,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:49,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:45:49,System.Runtime,ThreadPool Queue Length,Metric,1
+05/04/2026 18:45:49,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:50,System.Runtime,CPU Usage (%),Metric,51.81684228722434
+05/04/2026 18:45:50,System.Runtime,Working Set (MB),Metric,235.147264
+05/04/2026 18:45:50,System.Runtime,GC Heap Size (MB),Metric,21.661896
+05/04/2026 18:45:50,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:50,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:50,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:50,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:45:50,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:50,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:51,System.Runtime,CPU Usage (%),Metric,10.757005812273709
+05/04/2026 18:45:51,System.Runtime,Working Set (MB),Metric,239.079424
+05/04/2026 18:45:51,System.Runtime,GC Heap Size (MB),Metric,34.987648
+05/04/2026 18:45:51,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:51,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:51,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:51,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:45:51,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:51,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:52,System.Runtime,CPU Usage (%),Metric,18.571021547943317
+05/04/2026 18:45:52,System.Runtime,Working Set (MB),Metric,248.307712
+05/04/2026 18:45:52,System.Runtime,GC Heap Size (MB),Metric,30.458424
+05/04/2026 18:45:52,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:52,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:52,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:52,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:45:52,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:52,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:53,System.Runtime,CPU Usage (%),Metric,57.32231442973724
+05/04/2026 18:45:53,System.Runtime,Working Set (MB),Metric,243.941376
+05/04/2026 18:45:53,System.Runtime,GC Heap Size (MB),Metric,17.97304
+05/04/2026 18:45:53,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:53,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:53,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:53,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:45:53,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:53,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:54,System.Runtime,CPU Usage (%),Metric,15.04806153079126
+05/04/2026 18:45:54,System.Runtime,Working Set (MB),Metric,239.55456
+05/04/2026 18:45:54,System.Runtime,GC Heap Size (MB),Metric,14.123536
+05/04/2026 18:45:54,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:54,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:54,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:54,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:45:54,System.Runtime,ThreadPool Queue Length,Metric,1
+05/04/2026 18:45:54,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:55,System.Runtime,CPU Usage (%),Metric,11.171904932880665
+05/04/2026 18:45:55,System.Runtime,Working Set (MB),Metric,231.038976
+05/04/2026 18:45:55,System.Runtime,GC Heap Size (MB),Metric,14.674944
+05/04/2026 18:45:55,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:45:55,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:55,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:55,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:45:55,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:55,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:56,System.Runtime,CPU Usage (%),Metric,60.706397130970295
+05/04/2026 18:45:56,System.Runtime,Working Set (MB),Metric,232.480768
+05/04/2026 18:45:56,System.Runtime,GC Heap Size (MB),Metric,15.906256
+05/04/2026 18:45:56,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:45:56,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:45:56,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:56,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:45:56,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:56,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:57,System.Runtime,CPU Usage (%),Metric,14.296238514946085
+05/04/2026 18:45:57,System.Runtime,Working Set (MB),Metric,232.480768
+05/04/2026 18:45:57,System.Runtime,GC Heap Size (MB),Metric,17.056616
+05/04/2026 18:45:57,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:57,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:57,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:57,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:45:57,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:57,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:58,System.Runtime,CPU Usage (%),Metric,6.925707462488276
+05/04/2026 18:45:58,System.Runtime,Working Set (MB),Metric,232.308736
+05/04/2026 18:45:58,System.Runtime,GC Heap Size (MB),Metric,15.826328
+05/04/2026 18:45:58,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:58,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:58,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:58,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:45:58,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:58,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:59,System.Runtime,CPU Usage (%),Metric,65.07642675266918
+05/04/2026 18:45:59,System.Runtime,Working Set (MB),Metric,244.629504
+05/04/2026 18:45:59,System.Runtime,GC Heap Size (MB),Metric,40.54516
+05/04/2026 18:45:59,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:59,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:45:59,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:45:59,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:45:59,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:45:59,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:00,System.Runtime,CPU Usage (%),Metric,11.110188443113671
+05/04/2026 18:46:00,System.Runtime,Working Set (MB),Metric,257.630208
+05/04/2026 18:46:00,System.Runtime,GC Heap Size (MB),Metric,20.567544
+05/04/2026 18:46:00,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:00,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:00,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:00,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:46:00,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:00,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:01,System.Runtime,CPU Usage (%),Metric,11.49065187266857
+05/04/2026 18:46:01,System.Runtime,Working Set (MB),Metric,257.630208
+05/04/2026 18:46:01,System.Runtime,GC Heap Size (MB),Metric,33.159584
+05/04/2026 18:46:01,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:01,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:01,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:01,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:46:01,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:01,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:02,System.Runtime,CPU Usage (%),Metric,62.074833215001114
+05/04/2026 18:46:02,System.Runtime,Working Set (MB),Metric,257.76128
+05/04/2026 18:46:02,System.Runtime,GC Heap Size (MB),Metric,48.082
+05/04/2026 18:46:02,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:02,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:02,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:02,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:02,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:02,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:03,System.Runtime,CPU Usage (%),Metric,8.10390740947439
+05/04/2026 18:46:03,System.Runtime,Working Set (MB),Metric,261.169152
+05/04/2026 18:46:03,System.Runtime,GC Heap Size (MB),Metric,30.296128
+05/04/2026 18:46:03,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:03,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:03,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:03,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:03,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:03,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:04,System.Runtime,CPU Usage (%),Metric,16.453156422423934
+05/04/2026 18:46:04,System.Runtime,Working Set (MB),Metric,262.217728
+05/04/2026 18:46:04,System.Runtime,GC Heap Size (MB),Metric,57.614128
+05/04/2026 18:46:04,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:04,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:04,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:04,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:04,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:04,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:06,System.Runtime,CPU Usage (%),Metric,30.018165877745954
+05/04/2026 18:46:06,System.Runtime,Working Set (MB),Metric,265.95328
+05/04/2026 18:46:06,System.Runtime,GC Heap Size (MB),Metric,46.529928
+05/04/2026 18:46:06,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:06,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:06,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:06,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:06,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:06,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:07,System.Runtime,CPU Usage (%),Metric,33.6977507460389
+05/04/2026 18:46:07,System.Runtime,Working Set (MB),Metric,253.018112
+05/04/2026 18:46:07,System.Runtime,GC Heap Size (MB),Metric,28.15796
+05/04/2026 18:46:07,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:07,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:07,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:07,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:07,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:07,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:08,System.Runtime,CPU Usage (%),Metric,34.7839563728208
+05/04/2026 18:46:08,System.Runtime,Working Set (MB),Metric,253.149184
+05/04/2026 18:46:08,System.Runtime,GC Heap Size (MB),Metric,39.442368
+05/04/2026 18:46:08,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:08,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:08,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:08,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:08,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:08,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:09,System.Runtime,CPU Usage (%),Metric,13.173355689755434
+05/04/2026 18:46:09,System.Runtime,Working Set (MB),Metric,253.079552
+05/04/2026 18:46:09,System.Runtime,GC Heap Size (MB),Metric,26.085872
+05/04/2026 18:46:09,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:09,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:09,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:09,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:09,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:09,System.Runtime,Exception Count (Count / 1 sec),Rate,4
+05/04/2026 18:46:10,System.Runtime,CPU Usage (%),Metric,27.36215672382116
+05/04/2026 18:46:10,System.Runtime,Working Set (MB),Metric,248.651776
+05/04/2026 18:46:10,System.Runtime,GC Heap Size (MB),Metric,22.343184
+05/04/2026 18:46:10,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:10,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:10,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:10,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:10,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:10,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:11,System.Runtime,CPU Usage (%),Metric,45.79421898068705
+05/04/2026 18:46:11,System.Runtime,Working Set (MB),Metric,249.962496
+05/04/2026 18:46:11,System.Runtime,GC Heap Size (MB),Metric,28.301536
+05/04/2026 18:46:11,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:11,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:11,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:11,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:11,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:11,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:12,System.Runtime,CPU Usage (%),Metric,8.34867001292552
+05/04/2026 18:46:12,System.Runtime,Working Set (MB),Metric,249.962496
+05/04/2026 18:46:12,System.Runtime,GC Heap Size (MB),Metric,36.954656
+05/04/2026 18:46:12,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:12,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:12,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:12,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:12,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:12,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:13,System.Runtime,CPU Usage (%),Metric,25.55436078849462
+05/04/2026 18:46:13,System.Runtime,Working Set (MB),Metric,251.011072
+05/04/2026 18:46:13,System.Runtime,GC Heap Size (MB),Metric,46.815128
+05/04/2026 18:46:13,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:13,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:13,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:13,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:13,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:13,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:14,System.Runtime,CPU Usage (%),Metric,49.54707131051732
+05/04/2026 18:46:14,System.Runtime,Working Set (MB),Metric,268.050432
+05/04/2026 18:46:14,System.Runtime,GC Heap Size (MB),Metric,30.966112
+05/04/2026 18:46:14,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:14,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:14,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:14,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:14,System.Runtime,ThreadPool Queue Length,Metric,1
+05/04/2026 18:46:14,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:15,System.Runtime,CPU Usage (%),Metric,8.667437069294266
+05/04/2026 18:46:15,System.Runtime,Working Set (MB),Metric,268.181504
+05/04/2026 18:46:15,System.Runtime,GC Heap Size (MB),Metric,50.037312
+05/04/2026 18:46:15,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:15,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:15,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:15,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:15,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:15,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:16,System.Runtime,CPU Usage (%),Metric,24.2073437206336
+05/04/2026 18:46:16,System.Runtime,Working Set (MB),Metric,269.754368
+05/04/2026 18:46:16,System.Runtime,GC Heap Size (MB),Metric,65.287008
+05/04/2026 18:46:16,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:16,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:16,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:16,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:16,System.Runtime,ThreadPool Queue Length,Metric,1
+05/04/2026 18:46:16,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:17,System.Runtime,CPU Usage (%),Metric,48.02008250818266
+05/04/2026 18:46:17,System.Runtime,Working Set (MB),Metric,276.004864
+05/04/2026 18:46:17,System.Runtime,GC Heap Size (MB),Metric,14.377008
+05/04/2026 18:46:17,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:17,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:17,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:17,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:17,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:17,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:18,System.Runtime,CPU Usage (%),Metric,10.693584227740553
+05/04/2026 18:46:18,System.Runtime,Working Set (MB),Metric,265.924608
+05/04/2026 18:46:18,System.Runtime,GC Heap Size (MB),Metric,38.980432
+05/04/2026 18:46:18,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:18,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:18,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:18,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:18,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:18,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:19,System.Runtime,CPU Usage (%),Metric,20.595990669686625
+05/04/2026 18:46:19,System.Runtime,Working Set (MB),Metric,266.186752
+05/04/2026 18:46:19,System.Runtime,GC Heap Size (MB),Metric,24.07944
+05/04/2026 18:46:19,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:19,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:19,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:19,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:19,System.Runtime,ThreadPool Queue Length,Metric,1
+05/04/2026 18:46:19,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:20,System.Runtime,CPU Usage (%),Metric,50.68060078261001
+05/04/2026 18:46:20,System.Runtime,Working Set (MB),Metric,266.186752
+05/04/2026 18:46:20,System.Runtime,GC Heap Size (MB),Metric,35.309376
+05/04/2026 18:46:20,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:20,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:20,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:20,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:20,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:20,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:21,System.Runtime,CPU Usage (%),Metric,13.28738756239888
+05/04/2026 18:46:21,System.Runtime,Working Set (MB),Metric,266.186752
+05/04/2026 18:46:21,System.Runtime,GC Heap Size (MB),Metric,49.47324
+05/04/2026 18:46:21,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:21,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:21,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:21,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:46:21,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:21,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:22,System.Runtime,CPU Usage (%),Metric,11.581531466517994
+05/04/2026 18:46:22,System.Runtime,Working Set (MB),Metric,273.395712
+05/04/2026 18:46:22,System.Runtime,GC Heap Size (MB),Metric,69.126632
+05/04/2026 18:46:22,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:22,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:22,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:22,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:46:22,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:22,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:23,System.Runtime,CPU Usage (%),Metric,59.42384628608335
+05/04/2026 18:46:23,System.Runtime,Working Set (MB),Metric,265.80992
+05/04/2026 18:46:23,System.Runtime,GC Heap Size (MB),Metric,39.806288
+05/04/2026 18:46:23,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:23,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:23,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:23,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:46:23,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:23,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:24,System.Runtime,CPU Usage (%),Metric,15.301360397939046
+05/04/2026 18:46:24,System.Runtime,Working Set (MB),Metric,252.854272
+05/04/2026 18:46:24,System.Runtime,GC Heap Size (MB),Metric,21.000032
+05/04/2026 18:46:24,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:24,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:24,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:24,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:46:24,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:24,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:25,System.Runtime,CPU Usage (%),Metric,6.636528704713943
+05/04/2026 18:46:25,System.Runtime,Working Set (MB),Metric,252.854272
+05/04/2026 18:46:25,System.Runtime,GC Heap Size (MB),Metric,28.271696
+05/04/2026 18:46:25,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:25,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:25,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:25,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:46:25,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:25,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:26,System.Runtime,CPU Usage (%),Metric,64.77161761704133
+05/04/2026 18:46:26,System.Runtime,Working Set (MB),Metric,248.467456
+05/04/2026 18:46:26,System.Runtime,GC Heap Size (MB),Metric,28.589624
+05/04/2026 18:46:26,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:26,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:26,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:26,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:46:26,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:26,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:27,System.Runtime,CPU Usage (%),Metric,11.666224186718773
+05/04/2026 18:46:27,System.Runtime,Working Set (MB),Metric,250.171392
+05/04/2026 18:46:27,System.Runtime,GC Heap Size (MB),Metric,32.069008
+05/04/2026 18:46:27,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:27,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:27,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:27,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:46:27,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:27,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:28,System.Runtime,CPU Usage (%),Metric,10.664797610034352
+05/04/2026 18:46:28,System.Runtime,Working Set (MB),Metric,252.530688
+05/04/2026 18:46:28,System.Runtime,GC Heap Size (MB),Metric,48.332152
+05/04/2026 18:46:28,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:28,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:28,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:28,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:46:28,System.Runtime,ThreadPool Queue Length,Metric,1
+05/04/2026 18:46:28,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:29,System.Runtime,CPU Usage (%),Metric,58.665186296965146
+05/04/2026 18:46:29,System.Runtime,Working Set (MB),Metric,266.162176
+05/04/2026 18:46:29,System.Runtime,GC Heap Size (MB),Metric,62.038312
+05/04/2026 18:46:29,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:29,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:29,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:29,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:46:29,System.Runtime,ThreadPool Queue Length,Metric,1
+05/04/2026 18:46:29,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:30,System.Runtime,CPU Usage (%),Metric,8.60164942149325
+05/04/2026 18:46:30,System.Runtime,Working Set (MB),Metric,261.861376
+05/04/2026 18:46:30,System.Runtime,GC Heap Size (MB),Metric,30.203288
+05/04/2026 18:46:30,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:30,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:30,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:30,System.Runtime,ThreadPool Thread Count,Metric,11
+05/04/2026 18:46:30,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:30,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:31,System.Runtime,CPU Usage (%),Metric,13.159386106855784
+05/04/2026 18:46:31,System.Runtime,Working Set (MB),Metric,253.001728
+05/04/2026 18:46:31,System.Runtime,GC Heap Size (MB),Metric,23.420264
+05/04/2026 18:46:31,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:31,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:31,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:31,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:46:31,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:31,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:32,System.Runtime,CPU Usage (%),Metric,59.328878249471636
+05/04/2026 18:46:32,System.Runtime,Working Set (MB),Metric,248.512512
+05/04/2026 18:46:32,System.Runtime,GC Heap Size (MB),Metric,18.393152
+05/04/2026 18:46:32,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:32,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:32,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:32,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:46:32,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:32,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:33,System.Runtime,CPU Usage (%),Metric,7.524801512854763
+05/04/2026 18:46:33,System.Runtime,Working Set (MB),Metric,248.512512
+05/04/2026 18:46:33,System.Runtime,GC Heap Size (MB),Metric,26.969504
+05/04/2026 18:46:33,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:33,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:33,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:33,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:46:33,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:33,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:36,System.Runtime,CPU Usage (%),Metric,30.813015986540638
+05/04/2026 18:46:36,System.Runtime,Working Set (MB),Metric,235.925504
+05/04/2026 18:46:36,System.Runtime,GC Heap Size (MB),Metric,27.29232
+05/04/2026 18:46:36,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,4
+05/04/2026 18:46:36,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:46:36,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:36,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:46:36,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:36,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:37,System.Runtime,CPU Usage (%),Metric,14.793357725544771
+05/04/2026 18:46:37,System.Runtime,Working Set (MB),Metric,240.955392
+05/04/2026 18:46:37,System.Runtime,GC Heap Size (MB),Metric,18.702816
+05/04/2026 18:46:37,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:37,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:37,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:37,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:46:37,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:37,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:38,System.Runtime,CPU Usage (%),Metric,32.36168807573989
+05/04/2026 18:46:38,System.Runtime,Working Set (MB),Metric,240.955392
+05/04/2026 18:46:38,System.Runtime,GC Heap Size (MB),Metric,27.27612
+05/04/2026 18:46:38,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:38,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:38,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:38,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:46:38,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:38,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:39,System.Runtime,CPU Usage (%),Metric,38.322310019830034
+05/04/2026 18:46:39,System.Runtime,Working Set (MB),Metric,239.726592
+05/04/2026 18:46:39,System.Runtime,GC Heap Size (MB),Metric,26.192808
+05/04/2026 18:46:39,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:46:39,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:39,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:39,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:46:39,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:39,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:40,System.Runtime,CPU Usage (%),Metric,13.978091176507204
+05/04/2026 18:46:40,System.Runtime,Working Set (MB),Metric,240.381952
+05/04/2026 18:46:40,System.Runtime,GC Heap Size (MB),Metric,20.82284
+05/04/2026 18:46:40,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:46:40,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:46:40,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:40,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:46:40,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:40,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:41,System.Runtime,CPU Usage (%),Metric,29.734009293336413
+05/04/2026 18:46:41,System.Runtime,Working Set (MB),Metric,241.037312
+05/04/2026 18:46:41,System.Runtime,GC Heap Size (MB),Metric,30.797544
+05/04/2026 18:46:41,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:41,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:41,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:41,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:41,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:41,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:42,System.Runtime,CPU Usage (%),Metric,45.049294532682154
+05/04/2026 18:46:42,System.Runtime,Working Set (MB),Metric,248.246272
+05/04/2026 18:46:42,System.Runtime,GC Heap Size (MB),Metric,17.485024
+05/04/2026 18:46:42,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:42,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:42,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:42,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:42,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:42,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:43,System.Runtime,CPU Usage (%),Metric,9.264773762050256
+05/04/2026 18:46:43,System.Runtime,Working Set (MB),Metric,248.246272
+05/04/2026 18:46:43,System.Runtime,GC Heap Size (MB),Metric,42.030848
+05/04/2026 18:46:43,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:43,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:43,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:43,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:43,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:43,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:44,System.Runtime,CPU Usage (%),Metric,26.485023480708033
+05/04/2026 18:46:44,System.Runtime,Working Set (MB),Metric,249.46688
+05/04/2026 18:46:44,System.Runtime,GC Heap Size (MB),Metric,17.124304
+05/04/2026 18:46:44,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:46:44,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:44,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:44,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:44,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:44,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:45,System.Runtime,CPU Usage (%),Metric,48.06972487034874
+05/04/2026 18:46:45,System.Runtime,Working Set (MB),Metric,249.46688
+05/04/2026 18:46:45,System.Runtime,GC Heap Size (MB),Metric,31.281144
+05/04/2026 18:46:45,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:45,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:45,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:45,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:45,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:45,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:46,System.Runtime,CPU Usage (%),Metric,5.670526537933801
+05/04/2026 18:46:46,System.Runtime,Working Set (MB),Metric,249.46688
+05/04/2026 18:46:46,System.Runtime,GC Heap Size (MB),Metric,37.299104
+05/04/2026 18:46:46,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:46,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:46,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:46,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:46,System.Runtime,ThreadPool Queue Length,Metric,1
+05/04/2026 18:46:46,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:47,System.Runtime,CPU Usage (%),Metric,23.052021329215528
+05/04/2026 18:46:47,System.Runtime,Working Set (MB),Metric,241.176576
+05/04/2026 18:46:47,System.Runtime,GC Heap Size (MB),Metric,26.819136
+05/04/2026 18:46:47,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:46:47,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:47,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:47,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:47,System.Runtime,ThreadPool Queue Length,Metric,1
+05/04/2026 18:46:47,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:48,System.Runtime,CPU Usage (%),Metric,50.940978689652326
+05/04/2026 18:46:48,System.Runtime,Working Set (MB),Metric,243.4048
+05/04/2026 18:46:48,System.Runtime,GC Heap Size (MB),Metric,20.720016
+05/04/2026 18:46:48,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:46:48,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:48,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:48,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:48,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:48,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:49,System.Runtime,CPU Usage (%),Metric,8.741539104583918
+05/04/2026 18:46:49,System.Runtime,Working Set (MB),Metric,242.962432
+05/04/2026 18:46:49,System.Runtime,GC Heap Size (MB),Metric,30.245352
+05/04/2026 18:46:49,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:49,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:49,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:49,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:49,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:49,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:50,System.Runtime,CPU Usage (%),Metric,16.60804281684973
+05/04/2026 18:46:50,System.Runtime,Working Set (MB),Metric,249.122816
+05/04/2026 18:46:50,System.Runtime,GC Heap Size (MB),Metric,44.006168
+05/04/2026 18:46:50,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:50,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:50,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:50,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:50,System.Runtime,ThreadPool Queue Length,Metric,1
+05/04/2026 18:46:50,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:51,System.Runtime,CPU Usage (%),Metric,57.22918660856168
+05/04/2026 18:46:51,System.Runtime,Working Set (MB),Metric,257.134592
+05/04/2026 18:46:51,System.Runtime,GC Heap Size (MB),Metric,36.160712
+05/04/2026 18:46:51,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:51,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:51,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:51,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:51,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:51,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:52,System.Runtime,CPU Usage (%),Metric,15.810720015467467
+05/04/2026 18:46:52,System.Runtime,Working Set (MB),Metric,266.4448
+05/04/2026 18:46:52,System.Runtime,GC Heap Size (MB),Metric,19.296112
+05/04/2026 18:46:52,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:52,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:52,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:52,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:52,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:52,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:53,System.Runtime,CPU Usage (%),Metric,8.016547504204047
+05/04/2026 18:46:53,System.Runtime,Working Set (MB),Metric,266.4448
+05/04/2026 18:46:53,System.Runtime,GC Heap Size (MB),Metric,28.82352
+05/04/2026 18:46:53,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:53,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:53,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:53,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:53,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:53,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:54,System.Runtime,CPU Usage (%),Metric,57.755035181733334
+05/04/2026 18:46:54,System.Runtime,Working Set (MB),Metric,266.4448
+05/04/2026 18:46:54,System.Runtime,GC Heap Size (MB),Metric,39.393712
+05/04/2026 18:46:54,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:54,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:54,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:54,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:54,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:54,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:55,System.Runtime,CPU Usage (%),Metric,12.712941367810386
+05/04/2026 18:46:55,System.Runtime,Working Set (MB),Metric,267.493376
+05/04/2026 18:46:55,System.Runtime,GC Heap Size (MB),Metric,61.666672
+05/04/2026 18:46:55,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:55,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:55,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:55,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:55,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:55,System.Runtime,Exception Count (Count / 1 sec),Rate,44
+05/04/2026 18:46:56,System.Runtime,CPU Usage (%),Metric,11.864957855621489
+05/04/2026 18:46:56,System.Runtime,Working Set (MB),Metric,274.702336
+05/04/2026 18:46:56,System.Runtime,GC Heap Size (MB),Metric,36.339936
+05/04/2026 18:46:56,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:56,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:56,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:56,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:56,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:56,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:57,System.Runtime,CPU Usage (%),Metric,65.79498079406395
+05/04/2026 18:46:57,System.Runtime,Working Set (MB),Metric,274.702336
+05/04/2026 18:46:57,System.Runtime,GC Heap Size (MB),Metric,59.214624
+05/04/2026 18:46:57,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:57,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:57,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:57,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:57,System.Runtime,ThreadPool Queue Length,Metric,1
+05/04/2026 18:46:57,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:58,System.Runtime,CPU Usage (%),Metric,9.052780589318829
+05/04/2026 18:46:58,System.Runtime,Working Set (MB),Metric,274.702336
+05/04/2026 18:46:58,System.Runtime,GC Heap Size (MB),Metric,67.557624
+05/04/2026 18:46:58,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:58,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:58,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:58,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:58,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:58,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:59,System.Runtime,CPU Usage (%),Metric,12.219089085534488
+05/04/2026 18:46:59,System.Runtime,Working Set (MB),Metric,286.560256
+05/04/2026 18:46:59,System.Runtime,GC Heap Size (MB),Metric,22.52896
+05/04/2026 18:46:59,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:59,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:46:59,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:46:59,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:46:59,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:46:59,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:00,System.Runtime,CPU Usage (%),Metric,69.61544099432568
+05/04/2026 18:47:00,System.Runtime,Working Set (MB),Metric,286.560256
+05/04/2026 18:47:00,System.Runtime,GC Heap Size (MB),Metric,52.578168
+05/04/2026 18:47:00,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:00,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:00,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:00,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:47:00,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:00,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:01,System.Runtime,CPU Usage (%),Metric,9.917867817308583
+05/04/2026 18:47:01,System.Runtime,Working Set (MB),Metric,286.0032
+05/04/2026 18:47:01,System.Runtime,GC Heap Size (MB),Metric,67.130808
+05/04/2026 18:47:01,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:01,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:01,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:01,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:47:01,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:01,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:02,System.Runtime,CPU Usage (%),Metric,12.057164871903735
+05/04/2026 18:47:02,System.Runtime,Working Set (MB),Metric,286.0032
+05/04/2026 18:47:02,System.Runtime,GC Heap Size (MB),Metric,79.564752
+05/04/2026 18:47:02,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:02,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:02,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:02,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:47:02,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:02,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:03,System.Runtime,CPU Usage (%),Metric,62.89465303965313
+05/04/2026 18:47:03,System.Runtime,Working Set (MB),Metric,279.330816
+05/04/2026 18:47:03,System.Runtime,GC Heap Size (MB),Metric,37.826848
+05/04/2026 18:47:03,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:47:03,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:47:03,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:03,System.Runtime,ThreadPool Thread Count,Metric,12
+05/04/2026 18:47:03,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:03,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:05,System.Runtime,CPU Usage (%),Metric,19.499915708710677
+05/04/2026 18:47:05,System.Runtime,Working Set (MB),Metric,270.606336
+05/04/2026 18:47:05,System.Runtime,GC Heap Size (MB),Metric,39.080384
+05/04/2026 18:47:05,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:47:05,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:05,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:05,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:47:05,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:05,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:06,System.Runtime,CPU Usage (%),Metric,41.283052745806685
+05/04/2026 18:47:06,System.Runtime,Working Set (MB),Metric,270.606336
+05/04/2026 18:47:06,System.Runtime,GC Heap Size (MB),Metric,49.084608
+05/04/2026 18:47:06,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:06,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:06,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:06,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:47:06,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:06,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:07,System.Runtime,CPU Usage (%),Metric,13.956701672354296
+05/04/2026 18:47:07,System.Runtime,Working Set (MB),Metric,272.310272
+05/04/2026 18:47:07,System.Runtime,GC Heap Size (MB),Metric,38.591528
+05/04/2026 18:47:07,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:47:07,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:47:07,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:07,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:47:07,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:07,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:08,System.Runtime,CPU Usage (%),Metric,23.23879647486673
+05/04/2026 18:47:08,System.Runtime,Working Set (MB),Metric,272.310272
+05/04/2026 18:47:08,System.Runtime,GC Heap Size (MB),Metric,63.322808
+05/04/2026 18:47:08,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:08,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:08,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:08,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:47:08,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:08,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:09,System.Runtime,CPU Usage (%),Metric,48.80496744703728
+05/04/2026 18:47:09,System.Runtime,Working Set (MB),Metric,280.04352
+05/04/2026 18:47:09,System.Runtime,GC Heap Size (MB),Metric,75.896456
+05/04/2026 18:47:09,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:09,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:09,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:09,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:47:09,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:09,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:10,System.Runtime,CPU Usage (%),Metric,12.848998805287556
+05/04/2026 18:47:10,System.Runtime,Working Set (MB),Metric,279.59296
+05/04/2026 18:47:10,System.Runtime,GC Heap Size (MB),Metric,20.768328
+05/04/2026 18:47:10,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:47:10,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:47:10,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:10,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:47:10,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:10,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:11,System.Runtime,CPU Usage (%),Metric,14.639745793926616
+05/04/2026 18:47:11,System.Runtime,Working Set (MB),Metric,279.59296
+05/04/2026 18:47:11,System.Runtime,GC Heap Size (MB),Metric,47.004696
+05/04/2026 18:47:11,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:11,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:11,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:11,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:47:11,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:11,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:12,System.Runtime,CPU Usage (%),Metric,57.12395126446265
+05/04/2026 18:47:12,System.Runtime,Working Set (MB),Metric,262.148096
+05/04/2026 18:47:12,System.Runtime,GC Heap Size (MB),Metric,25.960656
+05/04/2026 18:47:12,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:47:12,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:12,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:12,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:47:12,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:12,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:13,System.Runtime,CPU Usage (%),Metric,9.55373111063096
+05/04/2026 18:47:13,System.Runtime,Working Set (MB),Metric,262.148096
+05/04/2026 18:47:13,System.Runtime,GC Heap Size (MB),Metric,35.959776
+05/04/2026 18:47:13,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:13,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:13,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:13,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:47:13,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:13,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:14,System.Runtime,CPU Usage (%),Metric,12.550653378759577
+05/04/2026 18:47:14,System.Runtime,Working Set (MB),Metric,262.148096
+05/04/2026 18:47:14,System.Runtime,GC Heap Size (MB),Metric,47.739704
+05/04/2026 18:47:14,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:14,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:14,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:14,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:47:14,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:14,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:15,System.Runtime,CPU Usage (%),Metric,57.45156871347204
+05/04/2026 18:47:15,System.Runtime,Working Set (MB),Metric,244.67456
+05/04/2026 18:47:15,System.Runtime,GC Heap Size (MB),Metric,16.696688
+05/04/2026 18:47:15,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:47:15,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:47:15,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:15,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:47:15,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:15,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:16,System.Runtime,CPU Usage (%),Metric,9.976840990328393
+05/04/2026 18:47:16,System.Runtime,Working Set (MB),Metric,245.592064
+05/04/2026 18:47:16,System.Runtime,GC Heap Size (MB),Metric,22.819424
+05/04/2026 18:47:16,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:47:16,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:16,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:16,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:47:16,System.Runtime,ThreadPool Queue Length,Metric,1
+05/04/2026 18:47:16,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:17,System.Runtime,CPU Usage (%),Metric,12.135648958952462
+05/04/2026 18:47:17,System.Runtime,Working Set (MB),Metric,245.592064
+05/04/2026 18:47:17,System.Runtime,GC Heap Size (MB),Metric,37.004096
+05/04/2026 18:47:17,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:17,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:17,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:17,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:47:17,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:17,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:18,System.Runtime,CPU Usage (%),Metric,56.924326528016145
+05/04/2026 18:47:18,System.Runtime,Working Set (MB),Metric,252.53888
+05/04/2026 18:47:18,System.Runtime,GC Heap Size (MB),Metric,48.68464
+05/04/2026 18:47:18,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:18,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:18,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:18,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:47:18,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:18,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:19,System.Runtime,CPU Usage (%),Metric,10.265504562699324
+05/04/2026 18:47:19,System.Runtime,Working Set (MB),Metric,253.165568
+05/04/2026 18:47:19,System.Runtime,GC Heap Size (MB),Metric,37.266576
+05/04/2026 18:47:19,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:47:19,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:47:19,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:19,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:47:19,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:19,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:20,System.Runtime,CPU Usage (%),Metric,13.88653842467252
+05/04/2026 18:47:20,System.Runtime,Working Set (MB),Metric,250.94144
+05/04/2026 18:47:20,System.Runtime,GC Heap Size (MB),Metric,21.400152
+05/04/2026 18:47:20,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,2
+05/04/2026 18:47:20,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:47:20,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:20,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:47:20,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:20,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:21,System.Runtime,CPU Usage (%),Metric,55.27096621653513
+05/04/2026 18:47:21,System.Runtime,Working Set (MB),Metric,250.94144
+05/04/2026 18:47:21,System.Runtime,GC Heap Size (MB),Metric,31.324488
+05/04/2026 18:47:21,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:21,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:21,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:21,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:47:21,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:21,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:22,System.Runtime,CPU Usage (%),Metric,10.311965270493939
+05/04/2026 18:47:22,System.Runtime,Working Set (MB),Metric,250.94144
+05/04/2026 18:47:22,System.Runtime,GC Heap Size (MB),Metric,43.80928
+05/04/2026 18:47:22,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:22,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:22,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:22,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:47:22,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:22,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:23,System.Runtime,CPU Usage (%),Metric,11.708427933908109
+05/04/2026 18:47:23,System.Runtime,Working Set (MB),Metric,278.597632
+05/04/2026 18:47:23,System.Runtime,GC Heap Size (MB),Metric,74.357576
+05/04/2026 18:47:23,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:23,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:23,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:23,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:47:23,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:23,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:24,System.Runtime,CPU Usage (%),Metric,58.36616520793298
+05/04/2026 18:47:24,System.Runtime,Working Set (MB),Metric,262.557696
+05/04/2026 18:47:24,System.Runtime,GC Heap Size (MB),Metric,40.124384
+05/04/2026 18:47:24,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:47:24,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:47:24,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:24,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:47:24,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:24,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:25,System.Runtime,CPU Usage (%),Metric,12.678676154978046
+05/04/2026 18:47:25,System.Runtime,Working Set (MB),Metric,253.554688
+05/04/2026 18:47:25,System.Runtime,GC Heap Size (MB),Metric,16.71528
+05/04/2026 18:47:25,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:47:25,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:25,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:25,System.Runtime,ThreadPool Thread Count,Metric,10
+05/04/2026 18:47:25,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:25,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:26,System.Runtime,CPU Usage (%),Metric,7.577449541349509
+05/04/2026 18:47:26,System.Runtime,Working Set (MB),Metric,253.554688
+05/04/2026 18:47:26,System.Runtime,GC Heap Size (MB),Metric,25.7704
+05/04/2026 18:47:26,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:26,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:26,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:26,System.Runtime,ThreadPool Thread Count,Metric,8
+05/04/2026 18:47:26,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:26,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:27,System.Runtime,CPU Usage (%),Metric,60.507784424187356
+05/04/2026 18:47:27,System.Runtime,Working Set (MB),Metric,255.20128
+05/04/2026 18:47:27,System.Runtime,GC Heap Size (MB),Metric,33.52512
+05/04/2026 18:47:27,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:47:27,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:47:27,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:27,System.Runtime,ThreadPool Thread Count,Metric,8
+05/04/2026 18:47:27,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:27,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:28,System.Runtime,CPU Usage (%),Metric,10.210646155245419
+05/04/2026 18:47:28,System.Runtime,Working Set (MB),Metric,265.555968
+05/04/2026 18:47:28,System.Runtime,GC Heap Size (MB),Metric,59.613344
+05/04/2026 18:47:28,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:28,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:28,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:28,System.Runtime,ThreadPool Thread Count,Metric,8
+05/04/2026 18:47:28,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:28,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:29,System.Runtime,CPU Usage (%),Metric,10.175371291087899
+05/04/2026 18:47:29,System.Runtime,Working Set (MB),Metric,275.910656
+05/04/2026 18:47:29,System.Runtime,GC Heap Size (MB),Metric,69.927224
+05/04/2026 18:47:29,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:29,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:29,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:29,System.Runtime,ThreadPool Thread Count,Metric,8
+05/04/2026 18:47:29,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:29,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:30,System.Runtime,CPU Usage (%),Metric,58.46706313058366
+05/04/2026 18:47:30,System.Runtime,Working Set (MB),Metric,288.886784
+05/04/2026 18:47:30,System.Runtime,GC Heap Size (MB),Metric,82.817336
+05/04/2026 18:47:30,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:30,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:30,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:30,System.Runtime,ThreadPool Thread Count,Metric,8
+05/04/2026 18:47:30,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:30,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:31,System.Runtime,CPU Usage (%),Metric,11.616474386864862
+05/04/2026 18:47:31,System.Runtime,Working Set (MB),Metric,267.30496
+05/04/2026 18:47:31,System.Runtime,GC Heap Size (MB),Metric,42.894592
+05/04/2026 18:47:31,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:47:31,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:47:31,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:31,System.Runtime,ThreadPool Thread Count,Metric,8
+05/04/2026 18:47:31,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:31,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:32,System.Runtime,CPU Usage (%),Metric,12.318571613590906
+05/04/2026 18:47:32,System.Runtime,Working Set (MB),Metric,267.436032
+05/04/2026 18:47:32,System.Runtime,GC Heap Size (MB),Metric,28.61148
+05/04/2026 18:47:32,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:47:32,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:32,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:32,System.Runtime,ThreadPool Thread Count,Metric,8
+05/04/2026 18:47:32,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:32,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:33,System.Runtime,CPU Usage (%),Metric,57.362921420867686
+05/04/2026 18:47:33,System.Runtime,Working Set (MB),Metric,267.567104
+05/04/2026 18:47:33,System.Runtime,GC Heap Size (MB),Metric,43.731832
+05/04/2026 18:47:33,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:33,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:33,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:33,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:47:33,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:33,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:36,System.Runtime,CPU Usage (%),Metric,19.753463713279746
+05/04/2026 18:47:36,System.Runtime,Working Set (MB),Metric,285.908992
+05/04/2026 18:47:36,System.Runtime,GC Heap Size (MB),Metric,31.404912
+05/04/2026 18:47:36,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:47:36,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,1
+05/04/2026 18:47:36,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:36,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:47:36,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:36,System.Runtime,Exception Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:37,System.Runtime,CPU Usage (%),Metric,37.89983981117951
+05/04/2026 18:47:37,System.Runtime,Working Set (MB),Metric,285.908992
+05/04/2026 18:47:37,System.Runtime,GC Heap Size (MB),Metric,56.448696
+05/04/2026 18:47:37,System.Runtime,Gen 0 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:37,System.Runtime,Gen 1 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:37,System.Runtime,Gen 2 GC Count (Count / 1 sec),Rate,0
+05/04/2026 18:47:37,System.Runtime,ThreadPool Thread Count,Metric,9
+05/04/2026 18:47:37,System.Runtime,ThreadPool Queue Length,Metric,0
+05/04/2026 18:47:37,System.Runtime,Exception Count (Count / 1 sec),Rate,0

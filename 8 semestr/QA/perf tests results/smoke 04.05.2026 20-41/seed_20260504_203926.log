@@ -1,0 +1,129 @@
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+
+     execution: local
+        script: /mnt/d/data/code/group-diploma-track-list/Source/Tests/Performance/data/seed.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 1 max VUs, 5m30s max duration (incl. graceful stop):
+              * seed: 1 iterations shared among 1 VUs (maxDuration: 5m0s, gracefulStop: 30s)
+
+time="2026-05-04T20:39:43+02:00" level=info msg="Step 1: Registering users..." source=console
+
+running (0m01.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+seed   [   0% ] 1 VUs  0m01.0s/5m0s  0/1 shared iters
+
+running (0m02.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+seed   [   0% ] 1 VUs  0m02.0s/5m0s  0/1 shared iters
+
+running (0m01.2s), 1/1 VUs, 0 complete and 0 interrupted iterations
+seed   [   0% ] 1 VUs  0m03.0s/5m0s  0/1 shared iters
+
+running (0m02.2s), 1/1 VUs, 0 complete and 0 interrupted iterations
+seed   [   0% ] 1 VUs  0m04.0s/5m0s  0/1 shared iters
+
+running (0m03.2s), 1/1 VUs, 0 complete and 0 interrupted iterations
+seed   [   0% ] 1 VUs  0m05.0s/5m0s  0/1 shared iters
+
+running (0m04.2s), 1/1 VUs, 0 complete and 0 interrupted iterations
+seed   [   0% ] 1 VUs  0m06.0s/5m0s  0/1 shared iters
+
+running (0m05.2s), 1/1 VUs, 0 complete and 0 interrupted iterations
+seed   [   0% ] 1 VUs  0m07.0s/5m0s  0/1 shared iters
+
+running (0m06.2s), 1/1 VUs, 0 complete and 0 interrupted iterations
+seed   [   0% ] 1 VUs  0m08.0s/5m0s  0/1 shared iters
+
+running (0m07.2s), 1/1 VUs, 0 complete and 0 interrupted iterations
+seed   [   0% ] 1 VUs  0m09.0s/5m0s  0/1 shared iters
+
+running (0m08.2s), 1/1 VUs, 0 complete and 0 interrupted iterations
+seed   [   0% ] 1 VUs  0m10.0s/5m0s  0/1 shared iters
+
+running (0m09.2s), 1/1 VUs, 0 complete and 0 interrupted iterations
+seed   [   0% ] 1 VUs  0m11.0s/5m0s  0/1 shared iters
+time="2026-05-04T20:39:52+02:00" level=info msg="Step 2: Building follow graph..." source=console
+
+running (0m10.2s), 1/1 VUs, 0 complete and 0 interrupted iterations
+seed   [   0% ] 1 VUs  0m12.0s/5m0s  0/1 shared iters
+time="2026-05-04T20:39:53+02:00" level=info msg="Step 3: Creating media..." source=console
+
+running (0m11.2s), 1/1 VUs, 0 complete and 0 interrupted iterations
+seed   [   0% ] 1 VUs  0m13.0s/5m0s  0/1 shared iters
+time="2026-05-04T20:39:55+02:00" level=info msg="Created 20 media items" source=console
+time="2026-05-04T20:39:55+02:00" level=info msg="Step 4: Creating reviews..." source=console
+
+running (0m12.2s), 1/1 VUs, 0 complete and 0 interrupted iterations
+seed   [   0% ] 1 VUs  0m14.0s/5m0s  0/1 shared iters
+
+running (0m13.2s), 1/1 VUs, 0 complete and 0 interrupted iterations
+seed   [   0% ] 1 VUs  0m15.0s/5m0s  0/1 shared iters
+time="2026-05-04T20:39:57+02:00" level=info msg="Created 60 reviews" source=console
+time="2026-05-04T20:39:57+02:00" level=info msg="Step 5: Creating comments and likes..." source=console
+
+running (0m14.2s), 1/1 VUs, 0 complete and 0 interrupted iterations
+seed   [   0% ] 1 VUs  0m16.0s/5m0s  0/1 shared iters
+
+running (0m15.2s), 1/1 VUs, 0 complete and 0 interrupted iterations
+seed   [   0% ] 1 VUs  0m17.0s/5m0s  0/1 shared iters
+
+running (0m16.2s), 1/1 VUs, 0 complete and 0 interrupted iterations
+seed   [   0% ] 1 VUs  0m18.0s/5m0s  0/1 shared iters
+
+running (0m17.2s), 1/1 VUs, 0 complete and 0 interrupted iterations
+seed   [   0% ] 1 VUs  0m19.0s/5m0s  0/1 shared iters
+
+running (0m18.2s), 1/1 VUs, 0 complete and 0 interrupted iterations
+seed   [   0% ] 1 VUs  0m20.0s/5m0s  0/1 shared iters
+
+running (0m19.2s), 1/1 VUs, 0 complete and 0 interrupted iterations
+seed   [   0% ] 1 VUs  0m21.0s/5m0s  0/1 shared iters
+
+running (0m20.2s), 1/1 VUs, 0 complete and 0 interrupted iterations
+seed   [   0% ] 1 VUs  0m22.0s/5m0s  0/1 shared iters
+time="2026-05-04T20:40:03+02:00" level=info msg="Step 6: Creating collections..." source=console
+
+running (0m21.2s), 1/1 VUs, 0 complete and 0 interrupted iterations
+seed   [   0% ] 1 VUs  0m23.0s/5m0s  0/1 shared iters
+time="2026-05-04T20:40:05+02:00" level=info msg="Created 10 collections" source=console
+time="2026-05-04T20:40:05+02:00" level=info msg="Step 7: Creating tracking statuses..." source=console
+
+running (0m22.2s), 1/1 VUs, 0 complete and 0 interrupted iterations
+seed   [   0% ] 1 VUs  0m24.0s/5m0s  0/1 shared iters
+
+running (0m23.2s), 1/1 VUs, 0 complete and 0 interrupted iterations
+seed   [   0% ] 1 VUs  0m25.0s/5m0s  0/1 shared iters
+time="2026-05-04T20:40:06+02:00" level=info msg="=== SEED_DATA_JSON_START ===" source=console
+time="2026-05-04T20:40:06+02:00" level=info msg="{\"users\":[{\"email\":\"perfgen_01@test.com\",\"username\":\"perfgen_01\",\"password\":\"PerfGen123!\"},{\"email\":\"perfgen_02@test.com\",\"username\":\"perfgen_02\",\"password\":\"PerfGen123!\"},{\"email\":\"perfgen_03@test.com\",\"username\":\"perfgen_03\",\"password\":\"PerfGen123!\"},{\"email\":\"perfgen_04@test.com\",\"username\":\"perfgen_04\",\"password\":\"PerfGen123!\"},{\"email\":\"perfgen_05@test.com\",\"username\":\"perfgen_05\",\"password\":\"PerfGen123!\"},{\"email\":\"perfgen_06@test.com\",\"username\":\"perfgen_06\",\"password\":\"PerfGen123!\"},{\"email\":\"perfgen_07@test.com\",\"username\":\"perfgen_07\",\"password\":\"PerfGen123!\"},{\"email\":\"perfgen_08@test.com\",\"username\":\"perfgen_08\",\"password\":\"PerfGen123!\"},{\"email\":\"perfgen_09@test.com\",\"username\":\"perfgen_09\",\"password\":\"PerfGen123!\"},{\"email\":\"perfgen_10@test.com\",\"username\":\"perfgen_10\",\"password\":\"PerfGen123!\"},{\"email\":\"perfgen_11@test.com\",\"username\":\"perfgen_11\",\"password\":\"PerfGen123!\"},{\"email\":\"perfgen_12@test.com\",\"username\":\"perfgen_12\",\"password\":\"PerfGen123!\"},{\"email\":\"perfgen_13@test.com\",\"username\":\"perfgen_13\",\"password\":\"PerfGen123!\"},{\"email\":\"perfgen_14@test.com\",\"username\":\"perfgen_14\",\"password\":\"PerfGen123!\"},{\"email\":\"perfgen_15@test.com\",\"username\":\"perfgen_15\",\"password\":\"PerfGen123!\"},{\"email\":\"perfgen_16@test.com\",\"username\":\"perfgen_16\",\"password\":\"PerfGen123!\"},{\"email\":\"perfgen_17@test.com\",\"username\":\"perfgen_17\",\"password\":\"PerfGen123!\"},{\"email\":\"perfgen_18@test.com\",\"username\":\"perfgen_18\",\"password\":\"PerfGen123!\"},{\"email\":\"perfgen_19@test.com\",\"username\":\"perfgen_19\",\"password\":\"PerfGen123!\"},{\"email\":\"perfgen_20@test.com\",\"username\":\"perfgen_20\",\"password\":\"PerfGen123!\"}],\"mediaIds\":[\"019df44a-2783-76b6-8857-dd0963020a39\",\"019df44a-284d-768d-acda-3af798a4fdf7\",\"019df44a-288e-798c-a5c2-9843fd2188f6\",\"019df44a-28cb-74b3-ba3c-14000da4f044\",\"019df44a-2905-7058-871a-30f7ae76dd98\",\"019df44a-293f-7edb-9af1-b765a7f85556\",\"019df44a-297b-7d25-b04b-866272f25c6f\",\"019df44a-29b7-7f15-9892-33b929477c5e\",\"019df44a-29f1-7659-a344-f3694d472274\",\"019df44a-2a2b-7657-9edf-6eb203818cd2\",\"019df44a-2a65-7009-9269-18b844b6c149\",\"019df44a-2aa1-77b8-b51c-cef932596f49\",\"019df44a-2adb-7ebd-ad78-85f41eff5bf5\",\"019df44a-2b15-7455-9b5f-d6cac1d5c228\",\"019df44a-2b51-7d69-b4ef-f3be33033bfd\",\"019df44a-2b8b-7e9b-9e3f-9d0da8e3ebf1\",\"019df44a-2bc6-73c0-af3e-7132b7158382\",\"019df44a-2c00-7128-9c50-e9e0adcc0b2f\",\"019df44a-2c3a-72ca-858c-43064b94ff96\",\"019df44a-2c75-744d-8159-bcfcf63fd37d\"],\"reviews\":[{\"mediaId\":\"019df44a-2c00-7128-9c50-e9e0adcc0b2f\",\"reviewId\":\"019df44a-2ccd-7c80-816b-3ba81c0b25b0\"},{\"mediaId\":\"019df44a-29b7-7f15-9892-33b929477c5e\",\"reviewId\":\"019df44a-2d25-7372-beda-49756ee4b315\"},{\"mediaId\":\"019df44a-2c75-744d-8159-bcfcf63fd37d\",\"reviewId\":\"019df44a-2d4e-7fbe-b1d1-938a9685de29\"},{\"mediaId\":\"019df44a-293f-7edb-9af1-b765a7f85556\",\"reviewId\":\"019df44a-2d78-74ab-9315-866a8d57763a\"},{\"mediaId\":\"019df44a-2b51-7d69-b4ef-f3be33033bfd\",\"reviewId\":\"019df44a-2da0-7e37-b987-d966e0b6e243\"},{\"mediaId\":\"019df44a-297b-7d25-b04b-866272f25c6f\",\"reviewId\":\"019df44a-2dc8-7ee5-8270-9fc02d39010f\"},{\"mediaId\":\"019df44a-2c00-7128-9c50-e9e0adcc0b2f\",\"reviewId\":\"019df44a-2df1-7d46-b9b9-4c7f063b3817\"},{\"mediaId\":\"019df44a-2bc6-73c0-af3e-7132b7158382\",\"reviewId\":\"019df44a-2e18-7029-a76c-97abdf10ad53\"},{\"mediaId\":\"019df44a-29b7-7f15-9892-33b929477c5e\",\"reviewId\":\"019df44a-2e3f-7911-808f-0c8edc16e1ba\"},{\"mediaId\":\"019df44a-29b7-7f15-9892-33b929477c5e\",\"reviewId\":\"019df44a-2e66-717e-bb8f-72d9ef091ab0\"},{\"mediaId\":\"019df44a-2905-7058-871a-30f7ae76dd98\",\"reviewId\":\"019df44a-2e8c-741a-99ff-012063fc8f37\"},{\"mediaId\":\"019df44a-29f1-7659-a344-f3694d472274\",\"reviewId\":\"019df44a-2eb3-7f93-9d9f-9bf11b7ca2e4\"},{\"mediaId\":\"019df44a-2b8b-7e9b-9e3f-9d0da8e3ebf1\",\"reviewId\":\"019df44a-2eda-7067-9779-d99ddcfd5027\"},{\"mediaId\":\"019df44a-288e-798c-a5c2-9843fd2188f6\",\"reviewId\":\"019df44a-2f01-7cf8-b0ef-21dde67543d2\"},{\"mediaId\":\"019df44a-2adb-7ebd-ad78-85f41eff5bf5\",\"reviewId\":\"019df44a-2f28-73a5-8dfd-9f8aa853f503\"},{\"mediaId\":\"019df44a-2905-7058-871a-30f7ae76dd98\",\"reviewId\":\"019df44a-2f4f-77c2-81ce-c496c10801a3\"},{\"mediaId\":\"019df44a-284d-768d-acda-3af798a4fdf7\",\"reviewId\":\"019df44a-2f77-7603-b489-d305477ca208\"},{\"mediaId\":\"019df44a-2c00-7128-9c50-e9e0adcc0b2f\",\"reviewId\":\"019df44a-2f9e-7d7b-943d-47578dd0e3ee\"},{\"mediaId\":\"019df44a-2adb-7ebd-ad78-85f41eff5bf5\",\"reviewId\":\"019df44a-2fc5-7979-beb1-488269849c1c\"},{\"mediaId\":\"019df44a-2905-7058-871a-30f7ae76dd98\",\"reviewId\":\"019df44a-2feb-7d3c-a2ec-ae9c2c5aa63c\"},{\"mediaId\":\"019df44a-2783-76b6-8857-dd0963020a39\",\"reviewId\":\"019df44a-3013-7904-b103-9c4b120cdf40\"},{\"mediaId\":\"019df44a-2b15-7455-9b5f-d6cac1d5c228\",\"reviewId\":\"019df44a-3038-78cd-802f-e0fca3964924\"},{\"mediaId\":\"019df44a-293f-7edb-9af1-b765a7f85556\",\"reviewId\":\"019df44a-3061-7982-904d-db4a2113966f\"},{\"mediaId\":\"019df44a-284d-768d-acda-3af798a4fdf7\",\"reviewId\":\"019df44a-3089-74fa-9a8f-aaf795a991a5\"},{\"mediaId\":\"019df44a-2adb-7ebd-ad78-85f41eff5bf5\",\"reviewId\":\"019df44a-30b0-738e-9472-bdb17837a539\"},{\"mediaId\":\"019df44a-2783-76b6-8857-dd0963020a39\",\"reviewId\":\"019df44a-30d8-7b65-b0a3-ea7ef6e1c4a8\"},{\"mediaId\":\"019df44a-288e-798c-a5c2-9843fd2188f6\",\"reviewId\":\"019df44a-30ff-781d-b4f1-a490faf6c4cc\"},{\"mediaId\":\"019df44a-2a2b-7657-9edf-6eb203818cd2\",\"reviewId\":\"019df44a-3127-7da8-a8a8-d95f5559d41a\"},{\"mediaId\":\"019df44a-2b8b-7e9b-9e3f-9d0da8e3ebf1\",\"reviewId\":\"019df44a-3151-74be-b15c-2a44032eddf8\"},{\"mediaId\":\"019df44a-2783-76b6-8857-dd0963020a39\",\"reviewId\":\"019df44a-317b-7e1a-8fc7-8422a1a34dfc\"},{\"mediaId\":\"019df44a-2783-76b6-8857-dd0963020a39\",\"reviewId\":\"019df44a-31a2-7d74-afa3-342c7c636515\"},{\"mediaId\":\"019df44a-28cb-74b3-ba3c-14000da4f044\",\"reviewId\":\"019df44a-31c9-753b-a569-f5ee1ce398b9\"},{\"mediaId\":\"019df44a-2b51-7d69-b4ef-f3be33033bfd\",\"reviewId\":\"019df44a-31f0-770b-96f1-248c45acf852\"},{\"mediaId\":\"019df44a-2a65-7009-9269-18b844b6c149\",\"reviewId\":\"019df44a-3219-7049-96ac-b92f80897d10\"},{\"mediaId\":\"019df44a-2c00-7128-9c50-e9e0adcc0b2f\",\"reviewId\":\"019df44a-3240-78c6-bbca-8561f24756d6\"},{\"mediaId\":\"019df44a-288e-798c-a5c2-9843fd2188f6\",\"reviewId\":\"019df44a-3268-74db-8d34-f9818b55fd00\"},{\"mediaId\":\"019df44a-2adb-7ebd-ad78-85f41eff5bf5\",\"reviewId\":\"019df44a-3291-7623-bdbd-57345d9d280b\"},{\"mediaId\":\"019df44a-2b51-7d69-b4ef-f3be33033bfd\",\"reviewId\":\"019df44a-32b9-7146-9990-54e37628a3a6\"},{\"mediaId\":\"019df44a-2bc6-73c0-af3e-7132b7158382\",\"reviewId\":\"019df44a-32e1-789a-87be-78b227dfadb6\"},{\"mediaId\":\"019df44a-29b7-7f15-9892-33b929477c5e\",\"reviewId\":\"019df44a-330b-731f-b90c-dcf4fd8d3884\"},{\"mediaId\":\"019df44a-2b15-7455-9b5f-d6cac1d5c228\",\"reviewId\":\"019df44a-3333-7e51-8532-bb360788c81c\"},{\"mediaId\":\"019df44a-2b51-7d69-b4ef-f3be33033bfd\",\"reviewId\":\"019df44a-335c-704d-b93f-de68ec7d2ff2\"},{\"mediaId\":\"019df44a-2b8b-7e9b-9e3f-9d0da8e3ebf1\",\"reviewId\":\"019df44a-3383-73e2-8ba0-2027c158fbab\"},{\"mediaId\":\"019df44a-2905-7058-871a-30f7ae76dd98\",\"reviewId\":\"019df44a-33ab-7a49-bda4-2605ac17e17d\"},{\"mediaId\":\"019df44a-2b51-7d69-b4ef-f3be33033bfd\",\"reviewId\":\"019df44a-33d2-7277-b743-522eb4cbfc00\"},{\"mediaId\":\"019df44a-2b15-7455-9b5f-d6cac1d5c228\",\"reviewId\":\"019df44a-33fb-76b5-8a62-8306d73e558a\"},{\"mediaId\":\"019df44a-2c75-744d-8159-bcfcf63fd37d\",\"reviewId\":\"019df44a-3423-72ae-9381-12dcec008a18\"},{\"mediaId\":\"019df44a-2783-76b6-8857-dd0963020a39\",\"reviewId\":\"019df44a-344c-7fbd-b460-9e093b77b402\"},{\"mediaId\":\"019df44a-288e-798c-a5c2-9843fd2188f6\",\"reviewId\":\"019df44a-3473-7941-a34c-589e71a41c4f\"},{\"mediaId\":\"019df44a-2a65-7009-9269-18b844b6c149\",\"reviewId\":\"019df44a-349c-7e87-b943-ebb23a9166ff\"},{\"mediaId\":\"019df44a-2b15-7455-9b5f-d6cac1d5c228\",\"reviewId\":\"019df44a-34c4-7e11-aff0-5261eb4b11a9\"},{\"mediaId\":\"019df44a-29b7-7f15-9892-33b929477c5e\",\"reviewId\":\"019df44a-34ec-7aea-b87a-af7abc6776a7\"},{\"mediaId\":\"019df44a-2905-7058-871a-30f7ae76dd98\",\"reviewId\":\"019df44a-3514-7f07-9e04-5abf6e9cd799\"},{\"mediaId\":\"019df44a-2aa1-77b8-b51c-cef932596f49\",\"reviewId\":\"019df44a-353d-78e2-a3b1-9c22933e47c4\"},{\"mediaId\":\"019df44a-29b7-7f15-9892-33b929477c5e\",\"reviewId\":\"019df44a-3563-7814-a321-6d25ad4bbfeb\"},{\"mediaId\":\"019df44a-2adb-7ebd-ad78-85f41eff5bf5\",\"reviewId\":\"019df44a-358b-7e78-87dc-b1e72c959742\"},{\"mediaId\":\"019df44a-2b8b-7e9b-9e3f-9d0da8e3ebf1\",\"reviewId\":\"019df44a-35b3-7183-83fe-a0b50bcede7a\"},{\"mediaId\":\"019df44a-2905-7058-871a-30f7ae76dd98\",\"reviewId\":\"019df44a-35da-7842-82a8-a7f63b973290\"},{\"mediaId\":\"019df44a-29f1-7659-a344-f3694d472274\",\"reviewId\":\"019df44a-3601-7ec0-9d29-2ce267628956\"},{\"mediaId\":\"019df44a-2c00-7128-9c50-e9e0adcc0b2f\",\"reviewId\":\"019df44a-3629-7003-87a7-166521a8df80\"}],\"collectionIds\":[\"019df44a-4ec5-710a-8a14-ba02ee58ee35\",\"019df44a-4fa0-70af-8d89-611c6a51f943\",\"019df44a-504f-76fa-b61d-dead6da9bb88\",\"019df44a-510a-70a1-a40f-7b64a8a28f0c\",\"019df44a-5188-7422-972b-e0b8fb088c92\",\"019df44a-5226-75f5-8c34-0b08c98da27b\",\"019df44a-52e8-763c-b5c7-241f55fdeecf\",\"019df44a-536a-769a-b113-baf1ca80b1ff\",\"019df44a-540b-798e-bce3-f5a3019213b1\",\"019df44a-54ca-7373-abc9-9e6fa30ca777\"],\"timestamp\":\"2026-05-04T18:39:43.346Z\"}" source=console
+time="2026-05-04T20:40:06+02:00" level=info msg="=== SEED_DATA_JSON_END ===" source=console
+time="2026-05-04T20:40:06+02:00" level=info msg="Seed complete!" source=console
+
+
+  █ TOTAL RESULTS 
+
+    HTTP
+    http_req_duration..............: avg=27.97ms min=158.9µs med=8.27ms max=301.3ms p(90)=68.9ms   p(95)=145.41ms
+      { expected_response:true }...: avg=29.18ms min=158.9µs med=8.23ms max=301.3ms p(90)=136.83ms p(95)=147.31ms
+    http_req_failed................: 6.63%  30 out of 452
+    http_reqs......................: 452    19.405183/s
+
+    EXECUTION
+    iteration_duration.............: avg=25.08s  min=25.08s  med=25.08s max=25.08s  p(90)=25.08s   p(95)=25.08s  
+    iterations.....................: 1      0.042932/s
+    vus............................: 1      min=1         max=1
+    vus_max........................: 1      min=1         max=1
+
+    NETWORK
+    data_received..................: 241 kB 10 kB/s
+    data_sent......................: 319 kB 14 kB/s
+
+
+
+
+running (0m23.3s), 0/1 VUs, 1 complete and 0 interrupted iterations
+seed ✓ [ 100% ] 1 VUs  0m25.1s/5m0s  1/1 shared iters
